@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="8191" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RoadMapDetailsViewController">
+            <connections>
+                <outlet property="dialogueView" destination="cCw-dc-ZPH" id="ud8-EP-LDH"/>
+                <outlet property="leadingSpaceConstraint" destination="z3f-B4-1d0" id="2K1-MO-SJj"/>
+                <outlet property="subtitleLb" destination="Tgo-Xd-u3g" id="SF8-Fc-reE"/>
+                <outlet property="titleLb" destination="VtA-Xa-CnZ" id="41x-eV-pHh"/>
+                <outlet property="topSpaceConstraint" destination="wsO-mu-hPd" id="pBp-Sc-GPD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="webView" destination="HMG-fC-43a" id="xPn-ET-zfs"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cCw-dc-ZPH">
+                    <rect key="frame" x="147" y="84" width="730" height="600"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iI0-nw-a77">
+                            <rect key="frame" x="15" y="19" width="40" height="40"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="40" id="6sB-6u-5t7"/>
+                                <constraint firstAttribute="height" constant="40" id="Ki4-Vs-eFS"/>
+                            </constraints>
+                            <state key="normal" image="N__0000_cls_icn.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="closeButtonClicked:" destination="-1" eventType="touchUpInside" id="7vZ-tx-5VR"/>
+                            </connections>
+                        </button>
+                        <webView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HMG-fC-43a">
+                            <rect key="frame" x="15" y="85" width="700" height="515"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="700" id="Imk-KD-SKQ"/>
+                                <constraint firstAttribute="height" constant="515" id="OQh-yo-z8w"/>
+                            </constraints>
+                        </webView>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TKE-aR-yRH">
+                            <rect key="frame" x="10" y="84" width="710" height="1"/>
+                            <animations/>
+                            <color key="backgroundColor" white="0.40000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="710" id="jys-Uj-dXz"/>
+                                <constraint firstAttribute="height" constant="1" id="mRa-30-zc6"/>
+                            </constraints>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Road Map Title Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VtA-Xa-CnZ">
+                            <rect key="frame" x="278" y="19" width="174" height="36"/>
+                            <animations/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="36" id="Zzz-IR-6jr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="22"/>
+                            <color key="textColor" red="0.0" green="0.25098040700000002" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Tgo-Xd-u3g">
+                            <rect key="frame" x="337" y="54" width="56" height="19"/>
+                            <animations/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="14"/>
+                            <color key="textColor" red="0.20000000300000001" green="0.20000000300000001" blue="0.20000000300000001" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <animations/>
+                    <color key="backgroundColor" white="0.90000000000000002" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="iI0-nw-a77" firstAttribute="top" secondItem="cCw-dc-ZPH" secondAttribute="top" constant="19" id="5Xx-iP-NUz"/>
+                        <constraint firstItem="Tgo-Xd-u3g" firstAttribute="top" secondItem="VtA-Xa-CnZ" secondAttribute="bottom" constant="-1" id="7hS-E7-FRp"/>
+                        <constraint firstAttribute="height" constant="600" id="Ch8-Ec-Nbe"/>
+                        <constraint firstAttribute="trailing" secondItem="HMG-fC-43a" secondAttribute="trailing" constant="15" id="CsB-j1-6zF"/>
+                        <constraint firstItem="HMG-fC-43a" firstAttribute="top" secondItem="TKE-aR-yRH" secondAttribute="bottom" id="IIb-2O-vcK"/>
+                        <constraint firstItem="TKE-aR-yRH" firstAttribute="centerX" secondItem="cCw-dc-ZPH" secondAttribute="centerX" id="TcC-DU-Ncm"/>
+                        <constraint firstItem="HMG-fC-43a" firstAttribute="leading" secondItem="cCw-dc-ZPH" secondAttribute="leading" constant="15" id="bwC-f6-g6q"/>
+                        <constraint firstItem="VtA-Xa-CnZ" firstAttribute="centerX" secondItem="cCw-dc-ZPH" secondAttribute="centerX" id="dar-Qg-OrU"/>
+                        <constraint firstAttribute="width" constant="730" id="gOz-JP-S2E"/>
+                        <constraint firstItem="iI0-nw-a77" firstAttribute="leading" secondItem="cCw-dc-ZPH" secondAttribute="leading" constant="15" id="mLf-4b-roN"/>
+                        <constraint firstAttribute="bottom" secondItem="HMG-fC-43a" secondAttribute="bottom" id="p05-T1-hKx"/>
+                        <constraint firstItem="Tgo-Xd-u3g" firstAttribute="centerX" secondItem="cCw-dc-ZPH" secondAttribute="centerX" id="ulh-w4-KFo"/>
+                        <constraint firstItem="VtA-Xa-CnZ" firstAttribute="top" secondItem="cCw-dc-ZPH" secondAttribute="top" constant="19" id="zc6-Kr-JZP"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <animations/>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="0.40000000000000002" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="cCw-dc-ZPH" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="84" id="wsO-mu-hPd"/>
+                <constraint firstItem="cCw-dc-ZPH" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="147" id="z3f-B4-1d0"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <nil key="simulatedTopBarMetrics"/>
+            <nil key="simulatedBottomBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="N__0000_cls_icn.png" width="26" height="26"/>
+    </resources>
+</document>

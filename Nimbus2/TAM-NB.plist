@@ -1,0 +1,2067 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>Report</key>
+		<string>General</string>
+		<key>subCatagory</key>
+		<array>
+			<dict>
+				<key>Section</key>
+				<string>Informação Geral</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Chefe de Cabine</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Nome</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Nome do Chefe de Cabine </string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Sobrenome</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Sobrenome do Chefe de Cabine </string>
+												<key>subCatagory</key>
+												<array>
+													<dict>
+														<key>Selection</key>
+														<array/>
+													</dict>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>chapa</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Chapa do Chefe de Cabine </string>
+												<key>subCatagory</key>
+												<array>
+													<dict>
+														<key>Selection</key>
+														<array/>
+													</dict>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Comandante</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Sobrenome</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Nome do Comandante </string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Sobrenome</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Sobrenome do Comandante </string>
+												<key>subCatagory</key>
+												<array>
+													<dict>
+														<key>Selection</key>
+														<array/>
+													</dict>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Dados do Voo</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Aeronave</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>combo box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Selection</key>
+												<array>
+													<string>A350</string>
+													<string>B767</string>
+													<string>A330</string>
+													<string>B777</string>
+												</array>
+												<key>Content</key>
+												<string>Aeronave</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Prefixo</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Prefixo </string>
+												<key>subCatagory</key>
+												<array>
+													<dict>
+														<key>Selection</key>
+														<array/>
+													</dict>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Base da Tripulação</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>combo box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Base da Tripulação </string>
+												<key>subCatagory</key>
+												<array>
+													<dict>
+														<key>Selection</key>
+														<array>
+															<string>BSB</string>
+															<string>GIG</string>
+															<string>GRU</string>
+															<string>CGH</string>
+															<string>SDU</string>
+														</array>
+													</dict>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Section</key>
+				<string>Embarque</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Informação de Embarque</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Etapa</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Ativar / Desativar</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Selection</key>
+												<array/>
+												<key>Content</key>
+												<string>SIM</string>
+											</dict>
+											<dict>
+												<key>Content</key>
+												<string>NÃO</string>
+												<key>subCatagory</key>
+												<array>
+													<dict>
+														<key>Selection</key>
+														<array/>
+													</dict>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Nome</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Sobrenome do Chefe de Cabine </string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Tipo de Embarque</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Chapa do Chefe de Cabine </string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Atrasos/contingências</string>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Section</key>
+				<string>Generalidades</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Embarque</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Ocurrences Special Service </string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Não entregue Mapa de Bordo / Lista de Voo</string>
+													<string>Não entregue Prévias</string>
+													<string>Não realizado briefing Special Service x Tripulação</string>
+													<string>Ocurrence com cliente Special Service</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Informações Passageiros Special Service</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Text</string>
+												<key>Selection</key>
+												<array>
+													<string>Indicar Number da poltrona. Ex: 1A</string>
+												</array>
+											</dict>
+											<dict>
+												<key>Content</key>
+												<string>Text</string>
+												<key>Selection</key>
+												<array>
+													<string>Observações</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string> Ocurrences Espaço +</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Selecionar opções</string>
+												<key>Selection</key>
+												<array>
+													<string>Pagou pelo serviço mas não utilizou</string>
+													<string>Utilizou o serviço mas não pagou</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Passageiros especiais com acompanhante</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Ativar / Desativar</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>SIM</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+											<dict>
+												<key>Content</key>
+												<string>NÃO</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade de acompanhantes</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Tipo de Embarque</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Selection única</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Finger</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+											<dict>
+												<key>Content</key>
+												<string>Remota</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+											<dict>
+												<key>Content</key>
+												<string>Sem informação</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Voo</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Ocurrences gerais do voo</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Turbulência que afetou o serviço de bordo</string>
+													<string>Solicitação de auxílio médico</string>
+													<string>Passageiro indisciplinado sem contenção</string>
+													<string>Passageiro indisciplinado com contenção</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Solicitação de cadeira de rodas a bordo</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Cadeiras Solicitadas</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Ocurrences Médicas</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Atendimento médico a bordo</string>
+													<string>Acionamento MEDAIRE</string>
+													<string>Utilização do Kit médico</string>
+													<string>Utilização do kit de primeiros socorros</string>
+													<string>Paracetamol indisponível</string>
+													<string>Dramin indisponível</string>
+													<string>Utilização do Paracetamol</string>
+													<string>Utilização do Dramin</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Desembarque</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Procedimento de Desembarque</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Demora para chegada do ônibus (área remota)</string>
+													<string>Sem recepção de cadeira de rodas</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Tipo de Desembarque</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Selection única</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Finger</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+											<dict>
+												<key>Content</key>
+												<string>Remota</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+											<dict>
+												<key>Content</key>
+												<string>Sem informação</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Documentação</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Formulários indisponíveis</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Documento</string>
+												<key>Selection</key>
+												<array>
+													<string>Cartão de Entrada/Saída (Brasil)</string>
+													<string>CBP Form I-95 Crewman ́s Landing Permit</string>
+													<string>482 Crew Member ́s Declaration</string>
+													<string>Gendec em branco</string>
+													<string>EUA - Declaração Alfandegária (português)</string>
+													<string>EUA - Customs declaration (inglês)</string>
+													<string>LHR - Landing card</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Section</key>
+				<string>Duty Free</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Ventas</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Não houve vendas de Duty Free</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Selección única</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Motivo</string>
+												<key>Selection</key>
+												<array>
+													<string>Carros no cargados</string>
+													<string>Contingencia en vuelo</string>
+													<string>Sin compra por parte de Pax.</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Texto</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observaciones</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Monto de Venda (USD)</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Número</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ingresar Monto en USD</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Itens faltantes</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Número</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Código de Producto</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Número</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Cantidad</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Máquina não Operativa</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocorrência</string>
+												<key>Selection</key>
+												<array>
+													<string>Não enciende</string>
+													<string>Não imprime</string>
+													<string>Reiniciado Automáticamente</string>
+													<string>Problema no display</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Section</key>
+				<string>Sugestões</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Sugestões</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Sugestões e comentários gerais do Voo</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Quadro de texto</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Preencher com a sugestão ou comentário</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Sugestões e comentários gerais do Voo - Cabine First</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Quadro de texto</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Preencher com a sugestão ou comentário</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Sugestões e comentários gerais do Voo - Cabine Business</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Quadro de texto</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Preencher com a sugestão ou comentário</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Sugestões e comentários gerais do Voo - Cabine Ecomomy</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Quadro de texto</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Preencher com a sugestão ou comentário</string>
+												<key>Selection</key>
+												<array/>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+	<dict>
+		<key>Report</key>
+		<string>First</string>
+		<key>subCatagory</key>
+		<array>
+			<dict>
+				<key>Section</key>
+				<string>Aeroporto</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Bagagem de Mão</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Bagagem de mão enviada ao porão</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Motivo</string>
+												<key>Selection</key>
+												<array>
+													<string>Excede o padrão com etiqueta</string>
+													<string>Excede o padrão sem etiqueta</string>
+													<string>Bagagem com tamanho padrão mas sem espaço nos bins</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Asignación de Asientos</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Asientos Mal Asignados</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Motivo</string>
+												<key>Selection</key>
+												<array>
+													<string>Fila de emergencia</string>
+													<string>Niño separado de un adulto</string>
+													<string>UM sentado al lado de un hombre</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Información de asientos</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Reporte</string>
+												<key>Selection</key>
+												<array>
+													<string>Familias Separadas</string>
+													<string>Asientos de bajo estándar asignados sin aviso a TC</string>
+													<string>Máscaras insuficientes</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Asientos Duplicados (Revisar Boarding Pass)</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Reporte</string>
+												<key>Selection</key>
+												<array>
+													<string>Duplicidad Real de Asientos</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Nombre y Apellidos de pasajeros</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Section</key>
+				<string>Organização de itens de cabine</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Localização de itens na cabine</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Localização de itens na cabine</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Fones: não localizados no local definido</string>
+													<string>Amenity Kit: não localizado no local definido</string>
+													<string>Edredons: Não localizadas no local definido</string>
+													<string>Cardápios: Não localizados no local definido</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Section</key>
+				<string>ELEMENTOS DE SUPRIMENTOS E CATERING</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Suprimentos</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Materiais de Suporte</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Elemento</string>
+												<key>Selection</key>
+												<array>
+													<string>Toalha de Tecido</string>
+													<string>Chocolate</string>
+													<string>Saleiros/pimenteiros</string>
+													<string>Chá</string>
+													<string>Guardanapos de papel</string>
+													<string>Toalhas quentes</string>
+													<string>Cardápios</string>
+													<string>Café</string>
+													<string>Copos</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Não embarcado</string>
+													<string>Insuficiente / Quantidade</string>
+													<string>Não corresponde</string>
+													<string>Sujo</string>
+													<string>Em Mau Estado</string>
+													<string>Excesso</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Materiais de Cabine</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Elemento</string>
+												<key>Selection</key>
+												<array>
+													<string>Fones</string>
+													<string>Amenity Kit</string>
+													<string>Jornais internacionais</string>
+													<string>Jornais domésticos</string>
+													<string>Revistas terceirizadas</string>
+													<string>Revista TAM nas Nuvens</string>
+													<string>Catálogo Duty Free</string>
+													<string>Travesseiros</string>
+													<string>Edredon</string>
+													<string>Lençois</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Não embarcado</string>
+													<string>Insuficiente / Quantidade</string>
+													<string>Não corresponde</string>
+													<string>Sujo</string>
+													<string>Em Mau Estado</string>
+													<string>Excesso</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Materiais de Segurança</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Elemento</string>
+												<key>Selection</key>
+												<array>
+													<string>Cartões de segurança</string>
+													<string>Vídeo de Segurança</string>
+													<string>Fumigador</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Não embarcado</string>
+													<string>Insuficiente / Quantidade</string>
+													<string>Não corresponde</string>
+													<string>Sujo</string>
+													<string>Em Mau Estado</string>
+													<string>Excesso</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Materiais de toalete</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Elemento</string>
+												<key>Selection</key>
+												<array>
+													<string>Papel higiênico</string>
+													<string>Sabão</string>
+													<string>Protetor de assento</string>
+													<string>Colônia</string>
+													<string>Toalhas de papel</string>
+													<string>Creme hidratante</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Não embarcado</string>
+													<string>Insuficiente / Quantidade</string>
+													<string>Não corresponde</string>
+													<string>Sujo</string>
+													<string>Em Mau Estado</string>
+													<string>Excesso</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Materiais de Galley</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Elemento</string>
+												<key>Selection</key>
+												<array>
+													<string>Trolleys</string>
+													<string>Galley</string>
+													<string>Inserts</string>
+													<string>Maleta</string>
+													<string>Gavetas</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Reporte</string>
+												<key>Selection</key>
+												<array>
+													<string>Não embarcado</string>
+													<string>Insuficiente / Quantidade</string>
+													<string>Não corresponde</string>
+													<string>Sujo</string>
+													<string>Em Mau Estado</string>
+													<string>Excesso</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Cantidad</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observaciones</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Elementos de Catering</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Bebidas</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Elemento</string>
+												<key>Selection</key>
+												<array>
+													<string>Licores</string>
+													<string>Vinho tinto</string>
+													<string>Vinho Branco</string>
+													<string>Água sem gás</string>
+													<string>Água com gás</string>
+													<string>Coca cola</string>
+													<string>Coca cola light</string>
+													<string>Outros Refrigerantes</string>
+													<string>Destilados Suco de laranja</string>
+													<string>Suco do outro sabor</string>
+													<string>Champagne</string>
+													<string>Leite em pó</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Não embarcado</string>
+													<string>Insuficiente / Quantidade</string>
+													<string>Não corresponde</string>
+													<string>Sujo</string>
+													<string>Em Mau Estado</string>
+													<string>Excesso</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Comidas</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Serviço</string>
+												<key>Selection</key>
+												<array>
+													<string>DNR – Lunch/Dinner</string>
+													<string>BKF – Breakfast</string>
+													<string>SNK – Snack</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Opção</string>
+												<key>Selection</key>
+												<array>
+													<string>sanduíche / quiche / salgados</string>
+													<string>Omelete</string>
+													<string>Queijos</string>
+													<string>Fruta</string>
+													<string>Entrada</string>
+													<string>Sopa</string>
+													<string>Carne branca</string>
+													<string>Massas</string>
+													<string>Carne vermelha</string>
+													<string>Salada</string>
+													<string>Sobremesa</string>
+													<string>Sorvete</string>
+													<string>Pão café da manhã</string>
+													<string>Pão almoço / janta</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Não embarcado</string>
+													<string>Insuficiente / Quantidade</string>
+													<string>Não corresponde</string>
+													<string>Sujo</string>
+													<string>Em Mau Estado</string>
+													<string>Excesso</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Section</key>
+				<string>Qualidade Catering</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Qualidade de Serviço de Catering</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Qualidade do Serviço</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Serviço</string>
+												<key>Selection</key>
+												<array>
+													<string>DNR – Lunch/Dinner</string>
+													<string>BKF – Breakfast</string>
+													<string>SNK – Snack</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Opção</string>
+												<key>Selection</key>
+												<array>
+													<string>sanduíche / quiche / salgados</string>
+													<string>Omelete</string>
+													<string>Queijos</string>
+													<string>Fruta</string>
+													<string>Entrada</string>
+													<string>Sopa</string>
+													<string>Carne branca</string>
+													<string>Massas</string>
+													<string>Carne vermelha</string>
+													<string>Salada</string>
+													<string>Sobremesa</string>
+													<string>Sorvete</string>
+													<string>Pão café da manhã</string>
+													<string>Pão almoço / janta</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Sabor ruim</string>
+													<string>Odor ruim</string>
+													<string>Aspecto ruim</string>
+													<string>Itens carregados diferentes do menu</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Quantidade</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+			<dict>
+				<key>Section</key>
+				<string>Cabine</string>
+				<key>subCatagory</key>
+				<array>
+					<dict>
+						<key>Group</key>
+						<string>Cabine Impecável</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Toaletes</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Banheiro com mau cheiro</string>
+													<string>Vaso sanitário sujo</string>
+													<string>Piso sujo / molhado</string>
+													<string>Lixeira cheia</string>
+													<string>Pia suja / molhada</string>
+													<string>Espelho sujo / molhado</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Galley</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Piso sujo / molhado</string>
+													<string>Balcão sujo / úmido</string>
+													<string>Fornos sujos</string>
+													<string>Lixeira cheia</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Cabine</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Ocurrence</string>
+												<key>Selection</key>
+												<array>
+													<string>Carpete sem aspirar</string>
+													<string>Carpete manchado</string>
+													<string>Bolsões com lixo</string>
+													<string>Cabeçotes</string>
+													<string>Cintos não estavam sobre o assento</string>
+													<string>Bandejas / porta copos sujos</string>
+													<string>Assentos com resíduos</string>
+													<string>Capa do assento manchada</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Temperatura</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box (com outro)</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Reporte</string>
+												<key>Selection</key>
+												<array>
+													<string>Temperatura bajo o padrão definido</string>
+													<string>Temperatura sobre o padrão definido</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+					<dict>
+						<key>Group</key>
+						<string>Falha de Assentos em Voo</string>
+						<key>subCatagory</key>
+						<array>
+							<dict>
+								<key>Ocurrence</key>
+								<string>Falha em assentos</string>
+								<key>subCatagory</key>
+								<array>
+									<dict>
+										<key>Type</key>
+										<string>Combo Box</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Falha</string>
+												<key>Selection</key>
+												<array>
+													<string>Reclinio inoperante</string>
+													<string>Trava da mesa quebrada</string>
+													<string>Mesa desalinhada/quebrada</string>
+													<string>Carenagem plástica do assento quebrada/riscada (braço, corredor, encosto, mesa)</string>
+													<string>Porta copos, Porta Casaco ou Porta Revistas Danificado/Quebrado</string>
+													<string>Suporte para descanso do pés, pernas ou cabeça danificado ou inoperante</string>
+													<string>Tecido ou Couro do assento sujo / desgastado</string>
+													<string>Cinto segurança sujo / desgastado / danificado</string>
+												</array>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Number</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Assento - Fila</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Assento - Letra</string>
+											</dict>
+										</array>
+									</dict>
+									<dict>
+										<key>Type</key>
+										<string>Text</string>
+										<key>subCatagory</key>
+										<array>
+											<dict>
+												<key>Content</key>
+												<string>Observações</string>
+											</dict>
+										</array>
+									</dict>
+								</array>
+							</dict>
+						</array>
+					</dict>
+				</array>
+			</dict>
+		</array>
+	</dict>
+</array>
+</plist>

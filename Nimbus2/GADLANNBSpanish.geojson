@@ -1,0 +1,41 @@
+{
+ "Type": "NB",
+ "Value": [
+           {
+           "Orientación a Resultados": [
+                                        "Cumple con las normas que regulan su cargo(imagen personal, uniformidad, tiempos y documentación necesaria).||RORULE"
+                                        ]
+           },
+           {
+           "Comunicación": [
+                            "Entrega información amable, clara y oportuna en todo momento, mostrando consistencia en la comunicación verbal y no verbal||COINFR"
+                            ]
+           },
+           {
+           "Resolución de Problemas y Mejora Continua": [
+                                                         "Previene y/o resuelve problemas que pudiesen ocurrir, manteniendo informado a su jefatura en todo momento.||RISOLV"
+                                                         ]
+           },
+           {
+           "Trabajo en Equipo y Colaboración": [
+                                                "Colabora activamente con JSB y pares, respetando la diversidad del entorno y generando un ambiente positivo||CLENVR"
+                                                ]
+           },
+           {
+           "Manejo de Presión, Cambio y Contingencia": [
+                                                        "Mantiene su nivel de efectividad y cumplimiento de procedimientos, transmitiendo calma y control de la situación.||CNCALM"
+                                                        ]
+           },
+           {
+           "Impacto en el Cliente": [
+                                     "Cumple rigurosa y amablemente normas, tiempo y procedimientos de servicio; garantizando la experiencia de viaje de nuestros clientes y haciéndose cargo de la cadena de servicio.||ICSTAN",
+                                     "Se conecta con clientes internos y externos, mostrando un trato amable, cercano y positivo||ICCONN"
+                                     ]
+           },
+           {
+           "Seguridad": [
+                         "Prioriza la seguridad e informa acciones o situaciones que ponen en riesgo la seguridad de la compañía.||SCSAFE"
+                         ]
+           }
+           ]
+ }

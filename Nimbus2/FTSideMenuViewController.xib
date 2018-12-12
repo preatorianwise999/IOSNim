@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FTSideMenuViewController">
+            <connections>
+                <outlet property="bothSummarySendView" destination="dY7-nF-pNr" id="K7j-LJ-wmC"/>
+                <outlet property="bothviewSummaryBtnWidthConstarint" destination="2TB-Sn-1xv" id="Dzt-kW-NPy"/>
+                <outlet property="bothviewresendBtnWidthConstarint" destination="pvH-rf-SNd" id="lwN-qr-fkm"/>
+                <outlet property="footerBtnWidthConstraint" destination="dyh-xj-T8F" id="yRz-aF-Bsj"/>
+                <outlet property="reportButton" destination="5aa-nX-LrZ" id="q1e-30-BHz"/>
+                <outlet property="resendReportBtn" destination="7Ed-3O-ayC" id="A86-Wh-tYp"/>
+                <outlet property="sideMenu_TableView" destination="X8D-DE-g5c" id="5of-t2-3rU"/>
+                <outlet property="tableViewWidthConstraint" destination="U3M-Cj-LK3" id="FSk-bj-41f"/>
+                <outlet property="view" destination="Q5k-A8-F8b" id="Ekc-9w-Syr"/>
+                <outlet property="viewSummaryBtn" destination="Icu-8N-hdi" id="O08-4B-WK9"/>
+                <outlet property="viewSummaryResendBtn" destination="nfs-OB-0lO" id="uHU-WH-dDG"/>
+                <outlet property="viewSummaryView" destination="o8m-CN-9rV" id="OfJ-Bk-GYt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="Q5k-A8-F8b">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="640"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="X8D-DE-g5c">
+                    <rect key="frame" x="0.0" y="0.0" width="230" height="560"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="230" id="U3M-Cj-LK3"/>
+                    </constraints>
+                    <color key="separatorColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="paT-jG-UGD"/>
+                        <outlet property="delegate" destination="-1" id="lxA-oi-Wiv"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5aa-nX-LrZ">
+                    <rect key="frame" x="20" y="570" width="190" height="45"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="45" id="tY8-fd-tbC"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                    <state key="normal" title="Enviar Informe" backgroundImage="N__0008_btn_bg-2.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="sendReport:" destination="-1" eventType="touchUpInside" id="72P-oQ-CuO"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="5aa-nX-LrZ" secondAttribute="bottom" constant="25" id="D8B-Qj-M25"/>
+                <constraint firstAttribute="bottom" secondItem="X8D-DE-g5c" secondAttribute="bottom" constant="80" id="Nj4-yr-5vD"/>
+                <constraint firstItem="5aa-nX-LrZ" firstAttribute="leading" secondItem="Q5k-A8-F8b" secondAttribute="leading" constant="20" id="Yen-Ff-LIW"/>
+                <constraint firstAttribute="trailing" secondItem="5aa-nX-LrZ" secondAttribute="trailing" constant="20" id="dyh-xj-T8F"/>
+                <constraint firstItem="X8D-DE-g5c" firstAttribute="leading" secondItem="Q5k-A8-F8b" secondAttribute="leading" id="mrQ-L5-vNq"/>
+                <constraint firstItem="X8D-DE-g5c" firstAttribute="top" secondItem="Q5k-A8-F8b" secondAttribute="top" id="sGF-QB-Jwj"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-22" y="264"/>
+        </view>
+        <view contentMode="scaleToFill" id="o8m-CN-9rV">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Icu-8N-hdi">
+                    <rect key="frame" x="20" y="0.0" width="190" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="15"/>
+                    <state key="normal" title="VIEW SUMMARY" backgroundImage="N__0008_btn_bg-2.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="summaryReport:" destination="-1" eventType="touchUpInside" id="SJG-Ma-OjJ"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="Icu-8N-hdi" secondAttribute="bottom" id="7wp-y3-bG7"/>
+                <constraint firstItem="Icu-8N-hdi" firstAttribute="top" secondItem="o8m-CN-9rV" secondAttribute="top" id="JZ8-eU-B53"/>
+                <constraint firstItem="Icu-8N-hdi" firstAttribute="leading" secondItem="o8m-CN-9rV" secondAttribute="leading" constant="20" id="a9f-gu-y7w"/>
+                <constraint firstAttribute="trailing" secondItem="Icu-8N-hdi" secondAttribute="trailing" constant="20" id="vUP-k3-uNJ"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-365" y="-18.5"/>
+        </view>
+        <view contentMode="scaleToFill" id="dY7-nF-pNr">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nfs-OB-0lO">
+                    <rect key="frame" x="1" y="0.0" width="112" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="112" id="2TB-Sn-1xv"/>
+                        <constraint firstAttribute="height" constant="40" id="YO7-ru-ul3"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="12"/>
+                    <inset key="titleEdgeInsets" minX="-5" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="VIEW SUMMARY" backgroundImage="N__0008_btn_bg-2.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="summaryReport:" destination="-1" eventType="touchUpInside" id="dS9-GP-mNk"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Ed-3O-ayC">
+                    <rect key="frame" x="117" y="0.0" width="112" height="40"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="40" id="VS7-as-Jtm"/>
+                        <constraint firstAttribute="width" constant="112" id="pvH-rf-SNd"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="12"/>
+                    <inset key="contentEdgeInsets" minX="2" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title="RESEND REPORT" backgroundImage="N__0008_btn_bg-2.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="resendReport:" destination="-1" eventType="touchUpInside" id="Bqk-TN-tc8"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="7Ed-3O-ayC" secondAttribute="bottom" id="2wD-eF-xWs"/>
+                <constraint firstItem="nfs-OB-0lO" firstAttribute="leading" secondItem="dY7-nF-pNr" secondAttribute="leading" constant="1" id="EEf-sY-3yn"/>
+                <constraint firstItem="7Ed-3O-ayC" firstAttribute="top" secondItem="dY7-nF-pNr" secondAttribute="top" id="NAb-fI-wxw"/>
+                <constraint firstItem="nfs-OB-0lO" firstAttribute="top" secondItem="dY7-nF-pNr" secondAttribute="top" id="WfK-96-N8M"/>
+                <constraint firstAttribute="trailing" secondItem="7Ed-3O-ayC" secondAttribute="trailing" constant="1" id="rsX-2z-KUf"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-365" y="166"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="N__0008_btn_bg-2.png" width="160" height="45"/>
+    </resources>
+</document>

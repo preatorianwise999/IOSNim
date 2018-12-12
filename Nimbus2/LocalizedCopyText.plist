@@ -1,0 +1,3717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENGLISH</key>
+	<dict>
+		<key>RELOAD_FLIGHT_ALERT</key>
+		<string>There is a problem with the flight data. Please synchronize</string>
+		<key>LEG_TEXT</key>
+		<string>LEG</string>
+		<key>FLIGHT_DATA_TITLE</key>
+		<string>FLIGHT DATA</string>
+		<key>SEATMAP_NOT_LOADED</key>
+		<string>Seatmap is not ready yet. Try updating flight data</string>
+		<key>FD_MEALS_ORIGIN</key>
+		<string>Origin</string>
+		<key>FD_MEALS_CENTRALIZED</key>
+		<string>Centralized</string>
+		<key>FLIGHT_DETAILS_MEALS</key>
+		<string>Meals</string>
+		<key>CREW_EXISTS_ERROR</key>
+		<string>A crew member with this bp already exists</string>
+		<key>DOC_NUMBER</key>
+		<string>Document Number</string>
+		<key>DOC_LABEL_TEXT</key>
+		<string>Please enter document Number</string>
+		<key>CANT_DOWNLOAD_MANUAL</key>
+		<string>Unable to download manual while Offline</string>
+		<key>GAD_CANT_SEND</key>
+		<string>GAD not available</string>
+		<key>Solicitudes</key>
+		<string>Solicitudes</string>
+		<key>Kms Lanpass</key>
+		<string>Kms Lanpass</string>
+		<key>Categoria</key>
+		<string>Categoría</string>
+		<key>Numero FFp</key>
+		<string>Número FFP</string>
+		<key>Cumpleanos</key>
+		<string>Birthday</string>
+		<key>Conexiones</key>
+		<string>Conexiones</string>
+		<key>Acompanantes</key>
+		<string>Acompañantes</string>
+		<key>Report CUS</key>
+		<string>Report CUS</string>
+		<key>Subidas de categoria Lanpass</key>
+		<string>Subidas de categoria Lanpass</string>
+		<key>Comidas Especiales</key>
+		<string>Comidas Especiales</string>
+		<key>Asientos Desocupados</key>
+		<string>Asientos Desocupados</string>
+		<key>GAD_SENT_MSG</key>
+		<string>This GAD has already been sent!</string>
+		<key>SEND_REPORT_OFFLINE_MSG</key>
+		<string>SEND_REPORT_OFFLINE_MSG</string>
+		<key>RM_INFO_FROM</key>
+		<string>From</string>
+		<key>INQUE_WARN</key>
+		<string> while offline the report will be queued</string>
+		<key>RM_INFO_TO</key>
+		<string>To</string>
+		<key>MAN_FILE_TOO_BIG</key>
+		<string>This file is too large. Please use an external pdf viewer</string>
+		<key>MAN_FILE_NOT_READY</key>
+		<string>This file has not yet been downloaded, please wait a few minutes</string>
+		<key>ALERT_MSG_NO_INTERNET</key>
+		<string>Internet not available</string>
+		<key>CANT_SEND_CUS</key>
+		<string>Unable to change status, report already submitted</string>
+		<key>PLS_WAIT</key>
+		<string>Please wait</string>
+		<key>SEATS_ADD_CUS</key>
+		<string>Add passenger to create CUS Report</string>
+		<key>FLIGHT_JSB_CONFIRMATION</key>
+		<string>If you do this you will no longer be able to send reports for this flight. This action cannot be undone. Do you want to continue?</string>
+		<key>FLIGHT_UPDATE_FAILED</key>
+		<string>Failed to update flight</string>
+		<key>FLIGHT_NOTHING_TO_UPDATE</key>
+		<string>This flight is already up to date</string>
+		<key>MANUAL_FLIGHT_NO_DATA</key>
+		<string>No data for specified flight</string>
+		<key>GENERAL_SELECT</key>
+		<string></string>
+		<key>CUS_SEND_ALERT1</key>
+		<string>Do you want to send CUS report for</string>
+		<key>CUS_SEND_ALERT2</key>
+		<string>? This action cannot be undone.</string>
+		<key>GAD_FORM_TITLE</key>
+		<string>Accompany and Development Guide</string>
+		<key>DELETE_MANUAL_FLIGHT</key>
+		<string>Are you sure you want to delete this flight?</string>
+		<key>ALERT_LOGOUT_MSG</key>
+		<string>Are you sure you want to log out?</string>
+		<key>FD_BRIEFING_START</key>
+		<string>Briefing Start</string>
+		<key>FD_BRIEFING_END</key>
+		<string>Briefing End</string>
+		<key>FD_GATE</key>
+		<string>Gate</string>
+		<key>FD_CREW_BOARDING</key>
+		<string>Crew Boarding</string>
+		<key>FD_PASS_BOARDING</key>
+		<string>Passengers Boarding</string>
+		<key>FD_PUBLICATIONS_HEADER</key>
+		<string>Publications</string>
+		<key>FLIGHT_MANUALLY_ADDED</key>
+		<string>Manually Added</string>
+		<key>INVALID_FLIGHT</key>
+		<string>Invalid Flight</string>
+		<key>SIGNATURE_CLOSE</key>
+		<string>Close</string>
+		<key>SIGNATURE_ERASE</key>
+		<string>Erase</string>
+		<key>SIGNATURE_ACCEPT</key>
+		<string>Accept</string>
+		<key>CREW_ADD_BTN</key>
+		<string>Add new crew</string>
+		<key>FD_NO_PUBLICATIONS</key>
+		<string>No publications available</string>
+		<key>LOGIN_ACTIVITY</key>
+		<string>Loging in...</string>
+		<key>LOGIN_PLEASE</key>
+		<string>please login</string>
+		<key>LOGIN_WELCOME</key>
+		<string>Welcome,</string>
+		<key>TAB_REPORT</key>
+		<string>Flight Report</string>
+		<key>TAB_SEAT</key>
+		<string>Seat Map</string>
+		<key>TAB_CREW</key>
+		<string>Crew</string>
+		<key>TAB_FLIGHT</key>
+		<string>Flight</string>
+		<key>STATUS_NO_INFO</key>
+		<string>No status to display</string>
+		<key>MAN_BACK_BTN</key>
+		<string>&lt; back</string>
+		<key>MAN_MAN_NAME</key>
+		<string>Manual of</string>
+		<key>MAN_UPDATED_AT</key>
+		<string>List of manuals updated on</string>
+		<key>FVC_UPDATED_AT</key>
+		<string>at</string>
+		<key>FVC_UPDATED_ON</key>
+		<string>Updated on</string>
+		<key>FVC_UPDATE_DATA</key>
+		<string>Update data</string>
+		<key>FVC_NOT_JSB</key>
+		<string>Not flown as JSB</string>
+		<key>FR_TITLE</key>
+		<string>Photo Observations</string>
+		<key>MF_ADD_BTN</key>
+		<string>Add</string>
+		<key>MF_ADD_LEG</key>
+		<string>Add Leg</string>
+		<key>MF_LEG_INFO</key>
+		<string>Leg Information</string>
+		<key>MF_LICENSE</key>
+		<string>License</string>
+		<key>MF_MATERIAL</key>
+		<string>Material</string>
+		<key>MF_GET_DATA</key>
+		<string>Get Data</string>
+		<key>MF_DATE</key>
+		<string>Scheduled Departure Time</string>
+		<key>MF_FLIGHT_NUMBER</key>
+		<string>Flight Number</string>
+		<key>MF_PREFIX</key>
+		<string>Prefix</string>
+		<key>MF_ADD_TITLE</key>
+		<string>Add Manual Flight</string>
+		<key>STATUS_UPDATED</key>
+		<string>Updated</string>
+		<key>OPEN_WITH</key>
+		<string>Open With</string>
+		<key>ALERT_ACCESSFORBIDDEN</key>
+		<string>Access Forbidden</string>
+		<key>DELETE_LEG_DELETE_DATA</key>
+		<string>Deleteing this leg will delete saved data for this leg</string>
+		<key>INCORRECT_DOCUMENT_TYPE</key>
+		<string>Please correct Document number in following fomat</string>
+		<key>EXAMPLE</key>
+		<string>Eg.</string>
+		<key>SAMPLE_DOCUMENT_TYPE</key>
+		<string>Valor inválido para o tipo de documento selecionado</string>
+		<key>ALERT_VALID_DOCUMENT_NUMBER</key>
+		<string>Enter Valid Document number</string>
+		<key>ALERT_CANNOT_DELETE</key>
+		<string>Atleast one action is mandatory</string>
+		<key>ALERT_RELATED_PASSENGES_LIMIT</key>
+		<string>Related passengers exceeds the limit. </string>
+		<key>FAILURE_MESSAGE</key>
+		<string>No Supporting apps are available</string>
+		<key>GAD_DISABLE_ALERT</key>
+		<string>GAD Module has been disabled for TAM users.</string>
+		<key>RESEND_ALERT</key>
+		<string>Resend</string>
+		<key>PAGE</key>
+		<string>Page</string>
+		<key>SEARCH_TEXT</key>
+		<string>Search Text</string>
+		<key>SEARCHING</key>
+		<string>Searching</string>
+		<key>ERROR_ADDING_FLIGHT</key>
+		<string>Error in Adding Flight</string>
+		<key>MESSAGE</key>
+		<string>Message</string>
+		<key>MANUAL_LAST_SYNC</key>
+		<string>Last Sync</string>
+		<key>PASSWORD_30CHAR</key>
+		<string>Password cannot be more than 30 characters</string>
+		<key>USERNAME_30CHAR</key>
+		<string>Username cannot be more than 30 characters</string>
+		<key>WARNING</key>
+		<string>Warning</string>
+		<key>ALERT_SAVEFAILED_PHOTOS</key>
+		<string>Failed to save image to Photos</string>
+		<key>SAVE_FAILED</key>
+		<string>Save failed </string>
+		<key>DATE_Time</key>
+		<string>DATE</string>
+		<key>NEW</key>
+		<string>NEW</string>
+		<key>ALERT_RESEND</key>
+		<string>Do you want to re-send the report ?</string>
+		<key>SELECIONAR_OPCOES@TAM</key>
+		<string>Report</string>
+		<key>GENERAL_SOLICITUD_ARNES@TAM</key>
+		<string>Solicitud Arnes</string>
+		<key>ALERT_UNABLETOCONNECT</key>
+		<string>Unable to connect to the network. Please try again later</string>
+		<key>ALERT_UNABLE_ADDFLIGHT</key>
+		<string>Unable to Add Flight. Please try again.</string>
+		<key>HEADING_FLIGHTLIST</key>
+		<string>heading_es</string>
+		<key>NO</key>
+		<string>NO</string>
+		<key>YES</key>
+		<string>YES</string>
+		<key>REPORT@TAM</key>
+		<string>Report</string>
+		<key>ACTIONS@TAM</key>
+		<string>Action</string>
+		<key>ADD_PASSENGER_TITLE_TAM</key>
+		<string>Add New Passenger</string>
+		<key>ADD_PASSENGER_TITLE</key>
+		<string>Add New Passenger</string>
+		<key>ADD_CUS_Title</key>
+		<string>Agregar Nuevo Pasajero</string>
+		<key>CUS_TITLE</key>
+		<string>Customer Service Report</string>
+		<key>CUS_TITLE_TAM</key>
+		<string>Fale com a Gente Report</string>
+		<key>CUS</key>
+		<string>CUS</string>
+		<key>CUS_TAM</key>
+		<string>FALE COM A GENTE</string>
+		<key>ALERT_EMAIL_VALIDATION</key>
+		<string>Email is not valid</string>
+		<key>LAST_LEG_DEL</key>
+		<string>The flight get deleted if the last leg is deleted after save</string>
+		<key>DELETE_IMAGE</key>
+		<string>Do you want to Delete Image</string>
+		<key>NO_IMAGE_TODELETE</key>
+		<string>There is no image to Delete</string>
+		<key>DELETE</key>
+		<string>Delete</string>
+		<key>PHOTO</key>
+		<string>Photo</string>
+		<key>SELECT</key>
+		<string>Select</string>
+		<key>ALERT_CUS_SEND</key>
+		<string>Once the report is submitted, changes can not be done to the CUS report. The information can only be viewed in read-only mode after the presentation</string>
+		<key>ALERT_ONE_LEG_ALEAST</key>
+		<string>Adding one leg is madatory</string>
+		<key>DATE</key>
+		<string>Date</string>
+		<key>ALERT_MAX_PHOTOS</key>
+		<string>Max 5 photos can be uploaded</string>
+		<key>DESTINATIONTIME</key>
+		<string>Destination Time</string>
+		<key>DESTINATION</key>
+		<string>Destination</string>
+		<key>DEPARTURETIME</key>
+		<string>Departure Time</string>
+		<key>ORIGIN</key>
+		<string>Origin</string>
+		<key>ALL</key>
+		<string>All</string>
+		<key>BOOKMARKS</key>
+		<string>Bookmarks</string>
+		<key>FAVOURITES</key>
+		<string>Favourites</string>
+		<key>SELECTED_MESSAGE</key>
+		<string>No Manuals selected</string>
+		<key>SELECTED_FILE_MESSAGE</key>
+		<string>The application cannot display the manual. Please use the open-in option to display the manual in other compatible applications</string>
+		<key>BUSINESSUNIT</key>
+		<string>Business Unit*</string>
+		<key>SELECT_FLIGHTTYPE</key>
+		<string>Please select flight type</string>
+		<key>ENTER_COMMENTS</key>
+		<string>Please enter comments for the field </string>
+		<key>ANY_OPTIONS</key>
+		<string>Please select an option in the GAD form</string>
+		<key>FIRMA_TC_MISSING</key>
+		<string>Firma TC is missing</string>
+		<key>FIRMA_OBSERVADOR_MISSING</key>
+		<string>Firma Observador is missing</string>
+		<key>ALERT_SEND</key>
+		<string>Send</string>
+		<key>ALERT_SENDERRORREPORT</key>
+		<string>The report cannot be submitted to the server as the flight has not been created on the server as information submitted by the user is incorrect</string>
+		<key>HI</key>
+		<string>Hi</string>
+		<key>GENERAL_REPORT</key>
+		<string>General Report</string>
+		<key>BUSINESS_REPORT</key>
+		<string>Business Report</string>
+		<key>PREMIUM ECONOMY_REPORT</key>
+		<string>Economy Report</string>
+		<key>FIRST_REPORT</key>
+		<string>First Report</string>
+		<key>PREMIUM_REPORT</key>
+		<string>Premium Report</string>
+		<key>ADDING_FLIGHT</key>
+		<string>Adding flight</string>
+		<key>FLIGHT_MODIFY</key>
+		<string>flight modified successfully</string>
+		<key>FLIGHT_EXISTS_MODIFY</key>
+		<string>Flight already exists.Please modify the existing flight.</string>
+		<key>FLIGHT_EXISTS</key>
+		<string>Flight already exists</string>
+		<key>FLIGHT_ADDED</key>
+		<string>Flight added successfully.</string>
+		<key>FLIGHT_DELETE</key>
+		<string>Deleting Flight</string>
+		<key>DONT_DELETE</key>
+		<string>Unable to delete flight ,report already sent</string>
+		<key>NOT_ADD_FlIGHT</key>
+		<string>Cannot add flight while synchronization is in progress</string>
+		<key>NOT_DELETE_FLIGHT</key>
+		<string>Cannot delete flight while synchronization is in progress</string>
+		<key>NOT_MODIFY_FLIGHT</key>
+		<string>Cannot modify flight while synchronization is in progress</string>
+		<key>NOT_VALID_FLIGHT</key>
+		<string>Unable to Add Flight. Flight is not valid.</string>
+		<key>ALERT_3CHAR_ORIGIN_DESTINATION</key>
+		<string>Please enter three character for origin and destination.</string>
+		<key>CREW_EXIST</key>
+		<string>The BP number of Crew Member entered already exists</string>
+		<key>ALL_MANDATE</key>
+		<string>All fields in the form are mandatory</string>
+		<key>GAD_REPORT_SUBMITTED</key>
+		<string>The GAD for the selected crew member has been submitted</string>
+		<key>ALERT_MSG</key>
+		<string>Alert</string>
+		<key>ALERT_CUS_EXITSTS</key>
+		<string>The customer you entered is already exists.</string>
+		<key>ADD_PASSENGER</key>
+		<string>Por favor, introduzca el número de documento</string>
+		<key>ALERT_ENTER_DOCNUMBER</key>
+		<string>Please enter document number</string>
+		<key>ALERT_ENTER_DOCUMENTNUM</key>
+		<string>Please select document type</string>
+		<key>ALERT_ENTER_LASTNAME</key>
+		<string>Please enter last name</string>
+		<key>ALERT_ENTER_FIRSTNAME</key>
+		<string>Please enter first name</string>
+		<key>SEND_VIEWSUMMARY</key>
+		<string>Send</string>
+		<key>LEGINFORMATION</key>
+		<string>LEG INFORMATION</string>
+		<key>ALERT_DELETE_CUSTOMER</key>
+		<string>Are you sure you want to delete the customer ?</string>
+		<key>ALERT_MANDATORY_FIELDS</key>
+		<string>Please enter all mandatory fields</string>
+		<key>ALERT_FLIGHTNOTDEPARTED</key>
+		<string>The flight has not departed.Do you still want to send the report?</string>
+		<key>COMMENTS</key>
+		<string>Comments</string>
+		<key>ALERT_UNABLETOAUTHENTICATE</key>
+		<string>Unable to authenticate as server is unreachable</string>
+		<key>ALERT_INCORRECTUSRPWD</key>
+		<string>Incorrect Username or Password</string>
+		<key>ALERT_INCORRECTPASSWORD</key>
+		<string>Incorrect Password</string>
+		<key>ALERT_LOGINFAILED</key>
+		<string>Login Failed</string>
+		<key>ALERT_DATAFAILED</key>
+		<string>There was a connection error</string>
+		<key>ALERT_DATAFAILED_MSG</key>
+		<string>Please check your internet connection</string>
+		<key>ALERT_VALIDATIONERROR</key>
+		<string>Validation Error</string>
+		<key>ALERT_CANNOTBEEMPTY</key>
+		<string>Username cannot be empty</string>
+		<key>ADD_CUS_CUSTOMER</key>
+		<string>Add Passenger Here</string>
+		<key>MISSING_MANDAROTY_ITEMS</key>
+		<string>Missing Mandatory Items</string>
+		<key>CHOOSE_EXISTING</key>
+		<string>Choose Existing</string>
+		<key>TAKE_PHOTO</key>
+		<string>Take Photo</string>
+		<key>BACK</key>
+		<string>Back</string>
+		<key>SELECT_SEAT</key>
+		<string>Select Seat</string>
+		<key>DONE</key>
+		<string>Done</string>
+		<key>Done_Text</key>
+		<string>Ok</string>
+		<key>CUSTOMER_EXISTS</key>
+		<string>The customer you entered is already exists.</string>
+		<key>OTHER</key>
+		<string>Other</string>
+		<key>CAMERA</key>
+		<string>CAMERA</string>
+		<key>SUBMIT</key>
+		<string>Submit</string>
+		<key>SYNC_FLIGHTS</key>
+		<string>Synching flights</string>
+		<key>SYNC_MANUAL</key>
+		<string>Synching Manuals</string>
+		<key>SYNC_FLIGHT_DETAIL</key>
+		<string>Synching flight details</string>
+		<key>NO_REPORTS</key>
+		<string>- NO REPORTS MADE FOR THIS CLASS -</string>
+		<key>SEND</key>
+		<string>     SEND</string>
+		<key>RESEND</key>
+		<string>     RESEND</string>
+		<key>CUS_REPORT</key>
+		<string>CUS Report</string>
+		<key>NO_PASSENGER_DATA</key>
+		<string>NO Passenger Data</string>
+		<key>NO_PASSENGER_DATA_ADDED</key>
+		<string>No Passenger Data is added. Please add a Passenger</string>
+		<key>TABLEVIEW_DELETE</key>
+		<string>Delete</string>
+		<key>ALERT_FILL</key>
+		<string>Please fill all the fields</string>
+		<key>FLIGHT_TYPE</key>
+		<string>Flight type</string>
+		<key>ALERT_OK</key>
+		<string>Ok</string>
+		<key>VIEW_SUMMARY</key>
+		<string>View Summary</string>
+		<key>RESEND_REPORT</key>
+		<string>Resend Report</string>
+		<key>SEND_REPORT</key>
+		<string>Send Report</string>
+		<key>CANCEL</key>
+		<string>Cancel</string>
+		<key>ALERT_SENDREPORT</key>
+		<string>Once the report is submitted, modifications cannot be done to the flight report. Information can only be viewed in read-only mode after submission</string>
+		<key>ALERT_GADSENDREPORT</key>
+		<string>Once the report is submitted, modifications cannot be done to the flight report.</string>
+		<key>ALERT_NO_NEXTFLY</key>
+		<string>Next Flight dont exists</string>
+		<key>ALERT_NO_NEXTFLY_7</key>
+		<string>No flights scheduled for the next 3 days</string>
+		<key>FLIGHT_DATE</key>
+		<string>Flight Date</string>
+		<key>EDIT_DETAIL</key>
+		<string>Edit detail</string>
+		<key>ERROR_ENTRY</key>
+		<string>Error in details entered</string>
+		<key>MANUAL_ENTRY</key>
+		<string>Manual Entry</string>
+		<key>Add_CREW_MEMBER</key>
+		<string>Add Flight Crew</string>
+		<key>SAVE_LABEL</key>
+		<string>Save</string>
+		<key>FLIGHT_NUMBER</key>
+		<string>Flight Number</string>
+		<key>TAM_LOYALTY</key>
+		<string>TAM Loyalty</string>
+		<key>INFORMATIVE</key>
+		<string>Informativo</string>
+		<key>CLAIM</key>
+		<string>Claim</string>
+		<key>CPF</key>
+		<string>CPF</string>
+		<key>CRM</key>
+		<string>CRM</string>
+		<key>LOLYALTY_CARD</key>
+		<string>Loyalty card (if any)</string>
+		<key>TAMLOYALTY</key>
+		<string>No. TAM Loyalty</string>
+		<key>ADD_ASSOCIATED_PASSENGER</key>
+		<string>Add Associated Passenger</string>
+		<key>LANGUAGE</key>
+		<string>Language</string>
+		<key>REPORT_DETAILS</key>
+		<string>Report Details</string>
+		<key>REPORT_DETAILS_TAM</key>
+		<string>Report Details</string>
+		<key>DIAGNOSE</key>
+		<string>Diagnose</string>
+		<key>LICENSE_NUMBER</key>
+		<string>License number</string>
+		<key>DOCTOR_FULL_NAME</key>
+		<string>Doctor&apos;s Full Name</string>
+		<key>DOCTOR_FULL_NAME_TAM</key>
+		<string>Doctor&apos;s Full Name</string>
+		<key>ON_BOARD_MEDICAL_ATTENTION</key>
+		<string>On Board Medical Attention</string>
+		<key>ON_BOARD_MEDICAL_ATTENTION_TAM</key>
+		<string>On Board Medical Attention</string>
+		<key>SEAT_MAINTENANCE</key>
+		<string>Seat Maintenance</string>
+		<key>REASON_FOR_REPORT</key>
+		<string>Reason for Report</string>
+		<key>DOCUMENT_NUMBER</key>
+		<string>Document Number</string>
+		<key>DOCUMENT_NUMBER_TAM</key>
+		<string>Document Number</string>
+		<key>DOCUMENT_TYPE</key>
+		<string>Document Type</string>
+		<key>SECOND_LAST_NAME</key>
+		<string>Second Last Name</string>
+		<key>LAST_NAME</key>
+		<string>Last Name</string>
+		<key>LAST_NAME_TAM</key>
+		<string>Last Name</string>
+		<key>FIRST_NAME</key>
+		<string>First Name</string>
+		<key>ASSOCIATED_PASSENGERS</key>
+		<string>Associated Passengers</string>
+		<key>ASSOCIATED_PASSENGERS_TAM</key>
+		<string>Associated Passengers</string>
+		<key>EMAIL</key>
+		<string>Email</string>
+		<key>PHONE_NUMBER</key>
+		<string>Phone Number</string>
+		<key>COUNTRY_OF_RESIDENCE</key>
+		<string>Country of residence</string>
+		<key>ADDRESS</key>
+		<string>Address</string>
+		<key>ADDRESSTAM</key>
+		<string>Address</string>
+		<key>LANPASS</key>
+		<string>Lanpass</string>
+		<key>SEAT_NUMBER</key>
+		<string>Seat Number</string>
+		<key>PASSENGER_MAKES_CLAIM</key>
+		<string>Passenger makes claim</string>
+		<key>PASSENGER_MAKES_CLAIM_TAM</key>
+		<string>Passenger makes claim</string>
+		<key>PASSENGER_INFORMATION</key>
+		<string>Passenger Information</string>
+		<key>PASSENGER_INFORMATION_TAM</key>
+		<string>Passenger Information</string>
+		<key>SELECT_LEG</key>
+		<string>Select Leg</string>
+		<key>ASSOCIATED_LEG</key>
+		<string>Associated Leg</string>
+		<key>ASSOCIATED_LEG_TAM</key>
+		<string>Associated Leg</string>
+		<key>ACTION_TAKEN_ON_BOARD</key>
+		<string>Action taken on board</string>
+		<key>ACTION_TAKEN_ON_BOARD_TAM</key>
+		<string>Action taken on board</string>
+		<key>OCCURRENCE</key>
+		<string>occurrence</string>
+		<key>SELECT_REASON</key>
+		<string>Reason</string>
+		<key>NUMBER_OF_RESETS</key>
+		<string>Number of resets</string>
+		<key>AREA_RESET</key>
+		<string>Area Reset</string>
+		<key>SEATING</key>
+		<string>Affected Seats</string>
+		<key>DURATION_OF_FAILURE</key>
+		<string>Duration of failure</string>
+		<key>FAULT_TYPE</key>
+		<string>Type of failure</string>
+		<key>TIME_OF_FLIGHT</key>
+		<string>Time of flight</string>
+		<key>SELECT_STATE</key>
+		<string>Select State</string>
+		<key>LAST_SYNC</key>
+		<string>Last Synch</string>
+		<key>SEAT_ROW</key>
+		<string>Seat-Row</string>
+		<key>SEAT_ROW_TAM</key>
+		<string>Seat-Row</string>
+		<key>SEAT_LETTER</key>
+		<string>Letter</string>
+		<key>SEAT_LETTER_TAM</key>
+		<string>Letter</string>
+		<key>STATUS_RECEIVED</key>
+		<string>Recieved</string>
+		<key>STATUS_DRAFT</key>
+		<string>Draft</string>
+		<key>STATUS_INQUEUE</key>
+		<string>In queue</string>
+		<key>STATUS_ERROR</key>
+		<string>Error</string>
+		<key>QUALITY_SERVICE_CAT</key>
+		<string>Quality Service CAT</string>
+		<key>AIRPORT</key>
+		<string>Airport</string>
+		<key>ELEMENT_CAT_APV</key>
+		<string>Elements &amp; CAT APV</string>
+		<key>CONDITIONING_CAB</key>
+		<string>Conditioning Cab</string>
+		<key>QUALITY_OF_SERVICE</key>
+		<string>Quality of Service</string>
+		<key>QUALITY_CATERING_SERVICE</key>
+		<string>Quality Catering Service</string>
+		<key>MASSIVE_FAILURES</key>
+		<string>Massive Failures</string>
+		<key>INDIVIDUAL_FAILURES</key>
+		<string>Individual Failures</string>
+		<key>FINAL_SYSTEM_STATUS</key>
+		<string>Final System Status</string>
+		<key>CORRECTIVE_ACTION</key>
+		<string>Corrective Action</string>
+		<key>DESCRIPTION_OF_FAILURE</key>
+		<string>Description of Failure</string>
+		<key>INITIAL_STATE_OF_THE_SYSTEM</key>
+		<string>Initial state of the system</string>
+		<key>THERE_WERE_MASSIVE_FAILURES_IFE?</key>
+		<string>There were massive failures IFE?</string>
+		<key>INDIVIDUAL_FAILURE _IFE</key>
+		<string>Individual failure IFE</string>
+		<key>GALLEY</key>
+		<string>Galley</string>
+		<key>FAILURE_SEATS_RECOVERED_IN_FLIGHT</key>
+		<string>Failure Seats Recovered in Flight</string>
+		<key>IMPECCABILITY_OF_CAB</key>
+		<string>Impeccability of Cab</string>
+		<key>IMPECCABILITY_OF_CAB_TAM</key>
+		<string>Impeccability of Cab</string>
+		<key>FAULTY_SEAT_RECOVERED_IN_FLIGHT</key>
+		<string>Faulty Seat recovered in Flight</string>
+		<key>FAILURE_SEAT_RECOVERED_IN_FLIGHT</key>
+		<string>Failure Seat recovered in Flight</string>
+		<key>TEMPERATURE</key>
+		<string>Temperature</string>
+		<key>QUALITY_CATERING </key>
+		<string>Quality Catering </string>
+		<key>TOILETS</key>
+		<string>Toilets</string>
+		<key>CABIN</key>
+		<string>Cabin</string>
+		<key>Cabin</key>
+		<string>Cabin</string>
+		<key>NO_FLIGHT_ROSTER</key>
+		<string>No Flights on the Roaster</string>
+		<key>NEXT_FLIGHT</key>
+		<string>Next flight</string>
+		<key>ADD_FLIGHT</key>
+		<string>Add Flight</string>
+		<key>ALERT_ARRIVAL_DEST</key>
+		<string>Please enter arrival time to be greater than Departure Time</string>
+		<key>ALERT_MATRICULA</key>
+		<string>Please enter Matricula in Correct Format(XX-XXXy)</string>
+		<key>ALERT_DIFF_DAY</key>
+		<string>Please enter leg departure day as that of Flight Departure Day</string>
+		<key>EDIT_FLIGHT</key>
+		<string>Edit Flight</string>
+		<key>SEARCH_FLIGHT</key>
+		<string>Search Flight</string>
+		<key>MANUAL</key>
+		<string>Manuals</string>
+		<key>FLIGHT_REPORT</key>
+		<string>Flight Report</string>
+		<key>SELECT_FLIGHT</key>
+		<string>Select your flight</string>
+		<key>TITLE</key>
+		<string>Onboard Service Management LATAM</string>
+		<key>REPORT_CUS_LAN</key>
+		<string>CUS Report</string>
+		<key>REPORT_CUS_TAM</key>
+		<string>CUS Report</string>
+		<key>COMPANION_GUIDE</key>
+		<string>Companion Guide</string>
+		<key>SYNCHRONIZED</key>
+		<string>Update</string>
+		<key>ELEMENT_APV</key>
+		<string>Element APV</string>
+		<key>ELEMENT_CATERING</key>
+		<string>Elementos de Catering</string>
+		<key>ELEMENT_MATERIAL_APV_CAT</key>
+		<string>Material APV-CAT</string>
+		<key>ELEMENT_CABIN</key>
+		<string>Elements of the Cabin</string>
+		<key>ELEMENT_SECURITY</key>
+		<string>Security Elements</string>
+		<key>ELEMENT_BATH</key>
+		<string>Elements of Bath</string>
+		<key>ELEMENT_GALLEY</key>
+		<string>Galley elements</string>
+		<key>ELEMENT_LIQUIDS</key>
+		<string>Drinks</string>
+		<key>ELEMENT_MEALS</key>
+		<string>Meals</string>
+		<key>ELEMENT</key>
+		<string>Element</string>
+		<key>AIRPORT_BAGGAGE</key>
+		<string>Baggage</string>
+		<key>AIRPORT_ASSIGNSEAT</key>
+		<string>Assigning Seats</string>
+		<key>AIRPORT_FULLNAME</key>
+		<string>Full name of passengers</string>
+		<key>AIRPORT_HANDLUGGAGE</key>
+		<string>Hand luggage sent to warehouse</string>
+		<key>AIRPORT_MALASSIGNED</key>
+		<string>Misallocated Seats</string>
+		<key>AIRPORT_PROPERTYINFOSEAT</key>
+		<string>Information seats</string>
+		<key>AIRPORT_DUPLICATESEAT</key>
+		<string>Duplicates Seats (Check Boarding Pass)</string>
+		<key>CAB_CONDITIONING</key>
+		<string>Conditioning Cab</string>
+		<key>INFORMATION_MESSAGE</key>
+		<string>Información</string>
+		<key>CAB_STATECAB</key>
+		<string>State Cab conditioning</string>
+		<key>REPORT</key>
+		<string>Report</string>
+		<key>WSTBRQ</key>
+		<string>AguaBordo</string>
+		<key>TITULO_WSTBRQ</key>
+		<string>Water on Board</string>
+		<key>TITULO_WST_BRQ</key>
+		<string>Water Boarding</string>
+		<key>TITULO_WST_DRQ</key>
+		<string>Water Landing</string>
+		<key>WSTDRQ</key>
+		<string>AguaBordo</string>
+		<key>WTRBRQ</key>
+		<string>Waste</string>
+		<key>TITULO_WTRBRQ</key>
+		<string>Waste</string>
+		<key>TITULO_WTR_BRQ</key>
+		<string>Waste Boarding</string>
+		<key>TITULO_WTR_DRQ</key>
+		<string>Waste Landing</string>
+		<key>WTRDRQ</key>
+		<string>Waste</string>
+		<key>OCCURRENCE_TAM</key>
+		<string>Report</string>
+		<key>REPORT_TAM</key>
+		<string>Report</string>
+		<key>REASON</key>
+		<string>Reason</string>
+		<key>ACTION</key>
+		<string>Action</string>
+		<key>AMOUNT</key>
+		<string>Amount</string>
+		<key>QUANT_ACCOMP</key>
+		<string>Quantity</string>
+		<key>OBSERVATION</key>
+		<string>Comments</string>
+		<key>SERVICE</key>
+		<string>Service</string>
+		<key>OPTION</key>
+		<string>Option</string>
+		<key>FAILURE</key>
+		<string>Failure</string>
+		<key>SEATROW</key>
+		<string>Asiento - Fila</string>
+		<key>SEATLETTER</key>
+		<string>Letra</string>
+		<key>GENERAL_TRAMO_EJECUTADO</key>
+		<string>Leg Executed</string>
+		<key>GENERAL_NAME</key>
+		<string>Name</string>
+		<key>GENERAL_SURNAME</key>
+		<string>Surname</string>
+		<key>GENERAL_BP</key>
+		<string>BP</string>
+		<key>GENERAL_MATERIAL</key>
+		<string>Material</string>
+		<key>GENERAL_ENROLLMENT</key>
+		<string>Enrollment</string>
+		<key>GENERAL_CREW_BASE</key>
+		<string>Crew Base</string>
+		<key>GENERAL_FLIGHT_DATA</key>
+		<string>Flight Details</string>
+		<key>GENERAL_CAPITAN</key>
+		<string>Captain</string>
+		<key>GENERAL_JEFE_DE_SERVICIO</key>
+		<string>Head of Service on Board</string>
+		<key>GENERAL_ATRASOS</key>
+		<string>Arrears / Contingency </string>
+		<key>GENERAL_EMBARQUE_INFO</key>
+		<string>Boarding Information</string>
+		<key>GENERAL_TIEMPO</key>
+		<string>Duration of delay</string>
+		<key>GENERAL_HUBRO</key>
+		<string>Did delay in flight departure?</string>
+		<key>GENERAL_ACCIONES</key>
+		<string>Actions Taken</string>
+		<key>GENERAL_MOTIVO</key>
+		<string>Reasons</string>
+		<key>GENERAL_HORA_PUERTAS</key>
+		<string>Hora Cierre Puertas</string>
+		<key>GENERAL_HORA_MINIMA</key>
+		<string>Minimum Time for TC Boarding</string>
+		<key>GENERAL_EMBARQUE_OCC</key>
+		<string>Shipment Occurrences</string>
+		<key>AGUA_EMBARQUE</key>
+		<string>Agua embr</string>
+		<key>AGUA_DESEMBARQUE</key>
+		<string>Agua desq</string>
+		<key>WASTE_EMBARQUE</key>
+		<string>Waste embr</string>
+		<key>WASTE_DESEMBARQUE</key>
+		<string>Waste desq</string>
+		<key>GENERAL_TIPO_EMBARQUE</key>
+		<string>Type of Boarding</string>
+		<key>GENERAL_VUELO_OCC</key>
+		<string>Flight Occurrences</string>
+		<key>GENERAL_CUMPLE_OCC</key>
+		<string>TC meets senior roles</string>
+		<key>GENERAL_SOLICITUD_WCH</key>
+		<string>Request WCH</string>
+		<key>GENERAL_SOLICITUD_ARNES</key>
+		<string>Solicitud Arnes</string>
+		<key>GENERAL_ARNES</key>
+		<string>Arnes Solicitados</string>
+		<key>GENERAL_WCH</key>
+		<string>WCH Solicitadas</string>
+		<key>GENERAL_DESEMBARQUE_OCC</key>
+		<string>Desembarque Occurences</string>
+		<key>GENERAL_TIPO_DESEMBARQUE</key>
+		<string>Type of Landing</string>
+		<key>GENERAL_DOCUMENTOS_OCC</key>
+		<string>Documents sent</string>
+		<key>GENERAL_EMBARQUE</key>
+		<string>Boarding</string>
+		<key>GENERAL_VUELO</key>
+		<string>Flight</string>
+		<key>GENERAL_DESEMBARQUE</key>
+		<string>Landing</string>
+		<key>GENERAL_DOCUMENTOS</key>
+		<string>Documentation</string>
+		<key>DOCUMENTO</key>
+		<string>Documents</string>
+		<key>GENERAL_VENTAS</key>
+		<string>Sales</string>
+		<key>GENERAL_ITEMS_FALTANTES</key>
+		<string>Missing Items</string>
+		<key>GENERAL_VENTAS_DUTYFREE</key>
+		<string>Were there any duty free sales?</string>
+		<key>GENERAL_SIN_VENTAS</key>
+		<string>Reason for no duty free sales</string>
+		<key>GENERAL_MONTO_DE_VENTA</key>
+		<string>Sales(USD)</string>
+		<key>CODIGO_PRODUCTO</key>
+		<string>Product Code</string>
+		<key>GENERAL_VUELO_SUGEGSTIONS</key>
+		<string>Suggestions and general feedback flight</string>
+		<key>GENERAL_BUSINESS_SUGEGSTIONS</key>
+		<string>Suggestions and comments cabin Business</string>
+		<key>GENERAL_PRE_ECONOMY_SUGEGSTIONS</key>
+		<string>Suggestions and comments cabin Business</string>
+		<key>GENERAL_ECONOMY_SUGEGSTIONS</key>
+		<string>Suggestions and comments cabin Economy</string>
+		<key>GENERAL_FIRST_SUGEGSTIONS</key>
+		<string>Suggestions and comments First Economy</string>
+		<key>TC_NOMBRE</key>
+		<string>TC Name</string>
+		<key>TC_BP</key>
+		<string>BP TC</string>
+		<key>GENERAL_SPECIAL_OCC</key>
+		<string>Special Occurrences</string>
+		<key>GENERAL_SPECIAL_PASS_OCC</key>
+		<string>Special Passenger Occurrences</string>
+		<key>GENERAL_ESPECO_OCC</key>
+		<string>Especo Occurences</string>
+		<key>GENERAL_ACCOMP_OCC</key>
+		<string>Accomp Occurences</string>
+		<key>QUANT_ACCOMPANY</key>
+		<string>Accompanied Quant</string>
+		<key>INDICAR_NUMERO</key>
+		<string>Number Indicated</string>
+		<key>ACTIONS</key>
+		<string>Action</string>
+		<key>GENERAL_OBSERVATIONS</key>
+		<string>Comments</string>
+		<key>GENERAL_ARNES_OBSERVATIONS</key>
+		<string>Arnes Observations</string>
+		<key>GENERAL_WCH_OBSERVATIONS</key>
+		<string>WCH Observations</string>
+		<key>GENERAL</key>
+		<string>GENERAL</string>
+		<key>PREMIUM ECONOMY</key>
+		<string>PREMIUM ECONOMY</string>
+		<key>ECONOMY</key>
+		<string>ECONOMY</string>
+		<key>BUSINESS</key>
+		<string>BUSINESS</string>
+		<key>FIRST</key>
+		<string>FIRST</string>
+		<key>General Information</key>
+		<string>General Information</string>
+		<key>Boarding</key>
+		<string>Boarding</string>
+		<key>Overview</key>
+		<string>GENERAL</string>
+		<key>Dutyfree</key>
+		<string>Dutyfree</string>
+		<key>Suggestions</key>
+		<string>Suggestions</string>
+		<key>Airport</key>
+		<string>Airport</string>
+		<key>Conditioning Cab</key>
+		<string>Conditioning Cab</string>
+		<key>Elements &amp; CAT APV</key>
+		<string>Elements &amp; CAT APV</string>
+		<key>Quality Service CAT</key>
+		<string>Quality Service CAT</string>
+		<key>IFE</key>
+		<string>IFE</string>
+		<key>GENERAL_ADD_ACTIONS</key>
+		<string>Add Actions</string>
+		<key>GENERAL_ADD_REASONS</key>
+		<string>Reason for delay</string>
+		<key>GENERAL_ADD_EMBARQUE_OCC</key>
+		<string>Add Boarding Occurrences</string>
+		<key>GENERAL_ADD_VUELO_OCC</key>
+		<string>Add Flight Occurrences</string>
+		<key>GENERAL_ADD_TC_OCC</key>
+		<string>Add Superior Occurrences</string>
+		<key>GENERAL_ADD_MEDICAS</key>
+		<string>Ocorrências Médicas</string>
+		<key>GENERAL_ADD_DES_OCC</key>
+		<string>Add Landing Occurrences</string>
+		<key>GENERAL_ADD_DOC_OCC</key>
+		<string>Add Documents Sent</string>
+		<key>GENERAL_ADD_MISSING_DOC_OCC</key>
+		<string>Add Documents Sent</string>
+		<key>GEN_ADD_SPEC_OCC</key>
+		<string>Add Special Service Occurrences</string>
+		<key>GEN_ADD_PASS_SPEC_OCC</key>
+		<string>Add Passenger Special Service Occurrences</string>
+		<key>GEN_ADD_ESPACO_OCC</key>
+		<string>Add Space Occurrences</string>
+		<key>GEN_ADD_ACCOMP_OCC</key>
+		<string>Add companion Occurrences</string>
+		<key>GENERAL_ADD_FALTANTES</key>
+		<string>Add Missing Items</string>
+		<key>MENU_LABEL</key>
+		<string>Menu</string>
+		<key>BACK_FLIGHTLIST</key>
+		<string>FlightList</string>
+		<key>ERROR_LABEL</key>
+		<string>Error</string>
+		<key>DRAFT_LABEL</key>
+		<string>Draft</string>
+		<key>QUEUE_LABEL</key>
+		<string>In Queue</string>
+		<key>RECEIVED_LABEL</key>
+		<string>Received</string>
+		<key>CABIN_CREW</key>
+		<string>Cabin Crew</string>
+		<key>GENERAL_MANGA</key>
+		<string>Manga</string>
+		<key>GENERAL_REMOTO</key>
+		<string>Remote</string>
+		<key>CREW_NA</key>
+		<string>N/A</string>
+		<key>GAD</key>
+		<string>GAD</string>
+		<key>CREW_NOT_AVAILABLE</key>
+		<string>Flight Crew Information is not available</string>
+		<key>POP_TITLE_GAD</key>
+		<string>Observation Scale and Criteria</string>
+		<key>POP_TITLE_GAD1</key>
+		<string>Excepcional</string>
+		<key>POP_TITLE_GAD2</key>
+		<string>About what I expected</string>
+		<key>POP_TITLE_GAD3</key>
+		<string>Expected</string>
+		<key>POP_TITLE_GAD4</key>
+		<string>Next to Expected</string>
+		<key>POP_TITLE_GAD5</key>
+		<string>Under the Expected</string>
+		<key>POP_TITLE_GAD6</key>
+		<string>NO</string>
+		<key>POP_DESCRIPTION_GAD1</key>
+		<string>The performance of the person far exceeds what is expected for their position in the competition evaluated. This performance level is hardly matched by others in a similar position, role and responsibilities.</string>
+		<key>POP_DESCRIPTION_GAD2</key>
+		<string>The person obtained outstanding achievements. In this competition the person makes a very good job that usually exceeds expectations for your position and area.</string>
+		<key>POP_DESCRIPTION_GAD3</key>
+		<string>The performance meets what is expected in the competition evaluated. This standard should be applied to those whose performance meets the essential requirements of the job, getting the expected results.</string>
+		<key>POP_DESCRIPTION_GAD4</key>
+		<string>The performance meets only some of the aspects evaluated in the competition. You may sometimes need support or performance is not constant</string>
+		<key>POP_DESCRIPTION_GAD5</key>
+		<string>The performance of the person does not meet the minimum requirements for the competence assessed. There are weaknesses that limit the performance and it is important that they be corrected.</string>
+		<key>POP_DESCRIPTION_GAD6</key>
+		<string>Not observed</string>
+		<key>GAD_FEEDBACK_SUBTITLE</key>
+		<string>SUPPORT AND DEVELOPMENT GUIDE FOR CABIN CREW</string>
+		<key>CLOSE</key>
+		<string>Close</string>
+		<key>OK</key>
+		<string>OK</string>
+		<key>REQUIRED_FIELD_IS_EMPTY</key>
+		<string>Required Field is Empty</string>
+		<key>SIGNATURE_OBSERVER</key>
+		<string>Signature Observer</string>
+		<key>SIGNATURE_TC</key>
+		<string>Signature TC</string>
+		<key>SIGNATURE_CSB</key>
+		<string>Signature CSB</string>
+		<key>SYNCH_ON</key>
+		<string>Unable to fetch data.Please try after synchronization.</string>
+		<key>SIGNATURE_MISSING</key>
+		<string>Signature Missing</string>
+		<key>ACCEPT</key>
+		<string>Accept</string>
+		<key>ERASE</key>
+		<string>Erase</string>
+		<key>ADD_LEG</key>
+		<string>Add Leg</string>
+		<key>ADD_NEW_GAD</key>
+		<string>Add New GAD here</string>
+		<key>NO_GAD_DATA</key>
+		<string>No GAD Data</string>
+		<key>NO_GAD_DATA_ADDED</key>
+		<string>No GAD Data added. Please add a GAD</string>
+		<key>DEPARTURE_DATE</key>
+		<string>Depature Date</string>
+		<key>FLIGHT_NUM</key>
+		<string>Flight Number</string>
+		<key>COMPANY_NAME</key>
+		<string>Company Name</string>
+		<key>LEG_INFO</key>
+		<string>Leg Information</string>
+		<key>Rank</key>
+		<string>Rank</string>
+		<key>BP</key>
+		<string>BP</string>
+		<key>ALERT_DELETE_GAD</key>
+		<string>Are you sure you want to delete the GAD?</string>
+		<key>INVALID_SEAT</key>
+		<string>The selected seat does not exist for this flight, please enter a valid seat.</string>
+		<key>OCCUPIED_BY_PASSENGER</key>
+		<string>is occupied by the passenger</string>
+		<key>DO_YOU_WANT_TO_REPLACE</key>
+		<string>Do you want to replace this temporary?</string>
+		<key>SEAT</key>
+		<string>Seat</string>
+	</dict>
+	<key>SPANISH</key>
+	<dict>
+		<key>RELOAD_FLIGHT_ALERT</key>
+		<string>Este vuelo presenta problemas de carga de datos. Por favor actualice el vuelo</string>
+		<key>LEG_TEXT</key>
+		<string>LEG</string>
+		<key>FLIGHT_DATA_TITLE</key>
+		<string>DATOS DE VUELO</string>
+		<key>SEATMAP_NOT_LOADED</key>
+		<string>El mapa de asientos aún no está disponible. Por favor intente actualizar los datos del vuelo</string>
+		<key>ACCEPT</key>
+		<string>Aceptar</string>
+		<key>Acompanantes</key>
+		<string>Acompañantes</string>
+		<key>ACTION</key>
+		<string>Acción</string>
+		<key>ACTION_TAKEN_ON_BOARD</key>
+		<string>Acción tomada a Bordo</string>
+		<key>ACTION_TAKEN_ON_BOARD_TAM</key>
+		<string>Acciones Realizadas a Bordo</string>
+		<key>ACTIONS</key>
+		<string>Acciones</string>
+		<key>ACTIONS@TAM</key>
+		<string>Seleccione Acciones</string>
+		<key>ADD_ASSOCIATED_PASSENGER</key>
+		<string>Agregar pasajero asociado</string>
+		<key>Add_CREW_MEMBER</key>
+		<string>Añadir Tripulación de Vuelo</string>
+		<key>ADD_CUS_CUSTOMER</key>
+		<string>Añadir Pasajeros Aquí</string>
+		<key>ADD_CUS_Title</key>
+		<string>Agregar Nuevo Pasajero</string>
+		<key>ADD_FLIGHT</key>
+		<string>Añadir Vuelo</string>
+		<key>ADD_LEG</key>
+		<string>Añadir Tramo</string>
+		<key>ADD_NEW_GAD</key>
+		<string>Añadir un tripulante</string>
+		<key>ADD_PASSENGER</key>
+		<string>Agregar pasajero asociado</string>
+		<key>ADD_PASSENGER_TITLE</key>
+		<string>Pasajeros Asociados</string>
+		<key>ADD_PASSENGER_TITLE_TAM</key>
+		<string>Pasajeros Asociados</string>
+		<key>ADDING_FLIGHT</key>
+		<string>Agregando vuelo</string>
+		<key>ADDRESS</key>
+		<string>Dirección</string>
+		<key>ADDRESSTAM</key>
+		<string>Dirección con CEP</string>
+		<key>AIRPORT</key>
+		<string>Aeropuerto</string>
+		<key>Airport</key>
+		<string>Aeropuerto</string>
+		<key>AIRPORT_ASSIGNSEAT</key>
+		<string>Asignación de Asientos</string>
+		<key>AIRPORT_BAGGAGE</key>
+		<string>Equipaje de Mano</string>
+		<key>AIRPORT_DUPLICATESEAT</key>
+		<string>Asientos Duplicados (Revisar Boarding Pass)</string>
+		<key>AIRPORT_FULLNAME</key>
+		<string>Nombre y Apellidos de pasajeros</string>
+		<key>AIRPORT_HANDLUGGAGE</key>
+		<string>Equipaje de mano enviado a  bodega</string>
+		<key>AIRPORT_MALASSIGNED</key>
+		<string>Asientos mal asignados</string>
+		<key>AIRPORT_PROPERTYINFOSEAT</key>
+		<string>Información de asientos</string>
+		<key>ALERT_3CHAR_ORIGIN_DESTINATION</key>
+		<string>Por favor ingrese un código de tres letras para el origen y destino</string>
+		<key>ALERT_ACCESSFORBIDDEN</key>
+		<string>El usuario ingresado no tiene los permisos requeridos para ingresar a la aplicación</string>
+		<key>ALERT_ARRIVAL_DEST</key>
+		<string>Por favor ingrese una hora de llegada posterior a la hora de salida</string>
+		<key>ALERT_CANNOT_DELETE</key>
+		<string>Al menos una acción es obligatoria</string>
+		<key>ALERT_CANNOTBEEMPTY</key>
+		<string>Favor ingrese nombre de usuario</string>
+		<key>ALERT_CUS_EXITSTS</key>
+		<string>El cliente ingresado ya existe</string>
+		<key>ALERT_CUS_SEND</key>
+		<string>Una vez enviado el reporte, no se será posible hacer otras modificaciones. La información sólo podrá ser vista en modo de lectura. ¿Está seguro que desea enviar el reporte?</string>
+		<key>ALERT_DELETE_CUSTOMER</key>
+		<string>¿Está seguro que desea eliminar el reporte CUS para el pasajero</string>
+		<key>ALERT_DELETE_GAD</key>
+		<string>¿Está eguro que desea eliminar la GAD seleccionada?</string>
+		<key>ALERT_DIFF_DAY</key>
+		<string>La fecha de salida del tramo no puede ser anterior a la fecha del vuelo</string>
+		<key>ALERT_EMAIL_VALIDATION</key>
+		<string>El email ingresado no es válido</string>
+		<key>ALERT_ENTER_DOCNUMBER</key>
+		<string>Por favor introduzca el número de documento</string>
+		<key>ALERT_ENTER_DOCUMENTNUM</key>
+		<string>Por favor seleccione el tipo de documento </string>
+		<key>ALERT_ENTER_FIRSTNAME</key>
+		<string>Por favor introduzca el nombre del pasajero</string>
+		<key>ALERT_ENTER_LASTNAME</key>
+		<string>Por favor ingrese el apellido del pasajero</string>
+		<key>ALERT_FILL</key>
+		<string>Por favor complete todos los campos</string>
+		<key>ALERT_FLIGHTNOTDEPARTED</key>
+		<string>El vuelo aún no despega. ¿Desea enviar el reporte de todas formas?</string>
+		<key>ALERT_GADSENDREPORT</key>
+		<string>Una vez enviada la GAD, no será posible hacer otras modificaciones ni revisar las respuestas ingresadas. ¿Está seguro que desea enviar la GAD</string>
+		<key>ALERT_INCORRECTPASSWORD</key>
+		<string>Contraseña Incorrecta</string>
+		<key>ALERT_INCORRECTUSRPWD</key>
+		<string>Usuario o contraseña incorrecta</string>
+		<key>ALERT_LOGINFAILED</key>
+		<string>Se ha encontrado un error en el ingreso. Favor intente nuevamente.</string>
+		<key>ALERT_DATAFAILED</key>
+		<string>Se ha encontrado un error al descargar los datos</string>
+		<key>ALERT_DATAFAILED_MSG</key>
+		<string>Verifique su conectividad a internet e intente nuevamente, o desactive las redes inalámbricas para trabajar sin conexión</string>
+		<key>ALERT_LOGOUT_MSG</key>
+		<string>¿Está seguro que desea salir de la aplicación?</string>
+		<key>ALERT_MANDATORY_FIELDS</key>
+		<string>Por favor complete todos los campos obligatorios</string>
+		<key>ALERT_MATRICULA</key>
+		<string>Por favor ingrese la matrícula en el formato correcto (XX-YYYy)</string>
+		<key>ALERT_MAX_PHOTOS</key>
+		<string>Sólo se pueden adjuntar hasta 5 fotos</string>
+		<key>ALERT_MSG</key>
+		<string>Alerta</string>
+		<key>ALERT_MSG_NO_INTERNET</key>
+		<string>Conexión a Internet no disponible</string>
+		<key>ALERT_NO_NEXTFLY</key>
+		<string>No se encontró un próximo vuelo dentro de su lista</string>
+		<key>ALERT_NO_NEXTFLY_7</key>
+		<string>No hay vuelos programados para los próximos 3 días</string>
+		<key>ALERT_OK</key>
+		<string>OK</string>
+		<key>ALERT_ONE_LEG_ALEAST</key>
+		<string>Debe ingresar al menos un tramo para el vuelo</string>
+		<key>ALERT_RELATED_PASSENGES_LIMIT</key>
+		<string>No se pueden ingresar más pasajeros relacionados.</string>
+		<key>ALERT_RESEND</key>
+		<string>¿Desea reenviar el reporte?</string>
+		<key>ALERT_SAVEFAILED_PHOTOS</key>
+		<string>Error al guardar la imagen en la galería</string>
+		<key>ALERT_SEND</key>
+		<string>Enviar</string>
+		<key>ALERT_SENDERRORREPORT</key>
+		<string>Se ha detectado que el vuelo ingresado manualmente no es válido. Favor corrija los datos del vuelo e intente enviar los informes nuevamente</string>
+		<key>ALERT_SENDREPORT</key>
+		<string>Una vez enviado el Informe de Vuelo, no se será posible hacer otras modificaciones. La información sólo podrá ser vista en modo de lectura. ¿Está seguro que desea enviar el Informe de Vuelo?</string>
+		<key>ALERT_UNABLE_ADDFLIGHT</key>
+		<string>No se ha podido agregar Vuelo a la lista. Por favor inténtelo de nuevo.</string>
+		<key>ALERT_UNABLETOAUTHENTICATE</key>
+		<string>Imposible autentificar el usuario en el servidor. Verifique su conectividad a internet o desactive las redes inalámbricas.</string>
+		<key>ALERT_UNABLETOCONNECT</key>
+		<string>Imposible descargar la información. Verifique su conectividad a internet e intente nuevamente.</string>
+		<key>ALERT_VALID_DOCUMENT_NUMBER</key>
+		<string>Ingrese un número de documento válido. </string>
+		<key>ALERT_VALIDATIONERROR</key>
+		<string>Error de validación</string>
+		<key>ALL</key>
+		<string>Todo</string>
+		<key>ALL_MANDATE</key>
+		<string>Debe llenar todos los campos del reporte.</string>
+		<key>AMOUNT</key>
+		<string>Cantidad</string>
+		<key>ANY_OPTIONS</key>
+		<string>Por favor seleccione las opciones correspondientes</string>
+		<key>AREA_RESET</key>
+		<string>Zona de Reset</string>
+		<key>Asientos Desocupados</key>
+		<string>Asientos Desocupados</string>
+		<key>ASSOCIATED_LEG</key>
+		<string>Tramo Asociado</string>
+		<key>ASSOCIATED_LEG_TAM</key>
+		<string>Tramo Asociado</string>
+		<key>ASSOCIATED_PASSENGERS</key>
+		<string>Pasajeros Asociados</string>
+		<key>ASSOCIATED_PASSENGERS_TAM</key>
+		<string>Pasajeros Asociados</string>
+		<key>BACK</key>
+		<string>Atrás</string>
+		<key>BACK_FLIGHTLIST</key>
+		<string>Lista de vuelo</string>
+		<key>Boarding</key>
+		<string>Embarque</string>
+		<key>BOOKMARKS</key>
+		<string>Bookmarks</string>
+		<key>BP</key>
+		<string>BP</string>
+		<key>BUSINESS</key>
+		<string>BUSINESS</string>
+		<key>BUSINESS_REPORT</key>
+		<string>Reporte Business</string>
+		<key>BUSINESSUNIT</key>
+		<string>Negocio*</string>
+		<key>CAB_CONDITIONING</key>
+		<string>Acond. de Cabina</string>
+		<key>CAB_STATECAB</key>
+		<string>Estado acondicionamiento de Cabina</string>
+		<key>CABIN</key>
+		<string>Cabina</string>
+		<key>Cabin</key>
+		<string>Cabina</string>
+		<key>CABIN_CREW</key>
+		<string>Tripulación</string>
+		<key>CAMERA</key>
+		<string>Foto</string>
+		<key>CANCEL</key>
+		<string>Cancelar</string>
+		<key>CANT_DOWNLOAD_MANUAL</key>
+		<string>No se puede descargar el manual en estos momentos. Verifica tu conexión a internet e inténtalo nuevamente.</string>
+		<key>CANT_SEND_CUS</key>
+		<string>No se puede cambiar el status ya que algunos reportes ya han sido envíado.</string>
+		<key>Categoria</key>
+		<string>Categoría</string>
+		<key>CHOOSE_EXISTING</key>
+		<string>Seleccionar existente</string>
+		<key>CLAIM</key>
+		<string>Reclamo</string>
+		<key>CLOSE</key>
+		<string>Cerrar</string>
+		<key>CODIGO_PRODUCTO</key>
+		<string>Código de Producto</string>
+		<key>Comidas Especiales</key>
+		<string>Comidas Especiales</string>
+		<key>COMMENTS</key>
+		<string>Comentarios</string>
+		<key>COMPANION_GUIDE</key>
+		<string>Guía de Acompañamiento</string>
+		<key>COMPANY_NAME</key>
+		<string>Prefijo Número de Vuelo</string>
+		<key>Conditioning Cab</key>
+		<string>Acond. de Cabina</string>
+		<key>CONDITIONING_CAB</key>
+		<string>Acond. de Cabina</string>
+		<key>Conexiones</key>
+		<string>Conexiones</string>
+		<key>CORRECTIVE_ACTION</key>
+		<string>Reset del Sistema</string>
+		<key>COUNTRY_OF_RESIDENCE</key>
+		<string>País de Residencia</string>
+		<key>CPF</key>
+		<string>CPF</string>
+		<key>CREW_ADD_BTN</key>
+		<string>Agregar nuevo tripulante</string>
+		<key>CREW_EXIST</key>
+		<string>El número de BP ingresado ya existe para un miembro de la tripulación</string>
+		<key>CREW_EXISTS_ERROR</key>
+		<string>El número de BP ingresado ya existe para un miembro de la tripulación</string>
+		<key>CREW_NA</key>
+		<string>N/D</string>
+		<key>CREW_NOT_AVAILABLE</key>
+		<string>Información de la Tripulación no disponible</string>
+		<key>CRM</key>
+		<string>CRM</string>
+		<key>Cumpleanos</key>
+		<string>Cumpleaños</string>
+		<key>CUS</key>
+		<string>CUS</string>
+		<key>CUS_REPORT</key>
+		<string>Reporte CUS</string>
+		<key>CUS_SEND_ALERT1</key>
+		<string>¿Desea enviar el reporte CUS para</string>
+		<key>CUS_SEND_ALERT2</key>
+		<string>? Esta acción no se puede deshacer.</string>
+		<key>CUS_TAM</key>
+		<string>FALE COM A GENTE</string>
+		<key>CUS_TITLE</key>
+		<string>Customer Service Report</string>
+		<key>CUS_TITLE_TAM</key>
+		<string>Fale com a Gente Report</string>
+		<key>CUSTOMER_EXISTS</key>
+		<string>El pasajero que ha introducido \ n ya existe.</string>
+		<key>DATE</key>
+		<string>Fecha</string>
+		<key>DATE_Time</key>
+		<string>Hora</string>
+		<key>DELETE</key>
+		<string>Eliminar</string>
+		<key>DELETE_IMAGE</key>
+		<string>¿Está seguro que desea eliminar la(s) imágen(es) seleccionada(s)?</string>
+		<key>DELETE_LEG_DELETE_DATA</key>
+		<string>Al eliminar el tramo se eliminará la información asociada a este.</string>
+		<key>DELETE_MANUAL_FLIGHT</key>
+		<string>¿Está seguro que deseas eliminar este vuelo?</string>
+		<key>DEPARTURE_DATE</key>
+		<string>Fecha Programada de Salida</string>
+		<key>DEPARTURETIME</key>
+		<string>Fecha de Salida</string>
+		<key>DESCRIPTION_OF_FAILURE</key>
+		<string>Descripción de Falla</string>
+		<key>DESTINATION</key>
+		<string>Destino</string>
+		<key>DESTINATIONTIME</key>
+		<string>Fecha de llegada</string>
+		<key>DIAGNOSE</key>
+		<string>Diagnóstico</string>
+		<key>DO_YOU_WANT_TO_REPLACE</key>
+		<string>¿Desea reemplazar a este pasajero?</string>
+		<key>DOC_LABEL_TEXT</key>
+		<string>Ingrese número de documento</string>
+		<key>DOC_NUMBER</key>
+		<string>Número de Documento</string>
+		<key>DOCTOR_FULL_NAME</key>
+		<string>Nombre del médico</string>
+		<key>DOCTOR_FULL_NAME_TAM</key>
+		<string>Nombre completo del médico</string>
+		<key>DOCUMENT_NUMBER</key>
+		<string>Número de documento</string>
+		<key>DOCUMENT_NUMBER_TAM</key>
+		<string>N° de documento</string>
+		<key>DOCUMENT_TYPE</key>
+		<string>Tipo de documento</string>
+		<key>DOCUMENTO</key>
+		<string>Documento</string>
+		<key>DONE</key>
+		<string>Aceptar</string>
+		<key>Done_Text</key>
+		<string>OK</string>
+		<key>DONT_DELETE</key>
+		<string>No se puede eliminar el vuelo ya que ya se han enviado informes para este</string>
+		<key>DRAFT_LABEL</key>
+		<string>Borrador</string>
+		<key>DURATION_OF_FAILURE</key>
+		<string>Duración de la falla</string>
+		<key>Dutyfree</key>
+		<string>Duty free</string>
+		<key>ECONOMY</key>
+		<string>ECONOMY</string>
+		<key>ECONOMY_REPORT</key>
+		<string>Reporte Economy</string>
+		<key>EDIT_DETAIL</key>
+		<string>Editar detalles</string>
+		<key>EDIT_FLIGHT</key>
+		<string>Editar Vuelo</string>
+		<key>ELEMENT</key>
+		<string>Elemento</string>
+		<key>ELEMENT_APV</key>
+		<string>Elementos APV</string>
+		<key>ELEMENT_BATH</key>
+		<string>Elementos de Baño</string>
+		<key>ELEMENT_CABIN</key>
+		<string>Elementos de Cabina</string>
+		<key>ELEMENT_CAT_APV</key>
+		<string>Elementos APV &amp; CAT</string>
+		<key>ELEMENT_CATERING</key>
+		<string>Elementos de Catering</string>
+		<key>ELEMENT_GALLEY</key>
+		<string>Elementos de Galley</string>
+		<key>ELEMENT_LIQUIDS</key>
+		<string>Líquidos</string>
+		<key>ELEMENT_MATERIAL_APV_CAT</key>
+		<string>Materiales de APV-CAT</string>
+		<key>ELEMENT_MEALS</key>
+		<string>Comidas</string>
+		<key>ELEMENT_SECURITY</key>
+		<string>Elementos de Seguridad</string>
+		<key>Elements &amp; CAT APV</key>
+		<string>Elementos APV &amp; CAT</string>
+		<key>EMAIL</key>
+		<string>Email</string>
+		<key>ENTER_COMMENTS</key>
+		<string>Por favor ingrese sus comentarios en el campo </string>
+		<key>ERASE</key>
+		<string>Borrar</string>
+		<key>ERROR_ADDING_FLIGHT</key>
+		<string>Error al añadir el vuelo</string>
+		<key>ERROR_ENTRY</key>
+		<string>Error en los detalles ingresados</string>
+		<key>ERROR_LABEL</key>
+		<string>Error</string>
+		<key>EXAMPLE</key>
+		<string>Ej.</string>
+		<key>FAILURE</key>
+		<string>Falla</string>
+		<key>FAILURE_MESSAGE</key>
+		<string>No hay aplicaciones disponibles para realizar esta acción</string>
+		<key>FAILURE_SEAT_RECOVERED_IN_FLIGHT</key>
+		<string>Falla de Asientos Recuperadas en Vuelo</string>
+		<key>FAILURE_SEATS_RECOVERED_IN_FLIGHT</key>
+		<string>Failure Seats Recovered in Flight</string>
+		<key>FAULT_TYPE</key>
+		<string>Tipo de Falla</string>
+		<key>FAULTY_SEAT_RECOVERED_IN_FLIGHT</key>
+		<string>Falla en Asientos Recuperadas en Vuelo</string>
+		<key>FAVOURITES</key>
+		<string>Favoritos</string>
+		<key>FD_BRIEFING_END</key>
+		<string>Fin Briefing</string>
+		<key>FD_BRIEFING_START</key>
+		<string>Inicio Briefing</string>
+		<key>FD_CREW_BOARDING</key>
+		<string>Embarque Tripulación</string>
+		<key>FD_GATE</key>
+		<string>Gate</string>
+		<key>FD_MEALS_CENTRALIZED</key>
+		<string>Centralizado</string>
+		<key>FD_MEALS_ORIGIN</key>
+		<string>Origen</string>
+		<key>FD_NO_PUBLICATIONS</key>
+		<string>No hay publicaciones para mostrar</string>
+		<key>FD_PASS_BOARDING</key>
+		<string>Embarque Pasajeros</string>
+		<key>FD_PUBLICATIONS_HEADER</key>
+		<string>Publicaciones</string>
+		<key>FINAL_SYSTEM_STATUS</key>
+		<string>Estado Final del Sistema</string>
+		<key>FIRMA_OBSERVADOR_MISSING</key>
+		<string>Por favor ingresar la firma del observador</string>
+		<key>FIRMA_TC_MISSING</key>
+		<string>Por favor ingresar la firma del TC</string>
+		<key>FIRST</key>
+		<string>FIRST</string>
+		<key>FIRST_NAME</key>
+		<string>Nombre</string>
+		<key>FIRST_REPORT</key>
+		<string>Reporte First</string>
+		<key>FLIGHT_ADDED</key>
+		<string>El vuelo ha sido creado correctamente</string>
+		<key>FLIGHT_DATE</key>
+		<string>Fecha de vuelo</string>
+		<key>FLIGHT_DELETE</key>
+		<string>Supresión de vuelo</string>
+		<key>FLIGHT_DETAILS_MEALS</key>
+		<string>Servicios</string>
+		<key>FLIGHT_EXISTS</key>
+		<string>El vuelo ingresado ya existe</string>
+		<key>FLIGHT_EXISTS_MODIFY</key>
+		<string>El vuelo ingresado ya existe. </string>
+		<key>FLIGHT_JSB_CONFIRMATION</key>
+		<string>Al realizar esta acción, ya no podrá generar ningún reporte para este vuelo. Esta acción no se puede deshacer. ¿Desea continuar?</string>
+		<key>FLIGHT_MANUALLY_ADDED</key>
+		<string>Vuelo Manual</string>
+		<key>FLIGHT_MODIFY</key>
+		<string>El vuelo se ha modificado existosamente</string>
+		<key>FLIGHT_NOTHING_TO_UPDATE</key>
+		<string>Este vuelo ya está actualizado</string>
+		<key>FLIGHT_NUM</key>
+		<string>Número de Vuelo</string>
+		<key>FLIGHT_NUMBER</key>
+		<string>Número de vuelo</string>
+		<key>FLIGHT_REPORT</key>
+		<string>Informe de Vuelo</string>
+		<key>FLIGHT_TYPE</key>
+		<string>Tipo de vuelo</string>
+		<key>FLIGHT_UPDATE_FAILED</key>
+		<string>No se pudo actualizar el vuelo</string>
+		<key>FR_TITLE</key>
+		<string>Observaciones Foto</string>
+		<key>FVC_NOT_JSB</key>
+		<string>No volado como JSB</string>
+		<key>FVC_UPDATE_DATA</key>
+		<string>Actualizar datos</string>
+		<key>FVC_UPDATED_AT</key>
+		<string>a las</string>
+		<key>FVC_UPDATED_ON</key>
+		<string>Actualizado el</string>
+		<key>GAD</key>
+		<string>GAD</string>
+		<key>GAD_CANT_SEND</key>
+		<string>GAD no disponible</string>
+		<key>GAD_DISABLE_ALERT</key>
+		<string>Opción no disponible</string>
+		<key>GAD_FEEDBACK_SUBTITLE</key>
+		<string>Guía de acompañamiento y desarrollo para  tripulantes de cabina</string>
+		<key>GAD_FORM_TITLE</key>
+		<string>Guía de Acompañamiento y Desarrollo (GAD)</string>
+		<key>GAD_REPORT_SUBMITTED</key>
+		<string>La GAD para el tripulante seleccionado ya fue enviada.</string>
+		<key>GAD_SENT_MSG</key>
+		<string>La GAD para el tripulante seleccionado ya fue enviada.</string>
+		<key>GALLEY</key>
+		<string>Galley</string>
+		<key>GEN_ADD_ACCOMP_OCC</key>
+		<string>Pasajeros especiales con acompañante</string>
+		<key>GEN_ADD_ESPACO_OCC</key>
+		<string>Ocurrencias de Espacio</string>
+		<key>GEN_ADD_PASS_SPEC_OCC</key>
+		<string>Información de Pasajeros Special Service</string>
+		<key>GEN_ADD_SPEC_OCC</key>
+		<string>Ocurrencias Special Service</string>
+		<key>GENERAL</key>
+		<string>GENERAL</string>
+		<key>General Information</key>
+		<string>Información General</string>
+		<key>GENERAL_ACCIONES</key>
+		<string>Acciones Realizadas</string>
+		<key>GENERAL_ACCOMP_OCC</key>
+		<string>Ocurrencias de acompañantes</string>
+		<key>GENERAL_ADD_ACTIONS</key>
+		<string>Acciones Realizadas</string>
+		<key>GENERAL_ADD_DES_OCC</key>
+		<string>Ocurrencias de Desembarque</string>
+		<key>GENERAL_ADD_DOC_OCC</key>
+		<string>Documentos enviados</string>
+		<key>GENERAL_ADD_EMBARQUE_OCC</key>
+		<string>Ocurrencias de Embarque</string>
+		<key>GENERAL_ADD_FALTANTES</key>
+		<string>Items faltantes</string>
+		<key>GENERAL_ADD_MEDICAS</key>
+		<string>Ocurrencias Médicas</string>
+		<key>GENERAL_ADD_MISSING_DOC_OCC</key>
+		<string>Documentos faltantes</string>
+		<key>GENERAL_ADD_REASONS</key>
+		<string>Motivo de atraso</string>
+		<key>GENERAL_ADD_TC_OCC</key>
+		<string>TC cumple funciones de cargo superior</string>
+		<key>GENERAL_ADD_VUELO_OCC</key>
+		<string>Ocurrencias en Vuelo</string>
+		<key>GENERAL_ARNES</key>
+		<string>Arnes Solicitados</string>
+		<key>GENERAL_ARNES_OBSERVATIONS</key>
+		<string>Arnes Observations</string>
+		<key>GENERAL_ATRASOS</key>
+		<string>Atrasos / Contingencias</string>
+		<key>GENERAL_BP</key>
+		<string>BP</string>
+		<key>GENERAL_BUSINESS_SUGEGSTIONS</key>
+		<string>Sugerencias Cabina Business</string>
+		<key>GENERAL_CAPITAN</key>
+		<string>Capitán</string>
+		<key>GENERAL_CREW_BASE</key>
+		<string>Base de Tripulación</string>
+		<key>GENERAL_CUMPLE_OCC</key>
+		<string>TC cumple funciones de rango superior</string>
+		<key>GENERAL_DESEMBARQUE</key>
+		<string>Desembarque</string>
+		<key>GENERAL_DESEMBARQUE_OCC</key>
+		<string>Ocurrencias de Desembarque</string>
+		<key>GENERAL_DOCUMENTOS</key>
+		<string>Documentación</string>
+		<key>GENERAL_DOCUMENTOS_OCC</key>
+		<string>Documentos enviados</string>
+		<key>GENERAL_ECONOMY_SUGEGSTIONS</key>
+		<string>Sugerencias Cabina Economy</string>
+		<key>GENERAL_EMBARQUE</key>
+		<string>Embarque</string>
+		<key>GENERAL_EMBARQUE_INFO</key>
+		<string>Información de Embarque</string>
+		<key>GENERAL_EMBARQUE_OCC</key>
+		<string>Ocurrencias de Embarque</string>
+		<key>AGUA_EMBARQUE</key>
+		<string>Agua embr</string>
+		<key>AGUA_DESEMBARQUE</key>
+		<string>Agua desq</string>
+		<key>WASTE_EMBARQUE</key>
+		<string>Waste embr</string>
+		<key>WASTE_DESEMBARQUE</key>
+		<string>Waste desq</string>
+		<key>GENERAL_ENROLLMENT</key>
+		<string>Matrícula</string>
+		<key>GENERAL_ESPECO_OCC</key>
+		<string>Ocurrencias de Espacio</string>
+		<key>GENERAL_FIRST_SUGEGSTIONS</key>
+		<string>Sugerencias y Comentarios Cabina First</string>
+		<key>GENERAL_FLIGHT_DATA</key>
+		<string>Datos del Vuelo</string>
+		<key>GENERAL_HORA_MINIMA</key>
+		<string>Hora Emb. TC Mínima</string>
+		<key>GENERAL_HORA_PUERTAS</key>
+		<string>Hora Cierre Puertas</string>
+		<key>GENERAL_HUBRO</key>
+		<string>¿Hubo atraso en la salida del vuelo?</string>
+		<key>GENERAL_ITEMS_FALTANTES</key>
+		<string>Items faltantes</string>
+		<key>GENERAL_JEFE_DE_SERVICIO</key>
+		<string>Jefe de Servicio a Bordo</string>
+		<key>GENERAL_MANGA</key>
+		<string>Manga</string>
+		<key>GENERAL_MATERIAL</key>
+		<string>Material</string>
+		<key>GENERAL_MONTO_DE_VENTA</key>
+		<string>Monto de Venta (USD)</string>
+		<key>GENERAL_MOTIVO</key>
+		<string>Motivo del atraso</string>
+		<key>GENERAL_NAME</key>
+		<string>Nombres</string>
+		<key>GENERAL_OBSERVATIONS</key>
+		<string>Comments</string>
+		<key>GENERAL_PRE_ECONOMY_SUGEGSTIONS</key>
+		<string>Sugerencias Cabina Business</string>
+		<key>GENERAL_REMOTO</key>
+		<string>Remoto</string>
+		<key>GENERAL_REPORT</key>
+		<string>Reporte General</string>
+		<key>GENERAL_SELECT</key>
+		<string>0</string>
+		<key>GENERAL_SIN_VENTAS</key>
+		<string>Sin Venta Duty Free</string>
+		<key>GENERAL_SOLICITUD_ARNES</key>
+		<string>Solicitud de Arnés</string>
+		<key>GENERAL_SOLICITUD_ARNES@TAM</key>
+		<string>Solicitud de Arnés</string>
+		<key>GENERAL_SOLICITUD_WCH</key>
+		<string>Solicitud de WCH</string>
+		<key>GENERAL_SPECIAL_OCC</key>
+		<string>Ocurrencias Special Service</string>
+		<key>GENERAL_SPECIAL_PASS_OCC</key>
+		<string>Ocurrencias de pasajeros especiales</string>
+		<key>GENERAL_SURNAME</key>
+		<string>Apellidos</string>
+		<key>GENERAL_TIEMPO</key>
+		<string>Tiempo De Atraso</string>
+		<key>GENERAL_TIPO_DESEMBARQUE</key>
+		<string>Tipo de Desembarque</string>
+		<key>GENERAL_TIPO_EMBARQUE</key>
+		<string>Tipo de Embarque</string>
+		<key>GENERAL_TRAMO_EJECUTADO</key>
+		<string>Tramo Ejecutado</string>
+		<key>GENERAL_VENTAS</key>
+		<string>Ventas</string>
+		<key>GENERAL_VENTAS_DUTYFREE</key>
+		<string>¿Se realizaron ventas Duty Free?</string>
+		<key>GENERAL_VUELO</key>
+		<string>Vuelo</string>
+		<key>GENERAL_VUELO_OCC</key>
+		<string>Ocurrencias en Vuelo</string>
+		<key>GENERAL_VUELO_SUGEGSTIONS</key>
+		<string>Comentarios Generales del Vuelo</string>
+		<key>GENERAL_WCH</key>
+		<string>WCH Solicitadas</string>
+		<key>GENERAL_WCH_OBSERVATIONS</key>
+		<string>WCH Observations</string>
+		<key>HEADING_FLIGHTLIST</key>
+		<string>heading_es</string>
+		<key>HI</key>
+		<string>Hola</string>
+		<key>IFE</key>
+		<string>IFE</string>
+		<key>IMPECCABILITY_OF_CAB</key>
+		<string>Impecabilidad de Cabina</string>
+		<key>INFORMATION_MESSAGE</key>
+		<string>Información</string>
+		<key>INFORMATION_CONTEXT</key>
+		<string>No hay conexión a la red, por favor verifique su conectividad e intente nuevamente</string>
+		<key>INCORRECT_DOCUMENT_TYPE</key>
+		<string>Por favor ingrese el número de documento en el siguiente formato</string>
+		<key>INFORMATION_AGREE</key>
+		<string>Aceptar</string>
+		<key>INFORMATION_CANCEL</key>
+		<string>Cancelar</string>
+		<key>INFORMATION_QUESTION</key>
+		<string>Desea Verificar el envío de este reporte?</string>
+		<key>INFORMATION_LOADING</key>
+		<string>Se esta procesando el reporte..</string>
+		<key>INDICAR_NUMERO</key>
+		<string>Indique número de asiento</string>
+		<key>INFORMATION_NO</key>
+		<string>No</string>
+		<key>INFORMATION_YES</key>
+		<string>Si</string>
+		<key>INDIVIDUAL_FAILURE _IFE</key>
+		<string>Falla individual de IFE</string>
+		<key>INDIVIDUAL_FAILURES</key>
+		<string>Fracasos Individuales</string>
+		<key>INFORMATIVE</key>
+		<string>Informativo</string>
+		<key>INITIAL_STATE_OF_THE_SYSTEM</key>
+		<string>Estado inicial del sistema</string>
+		<key>INQUE_WARN</key>
+		<string>No se ha encontrado una conexión a Internet. El informe será encolado hasta que encuentre una conexión.</string>
+		<key>INVALID_FLIGHT</key>
+		<string>El vuelo ingresado no es válido</string>
+		<key>INVALID_SEAT</key>
+		<string>El asiento seleccionado no existe para este vuelo, por favor ingrese un asiento válido.</string>
+		<key>Kms Lanpass</key>
+		<string>Kms. Lanpass</string>
+		<key>LANGUAGE</key>
+		<string>Idioma</string>
+		<key>LANPASS</key>
+		<string>Lanpass</string>
+		<key>LAST_LEG_DEL</key>
+		<string>Al borrar todos los tramos y guardar los cambios, el vuelo se eliminará.</string>
+		<key>LAST_NAME</key>
+		<string>Apellido Paterno</string>
+		<key>LAST_NAME_TAM</key>
+		<string>Apellido</string>
+		<key>LAST_SYNC</key>
+		<string>Ultima actualización</string>
+		<key>LEG_INFO</key>
+		<string>Información del tramo</string>
+		<key>LEGINFORMATION</key>
+		<string>Información de Tramos</string>
+		<key>LICENSE_NUMBER</key>
+		<string>N° Licencia</string>
+		<key>LOGIN_ACTIVITY</key>
+		<string>Ingresando...</string>
+		<key>LOGIN_PLEASE</key>
+		<string>introduzca sus credenciales</string>
+		<key>LOGIN_WELCOME</key>
+		<string>Bienvenido,</string>
+		<key>LOLYALTY_CARD</key>
+		<string>Tarjeta de Fidelidade (en caso que exista)</string>
+		<key>MAN_BACK_BTN</key>
+		<string>&lt; atrás</string>
+		<key>MAN_FILE_TOO_BIG</key>
+		<string>Este archivo es muy grande. Por favor abrir con un visualizador externo</string>
+		<key>MAN_FILE_NOT_READY</key>
+		<string>El archivo no está disponible en estos momentos</string>
+		<key>MAN_MAN_NAME</key>
+		<string>Manual de</string>
+		<key>MAN_UPDATED_AT</key>
+		<string>Lista de manuales actualizada el</string>
+		<key>MANUAL</key>
+		<string>Manuales</string>
+		<key>MANUAL_ENTRY</key>
+		<string>Ingreso Manual</string>
+		<key>MANUAL_FLIGHT_NO_DATA</key>
+		<string>No hay datos para el vuelo ingresado</string>
+		<key>MANUAL_LAST_SYNC</key>
+		<string>Actualizado el</string>
+		<key>MASSIVE_FAILURES</key>
+		<string>Fallas Masivas</string>
+		<key>MENU_LABEL</key>
+		<string>Menú</string>
+		<key>MESSAGE</key>
+		<string>Mensaje</string>
+		<key>MF_ADD_BTN</key>
+		<string>Guardar</string>
+		<key>MF_ADD_LEG</key>
+		<string>Añadir tramo</string>
+		<key>MF_ADD_TITLE</key>
+		<string>Añadir Vuelo Manual</string>
+		<key>MF_DATE</key>
+		<string>Fecha Programada de Salida</string>
+		<key>MF_FLIGHT_NUMBER</key>
+		<string>Número de Vuelo</string>
+		<key>MF_GET_DATA</key>
+		<string>Obtener Datos</string>
+		<key>MF_LEG_INFO</key>
+		<string>Información de Tramos</string>
+		<key>MF_LICENSE</key>
+		<string>Matrícula</string>
+		<key>MF_MATERIAL</key>
+		<string>Material</string>
+		<key>MF_PREFIX</key>
+		<string>Prefijo</string>
+		<key>MISSING_MANDAROTY_ITEMS</key>
+		<string>Elementos Obligatorios Faltantes</string>
+		<key>NEW</key>
+		<string>NEW</string>
+		<key>NEXT_FLIGHT</key>
+		<string>Próximo Vuelo</string>
+		<key>NO</key>
+		<string>NO</string>
+		<key>NO_FLIGHT_ROSTER</key>
+		<string>No se encontraron vuelos para el periodo. Agrega un vuelo manualmente</string>
+		<key>NO_GAD_DATA</key>
+		<string>Sin datos de tripulantes</string>
+		<key>NO_GAD_DATA_ADDED</key>
+		<string>Por favor ingrese un tripulante de vuelo</string>
+		<key>NO_IMAGE_TODELETE</key>
+		<string>No hay ninguna imagen para Eliminar</string>
+		<key>NO_PASSENGER_DATA</key>
+		<string>Sin datos de pasajeros</string>
+		<key>NO_PASSENGER_DATA_ADDED</key>
+		<string>Sin datos de pasajeros. Por favor ingrese un nuevo pasajero</string>
+		<key>NO_REPORTS</key>
+		<string>- SIN INFORMES REALIZADOS PARA ESTA CLASE -</string>
+		<key>NOT_ADD_FlIGHT</key>
+		<string>No es posible añadir vuelo mientras la sincronización está en curso</string>
+		<key>NOT_DELETE_FLIGHT</key>
+		<string>No es posible suprimir vuelo mientras la sincronización está en curso</string>
+		<key>NOT_MODIFY_FLIGHT</key>
+		<string>No es posible modificar vuelo mientras la sincronización está en curso</string>
+		<key>NOT_VALID_FLIGHT</key>
+		<string>No se puede agregar el vuelo. Vuelo no es válido.</string>
+		<key>NUMBER_OF_RESETS</key>
+		<string>Resets</string>
+		<key>Numero FFp</key>
+		<string>Numero FFP</string>
+		<key>OBSERVATION</key>
+		<string>Observaciones</string>
+		<key>OCCUPIED_BY_PASSENGER</key>
+		<string>está ocupado por el pasajero </string>
+		<key>OCCURRENCE</key>
+		<string>ocurrence</string>
+		<key>OCCURRENCE_TAM</key>
+		<string>Reporte</string>
+		<key>OK</key>
+		<string>OK</string>
+		<key>ON_BOARD_MEDICAL_ATTENTION</key>
+		<string>Atención Médica a Bordo</string>
+		<key>ON_BOARD_MEDICAL_ATTENTION_TAM</key>
+		<string>Médico realizó atención a bordo</string>
+		<key>OPEN_WITH</key>
+		<string>abrir con</string>
+		<key>OPTION</key>
+		<string>Opción</string>
+		<key>ORIGIN</key>
+		<string>Origen</string>
+		<key>OTHER</key>
+		<string>Otro</string>
+		<key>Overview</key>
+		<string>Generalidades</string>
+		<key>PAGE</key>
+		<string>página</string>
+		<key>PASSENGER_INFORMATION</key>
+		<string>Datos del pasajero</string>
+		<key>PASSENGER_INFORMATION_TAM</key>
+		<string>Datos del Pasajero</string>
+		<key>PASSENGER_MAKES_CLAIM</key>
+		<string>Pasajero Reclama</string>
+		<key>PASSENGER_MAKES_CLAIM_TAM</key>
+		<string>¿El pasajero realizó reclamo durante el vuelo?</string>
+		<key>PASSWORD_30CHAR</key>
+		<string>La contraseña no puede tener más de 30 caracteres</string>
+		<key>PHONE_NUMBER</key>
+		<string>Teléfono</string>
+		<key>PHOTO</key>
+		<string>Fotos Adjuntas</string>
+		<key>PLS_WAIT</key>
+		<string>Por favor espere</string>
+		<key>POP_DESCRIPTION_GAD1</key>
+		<string>El desempeño de la persona supera ampliamente lo que se espera para su cargo en la competencia evaluada. Este nivel representa un desempeño difícilmente igualado por otras personas en similar posición, función y responsabilidad.</string>
+		<key>POP_DESCRIPTION_GAD2</key>
+		<string>La persona obtiene logros destacados. En esta competencia la persona realiza una muy buena labor que en general supera las expectativas para su cargo y área.</string>
+		<key>POP_DESCRIPTION_GAD3</key>
+		<string>El desempeño cumple con lo que se espera en la competencia evaluada. Este nivel debe ser aplicado a aquellos cuyo desempeño satisface las exigencias principales del puesto, obteniendo los resultados esperados.</string>
+		<key>POP_DESCRIPTION_GAD4</key>
+		<string>El desempeño cumple con sólo algunos de los aspectos en la competencia evaluada. Puede que en ocasiones necesite apoyo o que su rendimiento no sea constante</string>
+		<key>POP_DESCRIPTION_GAD5</key>
+		<string>El desempeño de la persona no cumple con los requisitos mínimos en la competencia evaluada. Existen debilidades que limitan el desempeño y es importante que sean corregidas.</string>
+		<key>POP_DESCRIPTION_GAD6</key>
+		<string>No observado</string>
+		<key>POP_TITLE_GAD</key>
+		<string>Escala y Criterios de Observación</string>
+		<key>POP_TITLE_GAD1</key>
+		<string>Excepcional</string>
+		<key>POP_TITLE_GAD2</key>
+		<string>Sobre lo esperado</string>
+		<key>POP_TITLE_GAD3</key>
+		<string>Esperado</string>
+		<key>POP_TITLE_GAD4</key>
+		<string>Próximo a lo Esperado</string>
+		<key>POP_TITLE_GAD5</key>
+		<string>Bajo lo Esperado</string>
+		<key>POP_TITLE_GAD6</key>
+		<string>NO</string>
+		<key>PREMIUM ECONOMY</key>
+		<string>PREMIUM ECONOMY</string>
+		<key>PREMIUM ECONOMY_REPORT</key>
+		<string>Reporte Premium Economy</string>
+		<key>Quality Service CAT</key>
+		<string>Calidad Servicio CAT</string>
+		<key>QUALITY_CATERING </key>
+		<string>Qualidade Catering</string>
+		<key>QUALITY_CATERING_SERVICE</key>
+		<string>Calidad de Servicio Catering</string>
+		<key>QUALITY_OF_SERVICE</key>
+		<string>Calidad de Servicio</string>
+		<key>QUALITY_SERVICE_CAT</key>
+		<string>Calidad Servicio CAT</string>
+		<key>QUANT_ACCOMP</key>
+		<string>Cantidad de acompañante</string>
+		<key>QUANT_ACCOMPANY</key>
+		<string>Accompanied Quant</string>
+		<key>QUEUE_LABEL</key>
+		<string>En cola</string>
+		<key>Rank</key>
+		<string>Rank</string>
+		<key>REASON</key>
+		<string>Motivo</string>
+		<key>REASON_FOR_REPORT</key>
+		<string>Motivo del reporte</string>
+		<key>RECEIVED_LABEL</key>
+		<string>Recibido</string>
+		<key>REPORT</key>
+		<string>Reporte</string>
+		<key>WSTBRQ</key>
+		<string>AguaBordo</string>
+		<key>TITULO_WSTBRQ</key>
+		<string>Agua a Bordo</string>
+		<key>TITULO_WST_BRQ</key>
+		<string>Agua Embarque</string>
+		<key>TITULO_WST_DRQ</key>
+		<string>Agua Desembarque</string>
+		<key>WSTDRQ</key>
+		<string>AguaBordo</string>
+		<key>WTRBRQ</key>
+		<string>Waste</string>
+		<key>TITULO_WTRBRQ</key>
+		<string>Residuos</string>
+		<key>TITULO_WTR_BRQ</key>
+		<string>Residuos Embarque</string>
+		<key>TITULO_WTR_DRQ</key>
+		<string>Residuos Desembarque</string>
+		<key>WTRDRQ</key>
+		<string>Waste</string>
+		<key>Report CUS</key>
+		<string>Reporte CUS</string>
+		<key>REPORT@TAM</key>
+		<string>Ocurrencias</string>
+		<key>REPORT_CUS_LAN</key>
+		<string>Reporte CUS</string>
+		<key>REPORT_CUS_TAM</key>
+		<string>Fale Com A Gente</string>
+		<key>REPORT_DETAILS</key>
+		<string>Detalle</string>
+		<key>REPORT_DETAILS_TAM</key>
+		<string>Detalles del reporte</string>
+		<key>REPORT_TAM</key>
+		<string>Reporte</string>
+		<key>REQUIRED_FIELD_IS_EMPTY</key>
+		<string>Se encontraron campos obligatorios vacíos</string>
+		<key>RESEND</key>
+		<string>  REENVIAR</string>
+		<key>RESEND_ALERT</key>
+		<string>Reenviar</string>
+		<key>RESEND_REPORT</key>
+		<string>Reenviar informe</string>
+		<key>RM_INFO_FROM</key>
+		<string>Desde</string>
+		<key>RM_INFO_TO</key>
+		<string>hasta</string>
+		<key>SAMPLE_DOCUMENT_TYPE</key>
+		<string>Valor no válido para el tipo de documento selecionado</string>
+		<key>SAVE_FAILED</key>
+		<string>Error al guardar</string>
+		<key>SAVE_LABEL</key>
+		<string>Guardar</string>
+		<key>SEARCH_FLIGHT</key>
+		<string>Buscar Vuelo</string>
+		<key>SEARCH_TEXT</key>
+		<string>texto de búsqueda</string>
+		<key>SEARCHING</key>
+		<string>búsqueda</string>
+		<key>SEAT</key>
+		<string>El asiento</string>
+		<key>SEAT_LETTER</key>
+		<string>Letra</string>
+		<key>SEAT_LETTER_TAM</key>
+		<string>Letra</string>
+		<key>SEAT_MAINTENANCE</key>
+		<string>Mantenimiento de asientos</string>
+		<key>SEAT_NUMBER</key>
+		<string>Asiento</string>
+		<key>SEAT_ROW</key>
+		<string>Asientos-Fila</string>
+		<key>SEAT_ROW_TAM</key>
+		<string>Asientos-Fila</string>
+		<key>SEATING</key>
+		<string>Asientos</string>
+		<key>SEATLETTER</key>
+		<string>Letra</string>
+		<key>SEATROW</key>
+		<string>Asiento-Fila</string>
+		<key>SEATS_ADD_CUS</key>
+		<string>Agregar pasajero para añadir Reporte CUS</string>
+		<key>SECOND_LAST_NAME</key>
+		<string>Apellido Materno</string>
+		<key>SELECIONAR_OPCOES@TAM</key>
+		<string>Seleccionar Opción</string>
+		<key>SELECT</key>
+		<string>Seleccionar</string>
+		<key>SELECT_FLIGHT</key>
+		<string>Selecciona tu vuelo</string>
+		<key>SELECT_FLIGHTTYPE</key>
+		<string>Por favor seleccionar el tipo de vuelo</string>
+		<key>SELECT_LEG</key>
+		<string>Seleccionar Tramo</string>
+		<key>SELECT_REASON</key>
+		<string>Selecciona la razón</string>
+		<key>SELECT_SEAT</key>
+		<string>Asiento</string>
+		<key>SELECT_STATE</key>
+		<string>Seleccionar Estado</string>
+		<key>SELECTED_FILE_MESSAGE</key>
+		<string>La aplicación no puede desplegar este manual. Por favor usar la opción para abrir en otra aplicación.</string>
+		<key>SELECTED_MESSAGE</key>
+		<string>No hay Manuales seleccionados</string>
+		<key>SEND</key>
+		<string>     ENVIAR</string>
+		<key>SEND_REPORT</key>
+		<string>Enviar informe</string>
+		<key>SEND_REPORT_OFFLINE_MSG</key>
+		<string>No se ha encontrado una conexión a Internet. Tu reporte ha sido guardado y será enviado cuando tu equipo encuentre una conexión disponible.</string>
+		<key>SEND_VIEWSUMMARY</key>
+		<string>Enviar</string>
+		<key>SERVICE</key>
+		<string>Servicio</string>
+		<key>SIGNATURE_ACCEPT</key>
+		<string>Aceptar</string>
+		<key>SIGNATURE_CLOSE</key>
+		<string>Cerrar</string>
+		<key>SIGNATURE_CSB</key>
+		<string>Firma CSB</string>
+		<key>SIGNATURE_ERASE</key>
+		<string>Borrar</string>
+		<key>SIGNATURE_MISSING</key>
+		<string>Debe ingresar ambas firmas</string>
+		<key>SIGNATURE_OBSERVER</key>
+		<string>Firma Observador</string>
+		<key>SIGNATURE_TC</key>
+		<string>Firma TC</string>
+		<key>Solicitudes</key>
+		<string>Solicitudes</string>
+		<key>STATUS_DRAFT</key>
+		<string>Borrador</string>
+		<key>STATUS_ERROR</key>
+		<string>Error</string>
+		<key>STATUS_INQUEUE</key>
+		<string>En cola</string>
+		<key>STATUS_NO_INFO</key>
+		<string>No existen reportes generados para ningún vuelo de la lista</string>
+		<key>STATUS_RECEIVED</key>
+		<string>Recibido</string>
+		<key>STATUS_UPDATED</key>
+		<string>Actualizado</string>
+		<key>Subidas de categoria Lanpass</key>
+		<string>Subidas Cat. Lanpass</string>
+		<key>SUBMIT</key>
+		<string>Presentar</string>
+		<key>Suggestions</key>
+		<string>Comentarios y Sugerencias</string>
+		<key>SYNC_FLIGHT_DETAIL</key>
+		<string>Sincronizando datos del vuelo</string>
+		<key>SYNC_FLIGHTS</key>
+		<string>Sincronizando vuelos</string>
+		<key>SYNC_MANUAL</key>
+		<string>Sincronizando Manuales</string>
+		<key>SYNCH_ON</key>
+		<string>No fue posible obtener la información. Por favor intente nuevamente al finalizar la sincronización.</string>
+		<key>SYNCHRONIZED</key>
+		<string>Actualizar</string>
+		<key>TAB_CREW</key>
+		<string>Tripulación</string>
+		<key>TAB_FLIGHT</key>
+		<string>Vuelo</string>
+		<key>TAB_REPORT</key>
+		<string>Informe de Vuelo</string>
+		<key>TAB_SEAT</key>
+		<string>Mapa de Asientos</string>
+		<key>TABLEVIEW_DELETE</key>
+		<string>Eliminar</string>
+		<key>TAKE_PHOTO</key>
+		<string>Tomar foto</string>
+		<key>TAM_LOYALTY</key>
+		<string>TAM Fidelidade</string>
+		<key>TAMLOYALTY</key>
+		<string>N° TAM Fidelidade</string>
+		<key>TC_BP</key>
+		<string>BP TC</string>
+		<key>TC_NOMBRE</key>
+		<string>Nombre TC</string>
+		<key>TEMPERATURE</key>
+		<string>Temperatura</string>
+		<key>THERE_WERE_MASSIVE_FAILURES_IFE?</key>
+		<string>¿Tuvo fallas masivas en el IFE?</string>
+		<key>TIME_OF_FLIGHT</key>
+		<string>Momento del Vuelo</string>
+		<key>TITLE</key>
+		<string>Gestión Servicio a Bordo LATAM</string>
+		<key>TOILETS</key>
+		<string>Baños</string>
+		<key>USERNAME_30CHAR</key>
+		<string>El nombre de usuario no puede tener más de 30 caracteres</string>
+		<key>VIEW_SUMMARY</key>
+		<string>Ver Resumen</string>
+		<key>WARNING</key>
+		<string>Alerta</string>
+		<key>YES</key>
+		<string>SI</string>
+		<key>QUESTIONS_WBTAM_GAD </key>
+		<dict>
+			<key>Seguridad</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Conoce e ejecuta todas las normas y procedimientos de seguridade, y hace la corrección inmediata del incumplimiento por toda la programación.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Durante el embarque, observa los principales factores (comportamientos, necesidades, y equipajes) que pueden afectar la seguridad del vuelo, actuando de acuerdo con las normas y procedimientos.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Realiza la ronda con atención, evitando situaciones que puedan generar riesgo para la seguridad y actúa rápidamente de ser necesario.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Se comunica de manera clara y contínua con los pasajeros y con los equipos involucrados en la operación durante toda la programación.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Hace uso de los EPIs, utilizándolos correctamente durante todos el turno (desde la presentación hasta el debriefing), velando por su propia seguridad y la de los demás.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Ser considerado</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Se relaciona con los pasajeros de manera cercana, amable y gentil (contcto visual, atención personalizada y tono de voz), durante toda la experiencia de viaje.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Se comunica y se relaciona de forma empatica y amable con los equipos que participan de la operación.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Interactúa de manera empática y amable con los pasajeros PNAEs, top tiers y niños durante todo el vuelo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Se queda atento a las necesidades del cliente, y ofrece soluciones y informaciones en el momento oportuno.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Eficiencia</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Ejecuta de forma consistente las reglas, procedimientos y protocolos de servicio, ajustándolos en caso necesario.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Organiza y lleva a cabo sus actividades mediante su integración con sus compañeros, para promover la excelencia en el servicio a nuestros clientes.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Actúa de manera tranquila y positiva durante contingencias y quierbres de servicio, minimizando el impacto en el cliente.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Se comunica de manera clara, rápida y objetiva, proporcionando información completa para todos los involucrados.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+		</dict>
+		<key>QUESTIONS_WBLAN_GAD</key>
+		<dict>
+			<key>Manejo de Presión, Cambio y Contingencia</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Mantiene su nivel de efectividad y cumplimiento de procedimientos, transmitiendo calma y control de la situación.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string> Al identificar situaciones de crisis o contingencia, reacciona con rapidez, escala información relevante y muestra actitud positiva y calma.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Impacto en el Cliente</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string> Cumple rigurosa y amablemente normas, tiempo y procedimientos de servicio, garantizando la experiencia de viaje de nuestros clientes y haciéndose cargo de la cadena de servicio.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Se conecta con clientes internos y externos, mostrando un trato amable, cercano y positivo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Orientación a Resultados</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Cumple con las normas que regulan su cargo (imagen personal, uniformidad, tiempos y documentación necesaria).</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Planifica y organiza su trabajo según instrucciones de JSB.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Comunicación</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Entrega información de manera amable, clara y oportuna en todo momento, mostrando consistencia en la comunicación verbal y no verbal.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Escucha activamente a JSB/TM, compañeros de trabajo, paxs y otras áreas, verificando su entendimiento.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Trabajo en Equipo y Colaboración</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Colabora activamente con JSB/TM, compañeros de trabajo y otras áreas, respetando la diversidad del entorno y generando un ambiente positivo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string> Es flexible a cambiar de opinión y abierto a la crítica, resolviendo conflictos de manera constructiva.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Seguridad</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Prioriza la seguridad e informa acciones o situaciones que ponen en riesgo la seguridad de la compañía.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Cumple rigurosa y amablemente normas, tiempos y procedimientos de seguridad, mostrando atención a su propia seguridad y a la de sus clientes y pares.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Resolución de Problemas y Mejora Continua</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Previene y/o resuelve problemas que pudiesen ocurrir, manteniendo informado a su jefatura en todo momento.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Se mantiene actualizado en las herramientas y conocimientos que requiere su cargo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+		</dict>
+		<key>QUESTIONS_NBLAN_GAD</key>
+		<dict>
+			<key>Manejo de Presión, Cambio y Contingencia</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Mantiene su nivel de efectividad y cumplimiento de procedimientos, transmitiendo calma y control de la situación.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Impacto en el Cliente</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Cumple rigurosa y amablemente normas, tiempo y procedimientos de servicio; garantizando la experiencia de viaje de nuestros clientes y haciéndose cargo de la cadena de servicio.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Se conecta con clientes internos y externos, mostrando un trato amable, cercano y positivo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Orientación a Resultados</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Cumple con las normas que regulan su cargo (imagen personal, uniformidad, tiempos y documentación necesaria).</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Comunicación</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string> Entrega información amable, clara y oportuna en todo momento, mostrando consistencia en la comunicación verbal y no verbal.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Trabajo en Equipo y Colaboración</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Colabora activamente con JSB y pares, respetando la diversidad del entorno y generando un ambiente positivo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Seguridad</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Prioriza la seguridad e informa acciones o situaciones que ponen en riesgo la seguridad de la compañía.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Resolución de Problemas y Mejora Continua</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Previene y/o resuelve problemas que pudiesen ocurrir, manteniendo informado a su jefatura en todo momento.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+	<key>PORTUGUESE</key>
+	<dict>
+		<key>RELOAD_FLIGHT_ALERT</key>
+		<string>Isto apresenta problemas ao carregar os dados de voo. Atualize voo</string>
+		<key>LEG_TEXT</key>
+		<string>ETAPA</string>
+		<key>FLIGHT_DATA_TITLE</key>
+		<string>DADOS DO VOO</string>
+		<key>SEATMAP_NOT_LOADED</key>
+		<string>Não carrega seat map</string>
+		<key>ACCEPT</key>
+		<string>Aceitar</string>
+		<key>Acompanantes</key>
+		<string>Acompanhantes</string>
+		<key>ACTION</key>
+		<string>Ações</string>
+		<key>ACTION_TAKEN_ON_BOARD</key>
+		<string>Ações realizadas a bordo</string>
+		<key>ACTION_TAKEN_ON_BOARD_TAM</key>
+		<string>Ações realizadas a bordo</string>
+		<key>ACTIONS</key>
+		<string>Ações</string>
+		<key>ACTIONS@TAM</key>
+		<string>Selecionar Ações</string>
+		<key>ADD_ASSOCIATED_PASSENGER</key>
+		<string>Adicionar um passageiro</string>
+		<key>Add_CREW_MEMBER</key>
+		<string>Adicionar tripulante do voo</string>
+		<key>ADD_CUS_CUSTOMER</key>
+		<string>Adicionar passageiro</string>
+		<key>ADD_CUS_Title</key>
+		<string>Adicionar novo passageiro</string>
+		<key>ADD_FLIGHT</key>
+		<string>Adicionar voo</string>
+		<key>ADD_LEG</key>
+		<string>Adicionar etapa</string>
+		<key>ADD_NEW_GAD</key>
+		<string>Adicionar um tripulante</string>
+		<key>ADD_PASSENGER</key>
+		<string>Adicionar um passageiro</string>
+		<key>ADD_PASSENGER_TITLE</key>
+		<string>Passageiros adicionais</string>
+		<key>ADD_PASSENGER_TITLE_TAM</key>
+		<string>Passageiros adicionais</string>
+		<key>ADDING_FLIGHT</key>
+		<string>Adicionando voo</string>
+		<key>ADDRESS</key>
+		<string>Endereço</string>
+		<key>ADDRESSTAM</key>
+		<string>Endereço com CEP</string>
+		<key>AIRPORT</key>
+		<string>Aeroporto</string>
+		<key>Airport</key>
+		<string>Aeroporto</string>
+		<key>AIRPORT_ASSIGNSEAT</key>
+		<string>Marcação de Assentos</string>
+		<key>AIRPORT_BAGGAGE</key>
+		<string>Bagagem de Mão</string>
+		<key>AIRPORT_DUPLICATESEAT</key>
+		<string>Assentos duplicados (verificar cartão de embarque)</string>
+		<key>AIRPORT_FULLNAME</key>
+		<string>Nome completo dos passageiros</string>
+		<key>AIRPORT_HANDLUGGAGE</key>
+		<string>Bagagem de mão enviada ao porão</string>
+		<key>AIRPORT_MALASSIGNED</key>
+		<string>Falha na marcação de assentos</string>
+		<key>AIRPORT_PROPERTYINFOSEAT</key>
+		<string>Informação de assentos</string>
+		<key>ALERT_3CHAR_ORIGIN_DESTINATION</key>
+		<string>Por favor insira um código de três letras para a origem e o destino</string>
+		<key>ALERT_ACCESSFORBIDDEN</key>
+		<string>O usuário inserido não tem a permissão necessária para ingressar no aplicativo</string>
+		<key>ALERT_ARRIVAL_DEST</key>
+		<string>Por favor, insira uma hora de chegada posterior à hora de partida</string>
+		<key>ALERT_CANNOT_DELETE</key>
+		<string>Pelo menos uma ação é obrigatória</string>
+		<key>ALERT_CANNOTBEEMPTY</key>
+		<string>Por favor insira um nome de usuário</string>
+		<key>ALERT_CUS_EXITSTS</key>
+		<string>O cliente que você digitou já existe</string>
+		<key>ALERT_CUS_SEND</key>
+		<string>Uma vez enviado o relatório, não será possível fazer alterações. A informação apenas poderá ser visualizada em modo de leitura.Tem certeza que deseja enviar o relatório?</string>
+		<key>ALERT_DELETE_CUSTOMER</key>
+		<string>Tem certeza de que deseja excluir o relatório Fale com a Gente do cliente ?</string>
+		<key>ALERT_DELETE_GAD</key>
+		<string>Tem certeza que deseja descartar a GAD?</string>
+		<key>ALERT_DIFF_DAY</key>
+		<string>A data de início do trecho deve ser posterior à data do voo</string>
+		<key>ALERT_EMAIL_VALIDATION</key>
+		<string>O e-mail inserido não é válido</string>
+		<key>ALERT_ENTER_DOCNUMBER</key>
+		<string>Por favor, digite o número do documento</string>
+		<key>ALERT_ENTER_DOCUMENTNUM</key>
+		<string>Por favor, selecione o tipo de documento </string>
+		<key>ALERT_ENTER_FIRSTNAME</key>
+		<string>Por favor, digite o primeiro nome </string>
+		<key>ALERT_ENTER_LASTNAME</key>
+		<string>Por favor, digite o sobrenome </string>
+		<key>ALERT_FILL</key>
+		<string>Por favor, preencha todos os campos</string>
+		<key>ALERT_FLIGHTNOTDEPARTED</key>
+		<string>A aeronave ainda não decolou. Tem certeza que deseja enviar o relatório?</string>
+		<key>ALERT_GADSENDREPORT</key>
+		<string>Uma vez enviada a GAD, não será possível modificá-la ou revisar as respostas inseridas.Tem certeza que deseja enviar a GAD?</string>
+		<key>ALERT_INCORRECTPASSWORD</key>
+		<string>Senha incorreta</string>
+		<key>ALERT_INCORRECTUSRPWD</key>
+		<string>Usuário ou senha incorretos</string>
+		<key>ALERT_LOGINFAILED</key>
+		<string>Falha no login</string>
+		<key>ALERT_DATAFAILED</key>
+		<string>Foi encontrado um erro de entrada. Por favor tente novamente.</string>
+		<key>ALERT_DATAFAILED_MSG</key>
+		<string>Verifique a sua conectividade com a Internet e tente novamente, ou desactivar as redes sem fio para trabalhar offline</string>
+		<key>ALERT_LOGOUT_MSG</key>
+		<string>Você tem certeza que deseja sair?</string>
+		<key>ALERT_MANDATORY_FIELDS</key>
+		<string>Por favor, complete os campos obrigatórios</string>
+		<key>ALERT_MATRICULA</key>
+		<string>Por favor, insira a Chapa no formato correto (XX-YYYy)</string>
+		<key>ALERT_MAX_PHOTOS</key>
+		<string>É possível anexar até 05 fotos</string>
+		<key>ALERT_MSG</key>
+		<string>Alerta</string>
+		<key>ALERT_MSG_NO_INTERNET</key>
+		<string>Internet indisponível</string>
+		<key>ALERT_NO_NEXTFLY</key>
+		<string>Não há mais voos em sua lista</string>
+		<key>ALERT_NO_NEXTFLY_7</key>
+		<string>Não há voos programados para os próximos 3 dias</string>
+		<key>ALERT_OK</key>
+		<string>OK</string>
+		<key>ALERT_ONE_LEG_ALEAST</key>
+		<string>Insira no mínimo um trecho para o voo</string>
+		<key>ALERT_RELATED_PASSENGES_LIMIT</key>
+		<string>A quantidade de passageiros excede o limite</string>
+		<key>ALERT_RESEND</key>
+		<string>Você deseja enviar o relatório novamente?</string>
+		<key>ALERT_SAVEFAILED_PHOTOS</key>
+		<string>Falha ao salvar a imagem</string>
+		<key>ALERT_SEND</key>
+		<string>Enviar</string>
+		<key>ALERT_SENDERRORREPORT</key>
+		<string>Foi identificado que o voo inserido manualmente não é válido. Por favor, corrija os dados do voo e envie os Informes novamente.</string>
+		<key>ALERT_SENDREPORT</key>
+		<string>Uma vez enviado o Informe de Voo, não será possível fazer alterações. A informação apenas poderá ser visualizada em modo de leitura.Tem certeza que deseja enviar o Informe de Voo?</string>
+		<key>ALERT_UNABLE_ADDFLIGHT</key>
+		<string>Não foi possível adicionar um Voo. Por favor, tente novamente.</string>
+		<key>ALERT_UNABLETOAUTHENTICATE</key>
+		<string>Não foi possível autenticar o usuário no servidor. Verifique sua conexão ou desative as redes sem fio.</string>
+		<key>ALERT_UNABLETOCONNECT</key>
+		<string>Não foi possível carregar a informação. Verifique sua conexão e tente novamente.</string>
+		<key>ALERT_VALID_DOCUMENT_NUMBER</key>
+		<string>Insira um número de documento válido. </string>
+		<key>ALERT_VALIDATIONERROR</key>
+		<string>Erro de validação</string>
+		<key>ALL</key>
+		<string>Tudo</string>
+		<key>ALL_MANDATE</key>
+		<string>Todos os campos deste formulário são de preenchimento obrigatório.</string>
+		<key>AMOUNT</key>
+		<string>Quantidade</string>
+		<key>ANY_OPTIONS</key>
+		<string>Por favor, selecione as opções correspondentes</string>
+		<key>AREA_RESET</key>
+		<string>Reset de área</string>
+		<key>Asientos Desocupados</key>
+		<string>Assentos Disponíveis</string>
+		<key>ASSOCIATED_LEG</key>
+		<string>Etapa adicional</string>
+		<key>ASSOCIATED_LEG_TAM</key>
+		<string>Etapa adicional</string>
+		<key>ASSOCIATED_PASSENGERS</key>
+		<string>Passageiros adicionais</string>
+		<key>ASSOCIATED_PASSENGERS_TAM</key>
+		<string>Passageiros adicionais</string>
+		<key>BACK</key>
+		<string>Voltar</string>
+		<key>BACK_FLIGHTLIST</key>
+		<string>Lista de Voo</string>
+		<key>Boarding</key>
+		<string>Embarque</string>
+		<key>BOOKMARKS</key>
+		<string>Favoritos</string>
+		<key>BP</key>
+		<string>Chapa</string>
+		<key>BUSINESS</key>
+		<string>BUSINESS</string>
+		<key>BUSINESS_REPORT</key>
+		<string>Relatório Business</string>
+		<key>BUSINESSUNIT</key>
+		<string>Negócio*</string>
+		<key>CAB_CONDITIONING</key>
+		<string>Organização de itens de cabine</string>
+		<key>CAB_STATECAB</key>
+		<string>Localização de itens na cabine</string>
+		<key>CABIN</key>
+		<string>Cabine</string>
+		<key>Cabin</key>
+		<string>Cabine</string>
+		<key>CABIN_CREW</key>
+		<string>Tripulação</string>
+		<key>CAMERA</key>
+		<string>Foto</string>
+		<key>CANCEL</key>
+		<string>Cancelar</string>
+		<key>CANT_DOWNLOAD_MANUAL</key>
+		<string>É necessário estar conectado à internet para descarregar este manual.</string>
+		<key>CANT_SEND_CUS</key>
+		<string>Não é possível alterar o status após o envio de relatórios</string>
+		<key>Categoria</key>
+		<string>Categoria</string>
+		<key>CHOOSE_EXISTING</key>
+		<string>Selecione existente</string>
+		<key>CLAIM</key>
+		<string>Reclamação</string>
+		<key>CLOSE</key>
+		<string>Fechar</string>
+		<key>CODIGO_PRODUCTO</key>
+		<string>Código do produto</string>
+		<key>Comidas Especiales</key>
+		<string>Refeições Especiais</string>
+		<key>COMMENTS</key>
+		<string>Comentários</string>
+		<key>COMPANION_GUIDE</key>
+		<string>Guia de Acompanhamento</string>
+		<key>COMPANY_NAME</key>
+		<string>Companhia</string>
+		<key>Conditioning Cab</key>
+		<string>Itens de Cabine</string>
+		<key>CONDITIONING_CAB</key>
+		<string>Organização de itens de cabine</string>
+		<key>Conexiones</key>
+		<string>Conexões</string>
+		<key>CORRECTIVE_ACTION</key>
+		<string>Reset do sistema</string>
+		<key>COUNTRY_OF_RESIDENCE</key>
+		<string>País</string>
+		<key>CPF</key>
+		<string>CPF</string>
+		<key>CREW_ADD_BTN</key>
+		<string>Adicionar novo tripulante</string>
+		<key>CREW_EXIST</key>
+		<string>Já existe um tripulante com esta chapa</string>
+		<key>CREW_EXISTS_ERROR</key>
+		<string>Já existe um tripulante com esta chapa</string>
+		<key>CREW_NA</key>
+		<string>N/D</string>
+		<key>CREW_NOT_AVAILABLE</key>
+		<string>Informações da Tripulação indisponíveis</string>
+		<key>CRM</key>
+		<string>CRM</string>
+		<key>Cumpleanos</key>
+		<string>Aniversário</string>
+		<key>CUS</key>
+		<string>Fale Com A Gente</string>
+		<key>CUS_REPORT</key>
+		<string>Relatório Fale Com A Gente</string>
+		<key>CUS_SEND_ALERT1</key>
+		<string>Deseja enviar o relatório Fale Com A Gente?</string>
+		<key>CUS_SEND_ALERT2</key>
+		<string>Essa ação não pode ser desfeita</string>
+		<key>CUS_TAM</key>
+		<string>FALE COM A GENTE</string>
+		<key>CUS_TITLE</key>
+		<string>Customer Service Report</string>
+		<key>CUS_TITLE_TAM</key>
+		<string>Relatório Fale Com A Gente</string>
+		<key>CUSTOMER_EXISTS</key>
+		<string>O cliente que você digitou não é existe</string>
+		<key>DATE</key>
+		<string>Data</string>
+		<key>DATE_Time</key>
+		<string>Hora</string>
+		<key>DELETE</key>
+		<string>Apagar</string>
+		<key>DELETE_IMAGE</key>
+		<string>Tem certeza que deseja apagar a(s) imagem(ns) selecionadas?</string>
+		<key>DELETE_LEG_DELETE_DATA</key>
+		<string>Ao eliminar todas as etapas, o voo será excluído</string>
+		<key>DELETE_MANUAL_FLIGHT</key>
+		<string>Tem certeza de que deseja excluir este voo?</string>
+		<key>DEPARTURE_DATE</key>
+		<string>Data programada de partida</string>
+		<key>DEPARTURETIME</key>
+		<string>Data de partida</string>
+		<key>DESCRIPTION_OF_FAILURE</key>
+		<string>Descrição da falha</string>
+		<key>DESTINATION</key>
+		<string>Destino</string>
+		<key>DESTINATIONTIME</key>
+		<string>Data de chegada</string>
+		<key>DIAGNOSE</key>
+		<string>Diagnóstico</string>
+		<key>DO_YOU_WANT_TO_REPLACE</key>
+		<string>Deseja realocar este passageiro?</string>
+		<key>DOC_LABEL_TEXT</key>
+		<string>Insira o número do documento</string>
+		<key>DOC_NUMBER</key>
+		<string>Número do documento</string>
+		<key>DOCTOR_FULL_NAME</key>
+		<string>Nome completo do médico</string>
+		<key>DOCTOR_FULL_NAME_TAM</key>
+		<string>Nome completo do médico</string>
+		<key>DOCUMENT_NUMBER</key>
+		<string>Número de documento</string>
+		<key>DOCUMENT_NUMBER_TAM</key>
+		<string>Número de documento</string>
+		<key>DOCUMENT_TYPE</key>
+		<string>Tipo de documento</string>
+		<key>DOCUMENTO</key>
+		<string>Documento</string>
+		<key>DONE</key>
+		<string>Aceitar</string>
+		<key>Done_Text</key>
+		<string>Ok</string>
+		<key>DONT_DELETE</key>
+		<string>Não é possível excluir voo,o relatório já foi enviado</string>
+		<key>DRAFT_LABEL</key>
+		<string>Rascunho</string>
+		<key>DURATION_OF_FAILURE</key>
+		<string>Duração da falha</string>
+		<key>Dutyfree</key>
+		<string>Duty free</string>
+		<key>ECONOMY</key>
+		<string>ECONOMY</string>
+		<key>ECONOMY_REPORT</key>
+		<string>Relatório Economy</string>
+		<key>EDIT_DETAIL</key>
+		<string>Editar detalhes</string>
+		<key>EDIT_FLIGHT</key>
+		<string>Editar voo</string>
+		<key>ELEMENT</key>
+		<string>Elemento</string>
+		<key>ELEMENT_APV</key>
+		<string>Suprimentos</string>
+		<key>ELEMENT_BATH</key>
+		<string>Materiais de toalete</string>
+		<key>ELEMENT_CABIN</key>
+		<string>Materiais de Cabine</string>
+		<key>ELEMENT_CAT_APV</key>
+		<string>Suprimentos e Catering</string>
+		<key>ELEMENT_CATERING</key>
+		<string>Elementos de Catering</string>
+		<key>ELEMENT_GALLEY</key>
+		<string>Materiais de Galley</string>
+		<key>ELEMENT_LIQUIDS</key>
+		<string>Bebidas</string>
+		<key>ELEMENT_MATERIAL_APV_CAT</key>
+		<string>Materiais de Suporte</string>
+		<key>ELEMENT_MEALS</key>
+		<string>Comidas</string>
+		<key>ELEMENT_SECURITY</key>
+		<string>Materiais de Segurança</string>
+		<key>Elements &amp; CAT APV</key>
+		<string>Suprimentos e Catering</string>
+		<key>EMAIL</key>
+		<string>Email</string>
+		<key>ENTER_COMMENTS</key>
+		<string>Digite os seus comentários no campo </string>
+		<key>ERASE</key>
+		<string>Apagar</string>
+		<key>ERROR_ADDING_FLIGHT</key>
+		<string>Erro ao adicionar voo</string>
+		<key>ERROR_ENTRY</key>
+		<string>Erro nos detalhes inseridos</string>
+		<key>ERROR_LABEL</key>
+		<string>Erro</string>
+		<key>EXAMPLE</key>
+		<string>Ex.</string>
+		<key>FAILURE</key>
+		<string>Falha</string>
+		<key>FAILURE_MESSAGE</key>
+		<string>Não há nenhum aplicativo disponível para realizar essa ação</string>
+		<key>FAILURE_SEAT_RECOVERED_IN_FLIGHT</key>
+		<string>Falha em assentos</string>
+		<key>FAILURE_SEATS_RECOVERED_IN_FLIGHT</key>
+		<string>Assentos com falha recuperados no voo</string>
+		<key>FAULT_TYPE</key>
+		<string>Tipo de falha</string>
+		<key>FAULTY_SEAT_RECOVERED_IN_FLIGHT</key>
+		<string>Assentos com falha recuperados no voo</string>
+		<key>FAVOURITES</key>
+		<string>Favoritos</string>
+		<key>FD_BRIEFING_END</key>
+		<string>Final Briefing</string>
+		<key>FD_BRIEFING_START</key>
+		<string>Início Briefing</string>
+		<key>FD_CREW_BOARDING</key>
+		<string>Embarque Tripulação</string>
+		<key>FD_GATE</key>
+		<string>Portão</string>
+		<key>FD_MEALS_CENTRALIZED</key>
+		<string>Centralizada</string>
+		<key>FD_MEALS_ORIGIN</key>
+		<string>Origem</string>
+		<key>FD_NO_PUBLICATIONS</key>
+		<string>Não há publicações para mostrar</string>
+		<key>FD_PASS_BOARDING</key>
+		<string>Embarque Passageiros</string>
+		<key>FD_PUBLICATIONS_HEADER</key>
+		<string>Publicações</string>
+		<key>FINAL_SYSTEM_STATUS</key>
+		<string>Estado Final do Sistema</string>
+		<key>FIRMA_OBSERVADOR_MISSING</key>
+		<string>Assinatura do observador está faltando</string>
+		<key>FIRMA_TC_MISSING</key>
+		<string>Assinatura do comissario está faltando</string>
+		<key>FIRST</key>
+		<string>FIRST</string>
+		<key>FIRST_NAME</key>
+		<string>Nome</string>
+		<key>FIRST_REPORT</key>
+		<string>Relatório First</string>
+		<key>FLIGHT_ADDED</key>
+		<string>Voo adicionado com sucesso</string>
+		<key>FLIGHT_DATE</key>
+		<string>Data do voo</string>
+		<key>FLIGHT_DELETE</key>
+		<string>Suprimindo do voo</string>
+		<key>FLIGHT_DETAILS_MEALS</key>
+		<string>Refeições</string>
+		<key>FLIGHT_EXISTS</key>
+		<string>Voo já existe</string>
+		<key>FLIGHT_EXISTS_MODIFY</key>
+		<string>Vôo já existe, por favor modificar o voo existente</string>
+		<key>FLIGHT_JSB_CONFIRMATION</key>
+		<string>Ao fazer isso, você não poderá mais gerar nenhum relatório para esse voo. Essa ação não poderá ser desfeita. Deseja continuar?</string>
+		<key>FLIGHT_MANUALLY_ADDED</key>
+		<string>Voo Manual</string>
+		<key>FLIGHT_MODIFY</key>
+		<string>O voo foi modificado com sucesso</string>
+		<key>FLIGHT_NOTHING_TO_UPDATE</key>
+		<string>Este voo já está atualizado</string>
+		<key>FLIGHT_NUM</key>
+		<string>Número do Voo</string>
+		<key>FLIGHT_NUMBER</key>
+		<string>Número do Voo</string>
+		<key>FLIGHT_REPORT</key>
+		<string>Informe de Voo</string>
+		<key>FLIGHT_TYPE</key>
+		<string>Tipo de voo</string>
+		<key>FLIGHT_UPDATE_FAILED</key>
+		<string>Falha ao atualizar voo</string>
+		<key>FR_TITLE</key>
+		<string>Observações Foto</string>
+		<key>FVC_NOT_JSB</key>
+		<string>Não voado como Chefe de Cabine</string>
+		<key>FVC_UPDATE_DATA</key>
+		<string>Atualizar dados</string>
+		<key>FVC_UPDATED_AT</key>
+		<string>às</string>
+		<key>FVC_UPDATED_ON</key>
+		<string>Atualizado em</string>
+		<key>GAD</key>
+		<string>GAD</string>
+		<key>GAD_CANT_SEND</key>
+		<string>GAD não disponível</string>
+		<key>GAD_DISABLE_ALERT</key>
+		<string>Opção não disponível</string>
+		<key>GAD_FEEDBACK_SUBTITLE</key>
+		<string>GUIA DE ACOMPANHAMENTO E DESENVOLVIMENTO PARA TRIPULANTE DE CABINE</string>
+		<key>GAD_FORM_TITLE</key>
+		<string>Guia de Acompanhamento e Desenvolvimento (GAD)</string>
+		<key>GAD_REPORT_SUBMITTED</key>
+		<string>A GAD para o comissario selecionado já foi enviada</string>
+		<key>GAD_SENT_MSG</key>
+		<string>A GAD para o comissario selecionado já foi enviada</string>
+		<key>GALLEY</key>
+		<string>Galley</string>
+		<key>GEN_ADD_ACCOMP_OCC</key>
+		<string>Passageiros especiais com acompanhante</string>
+		<key>GEN_ADD_ESPACO_OCC</key>
+		<string>Ocorrências Espaço +</string>
+		<key>GEN_ADD_PASS_SPEC_OCC</key>
+		<string>Informações Passageiros Special Service</string>
+		<key>GEN_ADD_SPEC_OCC</key>
+		<string>Ocorrências Special Service</string>
+		<key>GENERAL</key>
+		<string>GERAL</string>
+		<key>General Information</key>
+		<string>Informações Gerais</string>
+		<key>GENERAL_ACCIONES</key>
+		<string>Ações Realizadas</string>
+		<key>GENERAL_ACCOMP_OCC</key>
+		<string>Ocurrencias de acompañantes</string>
+		<key>GENERAL_ADD_ACTIONS</key>
+		<string>Ações realizadas</string>
+		<key>GENERAL_ADD_DES_OCC</key>
+		<string>Ocorrências de Desembarque</string>
+		<key>GENERAL_ADD_DOC_OCC</key>
+		<string>Documentos enviados</string>
+		<key>GENERAL_ADD_EMBARQUE_OCC</key>
+		<string>Ocorrências de Embarque</string>
+		<key>GENERAL_ADD_FALTANTES</key>
+		<string>Itens faltantes</string>
+		<key>GENERAL_ADD_MEDICAS</key>
+		<string>Ocorrências Médicas</string>
+		<key>GENERAL_ADD_MISSING_DOC_OCC</key>
+		<string>Documentos em falta</string>
+		<key>GENERAL_ADD_REASONS</key>
+		<string>Razão para o atraso</string>
+		<key>GENERAL_ADD_TC_OCC</key>
+		<string>TC atende cargos superiores</string>
+		<key>GENERAL_ADD_VUELO_OCC</key>
+		<string>Ocorrências gerais do voo</string>
+		<key>GENERAL_ARNES</key>
+		<string>Arnes Solicitados</string>
+		<key>GENERAL_ARNES_OBSERVATIONS</key>
+		<string>Arnes Observations</string>
+		<key>GENERAL_ATRASOS</key>
+		<string>Atrasos/Contingências</string>
+		<key>GENERAL_BP</key>
+		<string>Chapa</string>
+		<key>GENERAL_BUSINESS_SUGEGSTIONS</key>
+		<string>Sugestões Cabine Business</string>
+		<key>GENERAL_CAPITAN</key>
+		<string>Comandante</string>
+		<key>GENERAL_CREW_BASE</key>
+		<string>Base da Tripulação</string>
+		<key>GENERAL_CUMPLE_OCC</key>
+		<string>TC atende cargos superiores</string>
+		<key>GENERAL_DESEMBARQUE</key>
+		<string>Desembarque</string>
+		<key>GENERAL_DESEMBARQUE_OCC</key>
+		<string>Ocorrências de Desembarque</string>
+		<key>GENERAL_DOCUMENTOS</key>
+		<string>Documentação</string>
+		<key>GENERAL_DOCUMENTOS_OCC</key>
+		<string>Documentos enviados</string>
+		<key>GENERAL_ECONOMY_SUGEGSTIONS</key>
+		<string>Sugestões Cabine Economy</string>
+		<key>GENERAL_EMBARQUE</key>
+		<string>Embarque</string>
+		<key>GENERAL_EMBARQUE_INFO</key>
+		<string>Informação de Embarque</string>
+		<key>GENERAL_EMBARQUE_OCC</key>
+		<string>Ocurrencias de Embarque</string>
+		<key>AGUA_EMBARQUE</key>
+		<string>Agua embr</string>
+		<key>AGUA_DESEMBARQUE</key>
+		<string>Agua desq</string>
+		<key>WASTE_EMBARQUE</key>
+		<string>Waste embr</string>
+		<key>WASTE_DESEMBARQUE</key>
+		<string>Waste desq</string>
+		<key>GENERAL_ENROLLMENT</key>
+		<string>Prefixo</string>
+		<key>GENERAL_ESPECO_OCC</key>
+		<string>Ocurrencias de Espacio</string>
+		<key>GENERAL_FIRST_SUGEGSTIONS</key>
+		<string>Sugestões Cabine First</string>
+		<key>GENERAL_FLIGHT_DATA</key>
+		<string>Dados do voo</string>
+		<key>GENERAL_HORA_MINIMA</key>
+		<string>Horário Embarque Tripulação</string>
+		<key>GENERAL_HORA_PUERTAS</key>
+		<string>Horário fechamento de portas</string>
+		<key>GENERAL_HUBRO</key>
+		<string>Houve atraso na saída do voo?</string>
+		<key>GENERAL_ITEMS_FALTANTES</key>
+		<string>Itens faltantes</string>
+		<key>GENERAL_JEFE_DE_SERVICIO</key>
+		<string>Chefe de Serviço de Bordo</string>
+		<key>GENERAL_MANGA</key>
+		<string>Finger</string>
+		<key>GENERAL_MATERIAL</key>
+		<string>Aeronave</string>
+		<key>GENERAL_MONTO_DE_VENTA</key>
+		<string>Valor das vendas</string>
+		<key>GENERAL_MOTIVO</key>
+		<string>Razão para o atraso</string>
+		<key>GENERAL_NAME</key>
+		<string>Nome</string>
+		<key>GENERAL_OBSERVATIONS</key>
+		<string>Comentários</string>
+		<key>GENERAL_PRE_ECONOMY_SUGEGSTIONS</key>
+		<string>Sugestões Cabine Business</string>
+		<key>GENERAL_REMOTO</key>
+		<string>Remota</string>
+		<key>GENERAL_REPORT</key>
+		<string>Informação Geral</string>
+		<key>GENERAL_SELECT</key>
+		<string>Selecione</string>
+		<key>GENERAL_SIN_VENTAS</key>
+		<string>Sem vendas de Duty Free</string>
+		<key>GENERAL_SOLICITUD_ARNES</key>
+		<string>Solicitação de cinto adicional</string>
+		<key>GENERAL_SOLICITUD_ARNES@TAM</key>
+		<string>Solicitação de cinto adicional</string>
+		<key>GENERAL_SOLICITUD_WCH</key>
+		<string>Solicitação de cadeira de rodas a bordo</string>
+		<key>GENERAL_SPECIAL_OCC</key>
+		<string>Ocorrências Special Service</string>
+		<key>GENERAL_SPECIAL_PASS_OCC</key>
+		<string>Ocorrências com passageiro especial</string>
+		<key>GENERAL_SURNAME</key>
+		<string>Sobrenome</string>
+		<key>GENERAL_TIEMPO</key>
+		<string>Tempo de atraso</string>
+		<key>GENERAL_TIPO_DESEMBARQUE</key>
+		<string>Tipo de desembarque</string>
+		<key>GENERAL_TIPO_EMBARQUE</key>
+		<string>Tipo de embarque</string>
+		<key>GENERAL_TRAMO_EJECUTADO</key>
+		<string>Etapa Executada</string>
+		<key>GENERAL_VENTAS</key>
+		<string>Vendas</string>
+		<key>GENERAL_VENTAS_DUTYFREE</key>
+		<string>Houve vendas de Duty Free?</string>
+		<key>GENERAL_VUELO</key>
+		<string>Voo</string>
+		<key>GENERAL_VUELO_OCC</key>
+		<string>Ocorrências gerais do voo</string>
+		<key>GENERAL_VUELO_SUGEGSTIONS</key>
+		<string>Comentários Gerais do Voo</string>
+		<key>GENERAL_WCH</key>
+		<string>Cadeiras de rodas solicitadas</string>
+		<key>GENERAL_WCH_OBSERVATIONS</key>
+		<string>Observações de cadeiras de rodas</string>
+		<key>HEADING_FLIGHTLIST</key>
+		<string>heading_por</string>
+		<key>HI</key>
+		<string>Oi</string>
+		<key>IFE</key>
+		<string>IFE</string>
+		<key>IMPECCABILITY_OF_CAB</key>
+		<string>Cabine Impecável</string>
+		<key>INCORRECT_DOCUMENT_TYPE</key>
+		<string>Por favor insira o número do documento no seguinte formato</string>
+		<key>INDICAR_NUMERO</key>
+		<string>Indicar número da poltrona</string>
+		<key>INDIVIDUAL_FAILURE _IFE</key>
+		<string>Falha individual de IFE</string>
+		<key>INDIVIDUAL_FAILURES</key>
+		<string>Falhas individuais</string>
+		<key>INFORMATIVE</key>
+		<string>Informativo</string>
+		<key>INFORMATION_MESSAGE</key>
+		<string>informação</string>
+		<key>INFORMATION_CONTEXT</key>
+		<string>Sem ligação à rede , verifique sua conexão e tente novamente</string>
+		<key>INFORMATION_AGREE</key>
+		<string>aceitar</string>
+		<key>INFORMATION_CANCEL</key>
+		<string>cancelar</string>
+		<key>INFORMATION_NO</key>
+		<string>No</string>
+		<key>INFORMATION_YES</key>
+		<string>Si</string>
+		<key>INFORMATION_QUESTION</key>
+		<string>Verifique deseja enviar este relatório?</string>
+		<key>INFORMATION_LOADING</key>
+		<string>O relatório está sendo processado ..</string>
+		<key>INITIAL_STATE_OF_THE_SYSTEM</key>
+		<string>Estado inicial do sistema</string>
+		<key>INQUE_WARN</key>
+		<string>Não foi encontrada conexão com a Internet. O relatório será armazenado até encontrar uma conexão.</string>
+		<key>INVALID_FLIGHT</key>
+		<string>Voo inválido</string>
+		<key>INVALID_SEAT</key>
+		<string>O assento selecionado não existe para este voo, por favor insira um assento válido.</string>
+		<key>Kms Lanpass</key>
+		<string>Kms Lanpass</string>
+		<key>LANGUAGE</key>
+		<string>Idioma</string>
+		<key>LANPASS</key>
+		<string>LANPass</string>
+		<key>LAST_LEG_DEL</key>
+		<string>Ao apagar todas as etapas, o voo será excluído.</string>
+		<key>LAST_NAME</key>
+		<string>Sobrenome</string>
+		<key>LAST_NAME_TAM</key>
+		<string>Sobrenome</string>
+		<key>LAST_SYNC</key>
+		<string>última atualização</string>
+		<key>LEG_INFO</key>
+		<string>Informações da etapa</string>
+		<key>LEGINFORMATION</key>
+		<string>Informações da etapa</string>
+		<key>LICENSE_NUMBER</key>
+		<string>N° Licença</string>
+		<key>LOGIN_ACTIVITY</key>
+		<string>Entrando...</string>
+		<key>LOGIN_PLEASE</key>
+		<string>Insira suas credenciais</string>
+		<key>LOGIN_WELCOME</key>
+		<string>Bem vindo,</string>
+		<key>LOLYALTY_CARD</key>
+		<string>Cartão fidelidade (se houver)</string>
+		<key>MAN_BACK_BTN</key>
+		<string>&lt; voltar</string>
+		<key>MAN_FILE_TOO_BIG</key>
+		<string>Este arquivo é muito grande. Por favor abrir com um visualizador externo.</string>
+		<key>MAN_FILE_NOT_READY</key>
+		<string>Esse arquivo ainda não está disponível</string>
+		<key>MAN_MAN_NAME</key>
+		<string>Manual de</string>
+		<key>MAN_UPDATED_AT</key>
+		<string>Lista de manuais atualizada às</string>
+		<key>MANUAL</key>
+		<string>Manuais</string>
+		<key>MANUAL_ENTRY</key>
+		<string>Preenchimento manual</string>
+		<key>MANUAL_FLIGHT_NO_DATA</key>
+		<string>Não existem dados para o voo inserido</string>
+		<key>MANUAL_LAST_SYNC</key>
+		<string>Atualizado</string>
+		<key>MASSIVE_FAILURES</key>
+		<string>Falhas massivas</string>
+		<key>MENU_LABEL</key>
+		<string>Menu</string>
+		<key>MESSAGE</key>
+		<string>Mensagem</string>
+		<key>MF_ADD_BTN</key>
+		<string>Salvar</string>
+		<key>MF_ADD_LEG</key>
+		<string>Adicionar Etapa</string>
+		<key>MF_ADD_TITLE</key>
+		<string>Adicionar Voo Manualmente</string>
+		<key>MF_DATE</key>
+		<string>Data Programada de Partida</string>
+		<key>MF_FLIGHT_NUMBER</key>
+		<string>Número do Voo</string>
+		<key>MF_GET_DATA</key>
+		<string>Obter Dados</string>
+		<key>MF_LEG_INFO</key>
+		<string>Informações da Etapa</string>
+		<key>MF_LICENSE</key>
+		<string>Prefixo</string>
+		<key>MF_MATERIAL</key>
+		<string>Aeronave</string>
+		<key>MF_PREFIX</key>
+		<string>Companhia</string>
+		<key>MISSING_MANDAROTY_ITEMS</key>
+		<string>Campos obrigatórios em branco</string>
+		<key>NEW</key>
+		<string>NEW</string>
+		<key>NEXT_FLIGHT</key>
+		<string>Próximo Voo</string>
+		<key>NO</key>
+		<string>NO</string>
+		<key>NO_FLIGHT_ROSTER</key>
+		<string>Não foram encontrados voos para o período. Insira um voo manualmente</string>
+		<key>NO_GAD_DATA</key>
+		<string>Sem dados de tripulação</string>
+		<key>NO_GAD_DATA_ADDED</key>
+		<string>Por favor, insira um tripulante</string>
+		<key>NO_IMAGE_TODELETE</key>
+		<string>Não há imagem para excluir</string>
+		<key>NO_PASSENGER_DATA</key>
+		<string>Sem dados do passageiro</string>
+		<key>NO_PASSENGER_DATA_ADDED</key>
+		<string>Sem dados de passageiro. Por favor, adicione um passageiro</string>
+		<key>NO_REPORTS</key>
+		<string>Não há relatórios feitos para essa classe</string>
+		<key>NOT_ADD_FlIGHT</key>
+		<string>Não é possivel adicionar o voo enquanto a sincronização estiver em andamento</string>
+		<key>NOT_DELETE_FLIGHT</key>
+		<string>Não é possivel eliminar o voo enquanto a sincronização estiver em andamento</string>
+		<key>NOT_MODIFY_FLIGHT</key>
+		<string>Não é possivel modificar o voo enquanto a sincronização estiver em andamento</string>
+		<key>NOT_VALID_FLIGHT</key>
+		<string>Não é possível adicionar o voo. Voo não é válido.</string>
+		<key>NUMBER_OF_RESETS</key>
+		<string>Quantidade de resets</string>
+		<key>Numero FFp</key>
+		<string>Número FFP</string>
+		<key>OBSERVATION</key>
+		<string>Observações</string>
+		<key>OCCUPIED_BY_PASSENGER</key>
+		<string>Está ocupado pelo passageiro</string>
+		<key>OCCURRENCE</key>
+		<string>Ocorrência</string>
+		<key>OCCURRENCE_TAM</key>
+		<string>Ocorrência</string>
+		<key>OK</key>
+		<string>OK</string>
+		<key>ON_BOARD_MEDICAL_ATTENTION</key>
+		<string>Médico prestou atendimento a bordo</string>
+		<key>ON_BOARD_MEDICAL_ATTENTION_TAM</key>
+		<string>Médico prestou atendimento a bordo</string>
+		<key>OPEN_WITH</key>
+		<string>abrir com</string>
+		<key>OPTION</key>
+		<string>Opção</string>
+		<key>ORIGIN</key>
+		<string>Origem</string>
+		<key>OTHER</key>
+		<string>Outro</string>
+		<key>Overview</key>
+		<string>Generalidades</string>
+		<key>PAGE</key>
+		<string>página</string>
+		<key>PASSENGER_INFORMATION</key>
+		<string>Dados do Passageiro</string>
+		<key>PASSENGER_INFORMATION_TAM</key>
+		<string>Dados do Passageiro</string>
+		<key>PASSENGER_MAKES_CLAIM</key>
+		<string>Passageiro fez uma reclamação</string>
+		<key>PASSENGER_MAKES_CLAIM_TAM</key>
+		<string>Passageiro realizou relato durante o voo?</string>
+		<key>PASSWORD_30CHAR</key>
+		<string>A senha não pode ter mais que 30 caracteres</string>
+		<key>PHONE_NUMBER</key>
+		<string>Telefone</string>
+		<key>PHOTO</key>
+		<string>Fotos em anexo</string>
+		<key>PLS_WAIT</key>
+		<string>Por favor, aguarde</string>
+		<key>POP_DESCRIPTION_GAD1</key>
+		<string>O desempenho supera amplamente o esperado para sua posição na competência avaliada. Este nível representa um desempenho dificilmente igualado por outras pessoas em posição, função e responsabilidade similar.</string>
+		<key>POP_DESCRIPTION_GAD2</key>
+		<string>Obtém resultados notáveis. Nesta competência, desempenha um trabalho muito bom que, em geral, supera as expectativas para seu cargo e área.</string>
+		<key>POP_DESCRIPTION_GAD3</key>
+		<string>O desempenho cumpre com o que é esperado para a competência avaliada. Esta classificação deve ser aplicada para aqueles cujo desempenho atende aos requisitos principais da posição, obtendo os resultados esperados.</string>
+		<key>POP_DESCRIPTION_GAD4</key>
+		<string>O desempenho cumpre apenas com alguns dos aspectos na competência avaliada. Pode, às vezes, necessitar de apoio e seu rendimento não ser constante.</string>
+		<key>POP_DESCRIPTION_GAD5</key>
+		<string>O desempenho não cumpre com os requisitos mínimos na competência avaliada. Existem deficiências que limitam o desempenho e é importante que sejam corrigidas.</string>
+		<key>POP_DESCRIPTION_GAD6</key>
+		<string>Não observado</string>
+		<key>POP_TITLE_GAD</key>
+		<string>Escala e Critérios de Avaliação</string>
+		<key>POP_TITLE_GAD1</key>
+		<string>Excepcional</string>
+		<key>POP_TITLE_GAD2</key>
+		<string>Acima do Esperado</string>
+		<key>POP_TITLE_GAD3</key>
+		<string>Esperado</string>
+		<key>POP_TITLE_GAD4</key>
+		<string>Próximo ao Esperado</string>
+		<key>POP_TITLE_GAD5</key>
+		<string>Abaixo ao Esperado</string>
+		<key>POP_TITLE_GAD6</key>
+		<string>NO</string>
+		<key>PREMIUM ECONOMY</key>
+		<string>PREMIUM ECONOMY</string>
+		<key>PREMIUM ECONOMY_REPORT</key>
+		<string>Relatório Premium Economy</string>
+		<key>Quality Service CAT</key>
+		<string>Qualidade Catering</string>
+		<key>QUALITY_CATERING </key>
+		<string>Qualidade Catering</string>
+		<key>QUALITY_CATERING_SERVICE</key>
+		<string>Qualidade de Serviço Catering</string>
+		<key>QUALITY_OF_SERVICE</key>
+		<string>Qualidade de serviço</string>
+		<key>QUALITY_SERVICE_CAT</key>
+		<string>Qualidade de Serviço Catering</string>
+		<key>QUANT_ACCOMP</key>
+		<string>Quantidade de acompanhantes</string>
+		<key>QUANT_ACCOMPANY</key>
+		<string>Quantidade de acompanhantes</string>
+		<key>QUEUE_LABEL</key>
+		<string>Em fila</string>
+		<key>Rank</key>
+		<string>Função</string>
+		<key>REASON</key>
+		<string>Motivo</string>
+		<key>REASON_FOR_REPORT</key>
+		<string>Motivo do relatório</string>
+		<key>RECEIVED_LABEL</key>
+		<string>Recebido</string>
+		<key>REPORT</key>
+		<string>Relatório</string>
+		<key>WSTBRQ</key>
+		<string>AguaBordo</string>
+		<key>TITULO_WSTBRQ</key>
+		<string>Water on Board</string>
+		<key>TITULO_WST_BRQ</key>
+		<string>Water Boarding</string>
+		<key>TITULO_WST_DRQ</key>
+		<string>Water Landing</string>
+		<key>WSTDRQ</key>
+		<string>AguaBordo</string>
+		<key>WTRBRQ</key>
+		<string>Waste</string>
+		<key>TITULO_WTRBRQ</key>
+		<string>Waste</string>
+		<key>TITULO_WTR_BRQ</key>
+		<string>Waste Boarding</string>
+		<key>TITULO_WTR_DRQ</key>
+		<string>Waste Landing</string>
+		<key>WTRDRQ</key>
+		<string>Waste</string>
+		<key>Report CUS</key>
+		<string>Relatório Fale Com A Gente</string>
+		<key>REPORT@TAM</key>
+		<string>Ocorrência</string>
+		<key>REPORT_CUS_LAN</key>
+		<string>Relatório Fale Com A Gente</string>
+		<key>REPORT_CUS_TAM</key>
+		<string>Fale Com A Gente</string>
+		<key>REPORT_DETAILS</key>
+		<string>Detalhe</string>
+		<key>REPORT_DETAILS_TAM</key>
+		<string>Detalhes do relatório</string>
+		<key>REPORT_TAM</key>
+		<string>Reporte</string>
+		<key>REQUIRED_FIELD_IS_EMPTY</key>
+		<string>Campo obrigatório em branco</string>
+		<key>RESEND</key>
+		<string>  REENVIAR</string>
+		<key>RESEND_ALERT</key>
+		<string>Reenviar</string>
+		<key>RESEND_REPORT</key>
+		<string>Reenviar relatório</string>
+		<key>RM_INFO_FROM</key>
+		<string>De</string>
+		<key>RM_INFO_TO</key>
+		<string>para</string>
+		<key>SAMPLE_DOCUMENT_TYPE</key>
+		<string>Valor inválido para o tipo de documento selecionado</string>
+		<key>SAVE_FAILED</key>
+		<string>Falha ao salvar</string>
+		<key>SAVE_LABEL</key>
+		<string>Salvar</string>
+		<key>SEARCH_FLIGHT</key>
+		<string>Buscar voo</string>
+		<key>SEARCH_TEXT</key>
+		<string>texto de pesquisa</string>
+		<key>SEARCHING</key>
+		<string>busca</string>
+		<key>SEAT</key>
+		<string>Assento</string>
+		<key>SEAT_LETTER</key>
+		<string>Letra</string>
+		<key>SEAT_LETTER_TAM</key>
+		<string>Letra Assento</string>
+		<key>SEAT_MAINTENANCE</key>
+		<string>Manutenção do assento</string>
+		<key>SEAT_NUMBER</key>
+		<string>Assento</string>
+		<key>SEAT_ROW</key>
+		<string>Fileira</string>
+		<key>SEAT_ROW_TAM</key>
+		<string>Fileira</string>
+		<key>SEATING</key>
+		<string>Assentos</string>
+		<key>SEATLETTER</key>
+		<string>Letra</string>
+		<key>SEATROW</key>
+		<string>Fileira</string>
+		<key>SEATS_ADD_CUS</key>
+		<string>Adicionar passageiro</string>
+		<key>SECOND_LAST_NAME</key>
+		<string>Segundo Sobrenome</string>
+		<key>SELECIONAR_OPCOES@TAM</key>
+		<string>Selecionar opções</string>
+		<key>SELECT</key>
+		<string>Selecionar</string>
+		<key>SELECT_FLIGHT</key>
+		<string> Selecione seu voo</string>
+		<key>SELECT_FLIGHTTYPE</key>
+		<string>Selecione o tipo de voo</string>
+		<key>SELECT_LEG</key>
+		<string> Selecionar etapa</string>
+		<key>SELECT_REASON</key>
+		<string>Selecionar motivo</string>
+		<key>SELECT_SEAT</key>
+		<string>Assento</string>
+		<key>SELECT_STATE</key>
+		<string>Selecionar estado</string>
+		<key>SELECTED_FILE_MESSAGE</key>
+		<string>O aplicativo não pode abrir esse manual. Por favor, use a opção de abrir em outro aplicativo.</string>
+		<key>SELECTED_MESSAGE</key>
+		<string>Nenhum manual selecionado</string>
+		<key>SEND</key>
+		<string>     ENVIAR</string>
+		<key>SEND_REPORT</key>
+		<string>Enviar relatório</string>
+		<key>SEND_REPORT_OFFLINE_MSG</key>
+		<string>Seu relatório foi salvo e será enviado quando seu equipamento se conectar à Internet.</string>
+		<key>SEND_VIEWSUMMARY</key>
+		<string>Enviar</string>
+		<key>SERVICE</key>
+		<string>Serviço</string>
+		<key>SIGNATURE_ACCEPT</key>
+		<string>Aceitar</string>
+		<key>SIGNATURE_CLOSE</key>
+		<string>Fechar</string>
+		<key>SIGNATURE_CSB</key>
+		<string>Assinatura do CSB</string>
+		<key>SIGNATURE_ERASE</key>
+		<string>Apagar</string>
+		<key>SIGNATURE_MISSING</key>
+		<string>Assinatura em branco</string>
+		<key>SIGNATURE_OBSERVER</key>
+		<string>Assinatura do Observador</string>
+		<key>SIGNATURE_TC</key>
+		<string>Assinatura do Comissário</string>
+		<key>Solicitudes</key>
+		<string>Solicitações</string>
+		<key>STATUS_DRAFT</key>
+		<string>Rascunho</string>
+		<key>STATUS_ERROR</key>
+		<string>Erro</string>
+		<key>STATUS_INQUEUE</key>
+		<string>Em fila</string>
+		<key>STATUS_NO_INFO</key>
+		<string>Não há relatórios gerados para nenhum voo da lista</string>
+		<key>STATUS_RECEIVED</key>
+		<string>Recebido</string>
+		<key>STATUS_UPDATED</key>
+		<string>Atualizado</string>
+		<key>Subidas de categoria Lanpass</key>
+		<string>Upgrade de Categoria Lanpass</string>
+		<key>SUBMIT</key>
+		<string>Submeter</string>
+		<key>Suggestions</key>
+		<string>Comentários e Sugestões</string>
+		<key>SYNC_FLIGHT_DETAIL</key>
+		<string>Sincronizando dados do voo</string>
+		<key>SYNC_FLIGHTS</key>
+		<string>Sincronizando voos</string>
+		<key>SYNC_MANUAL</key>
+		<string>Sincronizando manuais</string>
+		<key>SYNCH_ON</key>
+		<string>Não foi possível obter a informação.Por favir tente novamente após a sincronização.</string>
+		<key>SYNCHRONIZED</key>
+		<string>Atualizar</string>
+		<key>TAB_CREW</key>
+		<string>Tripulação</string>
+		<key>TAB_FLIGHT</key>
+		<string>Voo</string>
+		<key>TAB_REPORT</key>
+		<string>Informe de Voo</string>
+		<key>TAB_SEAT</key>
+		<string>Mapa de Assentos</string>
+		<key>TABLEVIEW_DELETE</key>
+		<string>Apagar</string>
+		<key>TAKE_PHOTO</key>
+		<string>Tirar foto</string>
+		<key>TAM_LOYALTY</key>
+		<string>TAM Fidelidade</string>
+		<key>TAMLOYALTY</key>
+		<string>N° TAM Fidelidade</string>
+		<key>TC_BP</key>
+		<string>Chapa TC</string>
+		<key>TC_NOMBRE</key>
+		<string>Nome TC</string>
+		<key>TEMPERATURE</key>
+		<string>Temperatura</string>
+		<key>THERE_WERE_MASSIVE_FAILURES_IFE?</key>
+		<string>Houve falhas massivas de IFE?</string>
+		<key>TIME_OF_FLIGHT</key>
+		<string>Momento do voo</string>
+		<key>TITLE</key>
+		<string>Serviço de Bordo LATAM</string>
+		<key>TOILETS</key>
+		<string>Toaletes</string>
+		<key>USERNAME_30CHAR</key>
+		<string>O nome de usuário não pode ter mais que 30 caracteres</string>
+		<key>VIEW_SUMMARY</key>
+		<string>Ver Resumo</string>
+		<key>WARNING</key>
+		<string>Alerta</string>
+		<key>YES</key>
+		<string>SIM</string>
+		<key>QUESTIONS_WBTAM_GAD </key>
+		<dict>
+			<key>Segurança</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Conhece e executa todas as normas e procedimentos de segurança, corrigindo imediatamente o descumprimento, durante toda a programação.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Durante o embarque, observa os principais fatores (comportamentos, necessidades e bagagens) que podem impactar na segurança do voo, atuando conforme normas e procedimentos. </string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Realiza a ronda com atenção, prevenindo situações que possam gerar risco à segurança e atua rapidamente, se necessário.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Comunica-se de forma clara e contínua com os passageiros e todas as equipes envolvidas na operação, durante toda a programação.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Faz o uso de EPIs, utilizando-os corretamente, durante toda a jornada (da apresentação ao debriefing), zelando pela própria segurança e dos demais.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Ser Atencioso</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Conecta-se com os clientes de forma próxima, empática e gentil (contato visual, personalização do atendimento e tom de voz), durante toda a experiência de viagem.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Comunica-se e relaciona-se de forma próxima, empática e gentil, com as equipes envolvidas na operação.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Atua e interage de forma próxima, empática e gentil com os passageiros PNAEs, top tiers e crianças durante todo o voo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Permanece atento às necessidades dos clientes, oferecendo soluções e informações de forma oportuna.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Eficiência</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Executa de forma consistente as normas, procedimentos e protocolos de serviço, ajustando-os quando necessário.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Organiza e realiza suas atividades integrando-as com a de seus pares, para promover a excelência no atendimento a nossos clientes.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Atua de forma calma e positiva, diante de contingências e quebras de serviço, minimizando os impactos aos clientes.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Comunica-se de forma clara, ágil e objetiva, fornecendo a informação completa para todos os envolvidos.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+		</dict>
+		<key>QUESTIONS_WBTAM_GAD</key>
+		<dict>
+			<key>Resolução de Problemas e Melhora Contínua</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Previne e/ou resolve problemas que possam ocorrer, mantendo informado seu supervisor em todos os momentos.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Mantém-se atualizado sobre as ferramentas e conhecimentos que sua função exige.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Trabalho em Equipe e Colaboração</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Colabora ativamente com o CSB/TT e pares, respeitando a diversidade da equipe e gerando um ambiente positivo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Apresenta flexibilidade para mudar de opinião e abertura a críticas, resolvendo conflitos de maneira construtiva.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Comunicação</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Oferece informações de forma amável, clara e oportuna em todos os momentos, demonstrando consistência na comunicação verbal e não verbal.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Escuta ativamente o CSB/TT, pares e passageiros, e verifica o entendimento das informações.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Orientação a Resultados</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Cumpre todas as normas que regulamentam sua função (imagem, pessoas, apresentação pessoal, prazos, documentação necessária).</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Planeja e organiza seu trabalho seguindo instruções do CSB.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Impacto no Cliente</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Cumpre rigorosamente com as normas, prazos e procedimentos de serviço, garantindo a experiência de viagem dos clientes, assumindo a cadeia de serviços.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Conecta-se com clientes internos e externos, apresentando uma abordagem amável, próxima e positiva.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Segurança</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Prioriza a segurança e reporta ações ou situações que colocam em risco a segurança da companhia.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Cumpre rigorosamente as normas, prazos e procedimentos de segurança, demonstrando atenção a sua própria segurança e a de clientes e pares.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Habilidade em Lidar com Pressão, Mudança e Contingência</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Mantém seu nível de efetividade e cumprimento de procedimentos, transmitindo calma e controle da situação.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Ao identificar situações de crise ou contingência, reage com rapidez, emprega informações relevantes e demonstra atitude positiva e calma.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+		</dict>
+		<key>QUESTIONS_NBTAM_GAD</key>
+		<dict>
+			<key>Resolução de Problemas e Melhora Contínua</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Previne e/ou resolve problemas que possam ocorrer, mantendo informado seu supervisor em todos os momentos.relevantes.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Trabalho em Equipe e Colaboração</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Colabora ativamente com o CSB e pares, respeitando a diversidade da equipe e gerando um ambiente positivo.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Comunicação</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Oferece informações de forma amável, clara e oportuna em todos os momentos, demonstrando consistência na comunicação verbal e não verbal.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Orientação a Resultados</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Cumpre todas as normas que regulamentam sua função (imagem, pessoas, apresentação pessoal, prazos, documentação necessária).</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Impacto no Cliente</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string> Cumpre rigorosamente com as normas, prazos e procedimentos de serviço, garantindo a experiência de viagem dos clientes, assumindo a cadeia de serviços.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Conecta-se com clientes internos e externos, apresentando uma abordagem amável, próxima e positiva.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Segurança</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Prioriza a segurança e reporta ações ou situações que colocam em risco a segurança da companhia.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+			<key>Habilidade em Lidar com Pressão, Mudança e Contingência</key>
+			<array>
+				<dict>
+					<key>QUESTION_DESCRIPTION</key>
+					<string>Mantém seu nível de efetividade e cumprimento de procedimentos, transmitindo calma e controle da situação.</string>
+					<key>SELECTED_OPTION</key>
+					<string>SE</string>
+				</dict>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

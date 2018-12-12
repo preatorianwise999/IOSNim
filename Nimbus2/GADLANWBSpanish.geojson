@@ -1,0 +1,47 @@
+{
+  "Type": "WB",
+  "Value": [
+            {
+            "Orientación a Resultados": [
+                                         "Cumple con las normas que regulan su cargo(imagen personal, uniformidad, tiempos y documentación necesaria).||RORULE",
+                                         "Planifica y organiza su trabajo según instrucciones de JSB.||ROPLAN"
+                                         ]
+            },
+            {
+            "Comunicación": [
+                             "Entrega información amable, clara y oportuna en todo momento, mostrando consistencia en la comunicación verbal y no verbal||COINFR",
+                             "Escucha activamente a JSB/TM, compañeros de trabajo, paxs y otras áreas, verificando su entendimiento||COLISN"
+                             ]
+            },
+            {
+            "Resolución de Problemas y Mejora Continua": [
+                                                          "Previene y/o resuelve problemas que pudiesen ocurrir, manteniendo informado a su jefatura en todo momento.||RISOLV",
+                                                          "Se mantiene actualizado en las herramientas y conocimientos que requiere su cargo||RIUPDT"
+                                                          ]
+            },
+            {
+            "Trabajo en Equipo y Colaboración": [
+                                                 "Colabora activamente con JSB y pares, respetando la diversidad del entorno y generando un ambiente positivo||CLENVR",
+                                                 "Es flexible a cambiar de opinión y abierto a la crítica, resolviendo conflictos de manera constructiva||CLCONF"
+                                                 ]
+            },
+            {
+            "Manejo de Presión, Cambio y Contingencia": [
+                                                         "Mantiene su nivel de efectividad y cumplimiento de procedimientos, transmitiendo calma y control de la situación.||CNCALM",
+                                                         "Al identificar situaciones de crisis o contingencia, reacciona con rapidez, escala información relevante y muestra actitud positiva y calma||CNCRIS"
+                                                         ]
+            },
+            {
+            "Impacto en el Cliente": [
+                                      "Cumple rigurosa y amablemente normas, tiempo y procedimientos de servicio; garantizando la experiencia de viaje de nuestros clientes y haciéndose cargo de la cadena de servicio.||ICSTAN",
+                                      "Se conecta con clientes internos y externos, mostrando un trato amable, cercano y positivo||ICCONN"
+                                      ]
+            },
+            {
+            "Seguridad": [
+                          "Prioriza la seguridad e informa acciones o situaciones que ponen en riesgo la seguridad de la compañía.||SCSAFE",
+                          "Cumple rigurosa y amablemente normas, tiempos y procedimientos de seguridad, mostrando atención a su propia seguridad y a la de sus clientes y pares.||SCSTAN"
+                          ]
+            }
+            ]
+  }

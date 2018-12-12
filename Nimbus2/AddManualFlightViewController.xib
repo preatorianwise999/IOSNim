@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AddManualFlightViewController">
+            <connections>
+                <outlet property="addBtn" destination="ZOo-X3-fKP" id="b6n-IK-wxF"/>
+                <outlet property="addFlightTitleLb" destination="HQ5-YA-Aet" id="YKL-D6-bM4"/>
+                <outlet property="containerView" destination="G7y-2z-XzU" id="1yF-Rt-QYs"/>
+                <outlet property="flightDateButton" destination="JP4-Da-Pr0" id="zKo-bI-rqi"/>
+                <outlet property="flightDateLb" destination="YN5-Xs-6Wq" id="kte-ci-7ad"/>
+                <outlet property="flightNumberLb" destination="Zsf-Hy-VMX" id="3rF-a0-DEK"/>
+                <outlet property="flightNumberTextView" destination="4Vo-6u-gYe" id="kqp-7v-wFf"/>
+                <outlet property="flightTypeButton" destination="zxG-2u-htt" id="iUg-YG-3w3"/>
+                <outlet property="getDataBtn" destination="cTq-hh-Ozi" id="kwg-8S-U7N"/>
+                <outlet property="infoTitleLb" destination="wrQ-RN-bRq" id="0H3-am-GuX"/>
+                <outlet property="legTableView" destination="gGR-24-ThV" id="eBm-XQ-C7O"/>
+                <outlet property="materialButton" destination="g7v-m1-NBi" id="bRe-Mn-RtP"/>
+                <outlet property="materialLb" destination="AVp-R1-D9C" id="g36-tg-N0P"/>
+                <outlet property="matriculaLb" destination="M4b-tp-Fa2" id="yEg-3r-VQY"/>
+                <outlet property="matriculaTextView" destination="lLu-Jz-fKx" id="pWa-7b-PL4"/>
+                <outlet property="prefixLb" destination="Df8-h7-nNa" id="QxJ-uc-T3m"/>
+                <outlet property="trashBtn" destination="t3u-G2-zNo" id="GVy-Ku-1H1"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="G7y-2z-XzU">
+                    <rect key="frame" x="146" y="87" width="732" height="594"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="s2n-ff-YLH">
+                            <rect key="frame" x="7" y="9" width="45" height="37"/>
+                            <state key="normal" image="N__0000_cls_icn.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelTapped:" destination="-1" eventType="touchUpInside" id="gTU-qM-xyc"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Añadir vuelo manual" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HQ5-YA-Aet">
+                            <rect key="frame" x="249" y="9" width="244" height="42"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="23"/>
+                            <color key="textColor" red="0.0" green="0.19607843137254902" blue="0.42745098039215684" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Informacion de Tramos" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wrQ-RN-bRq">
+                            <rect key="frame" x="258" y="355" width="244" height="42"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="23"/>
+                            <color key="textColor" red="0.0" green="0.1960784314" blue="0.42745098040000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZOo-X3-fKP">
+                            <rect key="frame" x="612" y="15" width="99" height="30"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="18"/>
+                            <state key="normal" title="Agregar">
+                                <color key="titleColor" red="0.050980392156862744" green="0.17647058823529413" blue="0.36078431372549019" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="saveButtonTapped:" destination="-1" eventType="touchUpInside" id="zij-4X-7lZ"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RIf-TV-vTW">
+                            <rect key="frame" x="21" y="55" width="690" height="2"/>
+                            <color key="backgroundColor" red="0.76470588235294112" green="0.78431372549019607" blue="0.78823529411764703" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jji-CA-NFK">
+                            <rect key="frame" x="21" y="257" width="690" height="2"/>
+                            <color key="backgroundColor" red="0.76470588240000004" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="q4R-3J-YMY">
+                            <rect key="frame" x="19" y="400" width="692" height="2"/>
+                            <color key="backgroundColor" red="0.76470588240000004" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6xG-IZ-xte">
+                            <rect key="frame" x="42" y="101" width="650" height="1"/>
+                            <color key="backgroundColor" red="0.76470588240000004" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EeI-10-ZUI">
+                            <rect key="frame" x="42" y="144" width="650" height="1"/>
+                            <color key="backgroundColor" red="0.76470588240000004" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tmB-Lh-yDx">
+                            <rect key="frame" x="42" y="188" width="650" height="1"/>
+                            <color key="backgroundColor" red="0.76470588240000004" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="iyM-Yy-D7K">
+                            <rect key="frame" x="41" y="301" width="650" height="1"/>
+                            <color key="backgroundColor" red="0.76470588240000004" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UvC-WA-rjE">
+                            <rect key="frame" x="41" y="340" width="650" height="1"/>
+                            <color key="backgroundColor" red="0.76470588240000004" green="0.7843137255" blue="0.78823529410000004" alpha="1" colorSpace="calibratedRGB"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" tag="2" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="4Vo-6u-gYe">
+                            <rect key="frame" x="426" y="108" width="239" height="30"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="XsK-fw-cDc"/>
+                            </connections>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Numero De Vuelo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zsf-Hy-VMX">
+                            <rect key="frame" x="41" y="107" width="265" height="29"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <color key="textColor" red="0.1215686275" green="0.23529411759999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Matricula" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M4b-tp-Fa2">
+                            <rect key="frame" x="40" y="309" width="265" height="29"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <color key="textColor" red="0.1215686275" green="0.23529411759999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cTq-hh-Ozi">
+                            <rect key="frame" x="308" y="202" width="185" height="43"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="18"/>
+                            <inset key="contentEdgeInsets" minX="17" minY="-1" maxX="0.0" maxY="0.0"/>
+                            <state key="normal" title="Obtener Datos" backgroundImage="N__0004_button.png">
+                                <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="getDataButtonClicked:" destination="-1" eventType="touchUpInside" id="ngP-uO-iGe"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N__0000_arw.png" translatesAutoresizingMaskIntoConstraints="NO" id="1pf-dd-OOT">
+                            <rect key="frame" x="673" y="68" width="15" height="23"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N__0000_arw.png" translatesAutoresizingMaskIntoConstraints="NO" id="X6B-HE-yoG">
+                            <rect key="frame" x="673" y="270" width="15" height="23"/>
+                        </imageView>
+                        <button opaque="NO" tag="1" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zxG-2u-htt">
+                            <rect key="frame" x="416" y="61" width="271" height="37"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="33" maxY="0.0"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.15686274509803921" green="0.15686274509803921" blue="0.15686274509803921" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="popoverTap:" destination="-1" eventType="touchUpInside" id="sUq-l3-jqI"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="JP4-Da-Pr0">
+                            <rect key="frame" x="426" y="147" width="271" height="37"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="33" maxY="0.0"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="popoverTap:" destination="-1" eventType="touchUpInside" id="U7x-za-PMi"/>
+                            </connections>
+                        </button>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lLu-Jz-fKx">
+                            <rect key="frame" x="428" y="308" width="239" height="30"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="-1" id="tsM-iO-1Ge"/>
+                            </connections>
+                        </textField>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Fecha De Vuelo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YN5-Xs-6Wq">
+                            <rect key="frame" x="42" y="150" width="265" height="29"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <color key="textColor" red="0.1215686275" green="0.23529411759999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" tag="3" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="g7v-m1-NBi">
+                            <rect key="frame" x="426" y="263" width="271" height="37"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <inset key="contentEdgeInsets" minX="0.0" minY="0.0" maxX="33" maxY="0.0"/>
+                            <state key="normal">
+                                <color key="titleColor" red="0.15686274510000001" green="0.15686274510000001" blue="0.15686274510000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="popoverTap:" destination="-1" eventType="touchUpInside" id="Bf2-zA-hAq"/>
+                            </connections>
+                        </button>
+                        <button hidden="YES" opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t3u-G2-zNo">
+                            <rect key="frame" x="552" y="7" width="52" height="47"/>
+                            <state key="normal" image="N__0002_trsh_icn.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="trashButtonClicked:" destination="-1" eventType="touchUpInside" id="Y4d-BY-wpb"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Material" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AVp-R1-D9C">
+                            <rect key="frame" x="40" y="267" width="265" height="29"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <color key="textColor" red="0.1215686275" green="0.23529411759999999" blue="0.40784313729999999" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <tableView clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="gGR-24-ThV">
+                            <rect key="frame" x="19" y="411" width="692" height="183"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="separatorColor" red="0.79607843137254897" green="0.792156862745098" blue="0.81960784313725488" alpha="1" colorSpace="calibratedRGB"/>
+                            <color key="sectionIndexColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="sectionIndexTrackingBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <connections>
+                                <outlet property="dataSource" destination="-1" id="eSb-it-sop"/>
+                                <outlet property="delegate" destination="-1" id="3b4-x6-hRg"/>
+                            </connections>
+                        </tableView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Prefijo" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Df8-h7-nNa">
+                            <rect key="frame" x="41" y="65" width="266" height="29"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                            <color key="textColor" red="0.12156862745098039" green="0.23529411764705882" blue="0.40784313725490196" alpha="1" colorSpace="calibratedRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.85999999999999999" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="732" id="2bq-CI-Tmu"/>
+                        <constraint firstAttribute="height" constant="594" id="O6N-bE-k0j"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.083708195373265459" green="0.083708195373265459" blue="0.083708195373265459" alpha="0.45000000000000001" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstItem="G7y-2z-XzU" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="SqH-TP-jcC"/>
+                <constraint firstItem="G7y-2z-XzU" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="emK-1g-6ax"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <point key="canvasLocation" x="206" y="326"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="N__0000_arw.png" width="15" height="23"/>
+        <image name="N__0000_cls_icn.png" width="26" height="26"/>
+        <image name="N__0002_trsh_icn.png" width="15" height="20"/>
+        <image name="N__0004_button.png" width="190" height="45"/>
+    </resources>
+</document>

@@ -1,0 +1,25 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "0d63d409-839e-d046-b146-e6149116fda1++8874",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+    "0d63d409-839e-d046-b146-e6149116fda1++8874" : {
+
+    }
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "0d63d409-839e-d046-b146-e6149116fda1++8874" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "76937634-9D11-424B-8BF4-C3873D7680A8",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "0d63d409-839e-d046-b146-e6149116fda1++8874" : "Nimbus\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Nimbus2",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "NIMBUS_RELEASE4\/Nimbus2.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/10.10.238.60:8443\/svn\/Aeropuerto",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Subversion",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0d63d409-839e-d046-b146-e6149116fda1++8874"
+    }
+  ]
+}

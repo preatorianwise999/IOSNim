@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GENERAL</key>
+	<dict>
+		<key>General Information</key>
+		<string>DomGeneralInfoViewController</string>
+		<key>Boarding</key>
+		<string>DOMBoardingViewController</string>
+		<key>Overview</key>
+		<string>DOMOverviewViewController</string>
+		<key>Suggestions</key>
+		<string>DOMSuggestionsViewController</string>
+	</dict>
+	<key>ECONOMY</key>
+	<dict>
+		<key>Airport</key>
+		<string>NBEconomyAirportViewController</string>
+		<key>Elements &amp; CAT APV</key>
+		<string>DOMEconomyElementAPVViewController</string>
+		<key>Quality Service CAT</key>
+		<string>DOMEconomyQualityServiceViewController</string>
+		<key>Cabin</key>
+		<string>TDOMEconomyCabinViewController</string>
+	</dict>
+</dict>
+</plist>

@@ -1,0 +1,47 @@
+{
+  "Type": "WB",
+  "Value": [
+            {
+            "Orientação a Resultados": [
+                                        "Cumpre todas as normas que regulamentam sua função (imagem, pessoas, apresentação pessoal, prazos, documentação necessária).||RORULE",
+                                        "Planeja e organiza seu trabalho seguindo instruções do CSB.||ROPLAN"
+                                        ]
+            },
+            {
+            "Comunicação": [
+                             "Oferece informações de forma amável, clara e oportuna em todos os momentos, demonstrando consistência na comunicação verbal e não verbal.||COINFR",
+                             "Escuta ativamente o CSB/TT, pares e passageiros, e verifica o entendimento das informações.||COLISN"
+                             ]
+            },
+            {
+            "Resolução de Problemas e Melhora Contínua": [
+                                                          "Previne e/ou resolve problemas que possam ocorrer, mantendo informado seu supervisor em todos os momentos.||RISOLV",
+                                                          "Mantém-se atualizado sobre as ferramentas e conhecimentos que sua função exige.||RIUPDT"
+                                                          ]
+            },
+            {
+            "Trabalho em Equipe e Colaboração": [
+                                                 "Colabora ativamente com o CSB/TT e pares, respeitando a diversidade da equipe e gerando um ambiente positivo.||CLENVR",
+                                                 "Apresenta flexibilidade para mudar de opinião e abertura a críticas, resolvendo conflitos de maneira construtiva.||CLCONF"
+                                                 ]
+            },
+            {
+            "Habilidade em Lidar com Pressão, Mudança e Contingência": [
+                                                                        "Mantém seu nível de efetividade e cumprimento de procedimentos, transmitindo calma e controle da situação.||CNCALM",
+                                                                        "Ao identificar situações de crise ou contingência, reage com rapidez, emprega informações relevantes e demonstra atitude positiva e calma.||CNCRIS"
+                                                                        ]
+            },
+            {
+            "Impacto no Cliente": [
+                                   "Cumpre rigorosamente com as normas, prazos e procedimentos de serviço, garantindo a experiência de viagem dos clientes, assumindo a cadeia de serviços.||ICSTAN",
+                                   "Conecta-se com clientes internos e externos, apresentando uma abordagem amável, próxima e positiva.||ICCONN"
+                                   ]
+            },
+            {
+            "Segurança": [
+                          "Prioriza a segurança e reporta ações ou situações que colocam em risco a segurança da companhia.||SCSAFE",
+                          "Cumpre rigorosamente as normas, prazos e procedimentos de segurança, demonstrando atenção a sua própria segurança e a de clientes e pares.||SCSTAN"
+                          ]
+            }
+            ]
+  }

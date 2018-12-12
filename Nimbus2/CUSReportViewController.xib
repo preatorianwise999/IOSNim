@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CUSReportViewController">
+            <connections>
+                <outlet property="activeTestView" destination="Jkk-AP-hSn" id="kWJ-0G-6b1"/>
+                <outlet property="cameraBtn" destination="zhc-Py-T4R" id="lue-D8-Qmb"/>
+                <outlet property="cusReportToLeadingConstraint" destination="TUm-0n-s9E" id="yTw-ZW-zKP"/>
+                <outlet property="cusReportTopConstraint" destination="Pnx-e3-euZ" id="XsX-jA-SeS"/>
+                <outlet property="cusotmerReportView" destination="hgD-S4-2xc" id="twC-nT-9YG"/>
+                <outlet property="deleteBtn" destination="rCR-mx-Sal" id="s78-6p-NMi"/>
+                <outlet property="detailView" destination="wJM-CH-FGw" id="qUq-sN-ZpU"/>
+                <outlet property="documentTypeLabel" destination="Caq-kQ-OR7" id="Jl8-qY-JF9"/>
+                <outlet property="frequentFlyerLabel" destination="WUh-Lh-y7Y" id="w8W-x0-FdA"/>
+                <outlet property="nameLabel" destination="17W-UQ-QYr" id="Xn4-do-rYz"/>
+                <outlet property="reportTitleLb" destination="DvS-Sa-exZ" id="Tbc-JX-I34"/>
+                <outlet property="seatNumberLabel" destination="1u7-a6-IvU" id="Wnf-A1-A23"/>
+                <outlet property="sendBtn" destination="LU6-UZ-bcP" id="0Mm-b9-k8V"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hgD-S4-2xc">
+                    <rect key="frame" x="160" y="85" width="732" height="629"/>
+                    <subviews>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UfO-BP-BAJ">
+                            <rect key="frame" x="10" y="7" width="40" height="40"/>
+                            <state key="normal" image="N__0000_cls_icn.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cancelButtonTapped:" destination="-1" eventType="touchUpInside" id="ase-WN-d1z"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Reporte CUS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DvS-Sa-exZ">
+                            <rect key="frame" x="269" y="12" width="194" height="35"/>
+                            <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="26"/>
+                            <color key="textColor" red="0.019607843137254902" green="0.11372549019607843" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Jkk-AP-hSn" customClass="TestView">
+                            <rect key="frame" x="585" y="4" width="30" height="50"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                            <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="wJM-CH-FGw">
+                            <rect key="frame" x="0.0" y="146" width="732" height="485"/>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rCR-mx-Sal">
+                            <rect key="frame" x="635" y="4" width="30" height="50"/>
+                            <state key="normal" image="N__0002_trsh_icn.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="deleteButtonTapped:" destination="-1" eventType="touchUpInside" id="0Wf-5r-lm7"/>
+                            </connections>
+                        </button>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zhc-Py-T4R">
+                            <rect key="frame" x="585" y="4" width="30" height="50"/>
+                            <state key="normal" image="camera_blue.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="cameraButtonTapped:" destination="-1" eventType="touchUpInside" id="UeB-iq-sz6"/>
+                            </connections>
+                        </button>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="zon-EL-h6T">
+                            <rect key="frame" x="17" y="58" width="698" height="1"/>
+                            <color key="backgroundColor" red="0.81176470590000005" green="0.81568627449999997" blue="0.82352941180000006" alpha="0.85999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        </imageView>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gHR-Nk-GgU">
+                            <rect key="frame" x="17" y="144" width="698" height="1"/>
+                            <color key="backgroundColor" red="0.81176470590000005" green="0.81568627449999997" blue="0.82352941180000006" alpha="0.85999999999999999" colorSpace="custom" customColorSpace="sRGB"/>
+                        </imageView>
+                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LU6-UZ-bcP">
+                            <rect key="frame" x="685" y="4" width="30" height="50"/>
+                            <state key="normal" image="N__0001_Sent.png">
+                                <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                            </state>
+                            <connections>
+                                <action selector="sendReportButtonTapped:" destination="-1" eventType="touchUpInside" id="WaH-JS-dwu"/>
+                            </connections>
+                        </button>
+                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="0jb-Mk-l0H">
+                            <rect key="frame" x="0.0" y="59" width="732" height="82"/>
+                            <subviews>
+                                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="circle_blue.png" translatesAutoresizingMaskIntoConstraints="NO" id="471-S9-Y91">
+                                    <rect key="frame" x="28" y="18" width="54" height="51"/>
+                                </imageView>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="17W-UQ-QYr">
+                                    <rect key="frame" x="96" y="13" width="400" height="30"/>
+                                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="22"/>
+                                    <color key="textColor" red="0.019607843140000001" green="0.1137254902" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Caq-kQ-OR7">
+                                    <rect key="frame" x="97" y="36" width="400" height="26"/>
+                                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                                    <color key="textColor" white="0.45000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="WUh-Lh-y7Y">
+                                    <rect key="frame" x="97" y="54" width="400" height="26"/>
+                                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                                    <color key="textColor" white="0.45000000000000001" alpha="1" colorSpace="calibratedWhite"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1u7-a6-IvU">
+                                    <rect key="frame" x="32" y="33" width="48" height="21"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                            </subviews>
+                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="629" id="0JL-tq-GtV"/>
+                        <constraint firstAttribute="width" constant="732" id="Ogv-qq-Viu"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.52000000000000002" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="hgD-S4-2xc" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="85" id="Pnx-e3-euZ"/>
+                <constraint firstItem="hgD-S4-2xc" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="160" id="TUm-0n-s9E"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="140" y="154"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="N__0000_cls_icn.png" width="26" height="26"/>
+        <image name="N__0001_Sent.png" width="17" height="16"/>
+        <image name="N__0002_trsh_icn.png" width="15" height="20"/>
+        <image name="camera_blue.png" width="22" height="16"/>
+        <image name="circle_blue.png" width="54" height="55"/>
+    </resources>
+</document>

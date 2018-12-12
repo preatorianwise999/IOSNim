@@ -1,0 +1,369 @@
+{
+    "Segments": {
+        "SegmentInfo": [
+                        {
+                        "FlightSegment": {
+                        "airlineCode": "LA",
+                        "flightNumber": "704",
+                        "flightDate": "06-10-2015",
+                        "departureAirport": "SCL",
+                        "arrivalAirport": "MAD",
+                        "status": "PDC",
+                        "equipmentType": "MKT",
+                        "cabinClass": "J"
+                        },
+                        "SeatMapDetails": {
+                        "CabinConfiguration": [ {
+                        "Columns": {
+                        "ColumnInformation": [
+                                              {
+                                              "column": "A",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "B",
+                                              "_isWindow": "false",
+                                              "_IsAisle": "true"
+                                              },
+                                              {
+                                              "column": "E",
+                                              "_isWindow": "false",
+                                              "_IsAisle": "true"
+                                              },
+                                              {
+                                              "column": "F",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "H",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "I",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              }
+                                              ]
+                        }
+                        } ],
+                        "Rows": {
+                        "Row": [
+                                {
+                                "rowNumber": "01",
+                                "Seat": [
+                                         {
+                                         "column": "A",
+                                         "state": ".",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "B",
+                                         "state": "",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "=",
+                                         "state": ""
+                                         },
+                                         {
+                                         "column": "E",
+                                         "state": "",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "F",
+                                         "state": "*",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "=",
+                                         "state": ""
+                                         },
+                                         {
+                                         "column": "H",
+                                         "state": "*",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "I",
+                                         "state": "*",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         }
+                                         ],
+                                "_isWing": "false",
+                                "_isEmergency": "false"
+                                },
+                                {
+                                "rowNumber": "02",
+                                "Seat": [
+                                         {
+                                         "column": "A",
+                                         "state": "",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "B",
+                                         "state": "",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "=",
+                                         "state": ""
+                                         },
+                                         {
+                                         "column": "E",
+                                         "state": "",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "F",
+                                         "state": "",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "=",
+                                         "state": ""
+                                         },
+                                         {
+                                         "column": "H",
+                                         "state": "",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "I",
+                                         "state": "",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         }
+                                         ],
+                                "_isWing": "false",
+                                "_isEmergency": "false"
+                                }
+                                ]
+                        }
+                        }
+                        },
+                        {
+                        "FlightSegment": {
+                        "airlineCode": "LA",
+                        "flightNumber": "704",
+                        "flightDate": "06-10-2015",
+                        "departureAirport": "SCL",
+                        "arrivalAirport": "MAD",
+                        "status": "PDC",
+                        "equipmentType": "MKT",
+                        "cabinClass": "Y"
+                        },
+                        "SeatMapDetails": {
+                        "CabinConfiguration": [ {
+                        "Columns": {
+                        "ColumnInformation": [
+                                              {
+                                              "column": "A",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "B",
+                                              "_isWindow": "false",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "C",
+                                              "_isWindow": "false",
+                                              "_IsAisle": "true"
+                                              },
+                                              {
+                                              "column": "D",
+                                              "_isWindow": "false",
+                                              "_IsAisle": "true"
+                                              },
+                                              {
+                                              "column": "E",
+                                              "_isWindow": "false",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "F",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "F",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "F",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              },
+                                              {
+                                              "column": "F",
+                                              "_isWindow": "true",
+                                              "_IsAisle": "false"
+                                              }
+                                              ]
+                        }
+                        } ],
+                        "Rows": {
+                        "Row": [
+                                {
+                                "rowNumber": "05",
+                                "Seat": [
+                                         {
+                                         "column": "A",
+                                         "state": "*",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "B",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "C",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "=",
+                                         "state": ""
+                                         },
+                                         {
+                                         "column": "D",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "E",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "F",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "=",
+                                         "state": ""
+                                         },
+                                         {
+                                         "column": "G",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "H",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "I",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "false"
+                                         }
+                                         ],
+                                "_isWing": "false",
+                                "_isEmergency": "false"
+                                },
+                                {
+                                "rowNumber": "06",
+                                "Seat": [
+                                         {
+                                         "column": "A",
+                                         "state": "*",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "B",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "C",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "=",
+                                         "state": ""
+                                         },
+                                         {
+                                         "column": "D",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "E",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "F",
+                                         "state": "*",
+                                         "_isWindow": "true",
+                                         "_isAisle": "false"
+                                         },
+                                         {
+                                         "column": "=",
+                                         "state": ""
+                                         },
+                                         {
+                                         "column": "G",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "H",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         },
+                                         {
+                                         "column": "I",
+                                         "state": "*",
+                                         "_isWindow": "false",
+                                         "_isAisle": "true"
+                                         }
+                                         ],
+                                "_isWing": "false",
+                                "_isEmergency": "false"
+                                }
+                                ]
+                        }
+                        }
+                        }
+                        ]
+    }
+}

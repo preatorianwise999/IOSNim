@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="TextFieldIdentifier" rowHeight="101" id="ebl-5h-vg3">
+            <rect key="frame" x="0.0" y="0.0" width="935" height="101"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="ebl-5h-vg3" id="f53-W7-TCj">
+                <rect key="frame" x="0.0" y="0.0" width="935" height="100"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="889" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ZDz-aQ-lVj">
+                        <rect key="frame" x="33" y="73" width="872" height="21"/>
+                        <string key="text">-  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  </string>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="0.80000000000000004" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="101" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nuevo procedimiento de desembarque LIM" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fdU-VX-beo">
+                        <rect key="frame" x="32" y="6" width="878" height="27"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" tag="102" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMf-cI-uN7">
+                        <rect key="frame" x="32" y="33" width="875" height="40"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="ACM-tI-Y48"/>
+                        </constraints>
+                        <string key="text">1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 1234567890 123456789</string>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" tag="888" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="N__0010_line.png" translatesAutoresizingMaskIntoConstraints="NO" id="MTQ-Iu-Kgi">
+                        <rect key="frame" x="25" y="80" width="877" height="8"/>
+                    </imageView>
+                </subviews>
+                <color key="backgroundColor" red="1" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstAttribute="trailingMargin" secondItem="MTQ-Iu-Kgi" secondAttribute="trailing" constant="25" id="3Tl-on-Bsa"/>
+                    <constraint firstItem="fdU-VX-beo" firstAttribute="top" secondItem="f53-W7-TCj" secondAttribute="top" constant="6" id="5PB-kM-PV3"/>
+                    <constraint firstItem="ZDz-aQ-lVj" firstAttribute="top" secondItem="FMf-cI-uN7" secondAttribute="bottom" id="BMc-v1-zFb"/>
+                    <constraint firstAttribute="trailing" secondItem="ZDz-aQ-lVj" secondAttribute="trailing" constant="30" id="IBn-ET-yBB"/>
+                    <constraint firstItem="fdU-VX-beo" firstAttribute="leading" secondItem="f53-W7-TCj" secondAttribute="leading" constant="32" id="LJV-Yp-uie"/>
+                    <constraint firstAttribute="trailing" secondItem="fdU-VX-beo" secondAttribute="trailing" constant="25" id="bEo-Vn-Ugv"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="FMf-cI-uN7" secondAttribute="trailing" constant="20" id="doP-Ks-4dQ"/>
+                    <constraint firstItem="ZDz-aQ-lVj" firstAttribute="leading" secondItem="f53-W7-TCj" secondAttribute="leadingMargin" constant="25" id="j7f-0U-LFL"/>
+                    <constraint firstItem="MTQ-Iu-Kgi" firstAttribute="leading" secondItem="f53-W7-TCj" secondAttribute="leading" constant="25" id="nrN-Dl-QNE"/>
+                    <constraint firstItem="MTQ-Iu-Kgi" firstAttribute="top" secondItem="FMf-cI-uN7" secondAttribute="bottom" constant="7" id="vTN-er-bhd"/>
+                    <constraint firstItem="FMf-cI-uN7" firstAttribute="leading" secondItem="f53-W7-TCj" secondAttribute="leading" constant="32" id="vob-Pp-l69"/>
+                    <constraint firstItem="FMf-cI-uN7" firstAttribute="top" secondItem="fdU-VX-beo" secondAttribute="bottom" id="znG-tF-1wC"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.59999999999999998" colorSpace="calibratedRGB"/>
+            <point key="canvasLocation" x="495.5" y="288.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="N__0010_line.png" width="820" height="8"/>
+    </resources>
+</document>

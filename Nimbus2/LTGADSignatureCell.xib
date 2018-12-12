@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell tag="1014" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="gadSignatureCell" rowHeight="200" id="bYL-aF-IMr" customClass="LTGADSignatureCell">
+            <rect key="frame" x="0.0" y="0.0" width="695" height="200"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="bYL-aF-IMr" id="MRD-im-rWE">
+                <rect key="frame" x="0.0" y="0.0" width="695" height="199"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="qDC-aq-iaj" userLabel="firmaObservadorContainerView">
+                        <rect key="frame" x="10" y="15" width="328" height="172"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sta-ug-UYu">
+                                <rect key="frame" x="8" y="42" width="312" height="120"/>
+                                <connections>
+                                    <action selector="observadorSignatureTapped:" destination="bYL-aF-IMr" eventType="touchUpInside" id="jQi-N6-Pe3"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="xwQ-c9-9Zl">
+                                <rect key="frame" x="8" y="42" width="312" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firma Observador" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="csL-pV-Vii">
+                                <rect key="frame" x="10" y="9" width="214" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="Psz-W8-WTZ"/>
+                                    <constraint firstAttribute="width" constant="214" id="ntt-lM-1Sz"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="17"/>
+                                <color key="textColor" red="0.074509803920000006" green="0.1764705882" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="sta-ug-UYu" firstAttribute="leading" secondItem="qDC-aq-iaj" secondAttribute="leading" constant="8" id="Cyn-a5-bAv"/>
+                            <constraint firstItem="csL-pV-Vii" firstAttribute="leading" secondItem="qDC-aq-iaj" secondAttribute="leading" constant="10" id="EeQ-Ak-Gqg"/>
+                            <constraint firstAttribute="bottom" secondItem="sta-ug-UYu" secondAttribute="bottom" constant="10" id="InI-AW-pVc"/>
+                            <constraint firstItem="xwQ-c9-9Zl" firstAttribute="leading" secondItem="qDC-aq-iaj" secondAttribute="leading" constant="8" id="XyM-7h-lrM"/>
+                            <constraint firstAttribute="trailing" secondItem="sta-ug-UYu" secondAttribute="trailing" constant="8" id="g36-u7-9La"/>
+                            <constraint firstItem="sta-ug-UYu" firstAttribute="top" secondItem="csL-pV-Vii" secondAttribute="bottom" constant="12" id="j6P-4Z-MV8"/>
+                            <constraint firstAttribute="bottom" secondItem="xwQ-c9-9Zl" secondAttribute="bottom" constant="10" id="nEv-NI-Uql"/>
+                            <constraint firstItem="xwQ-c9-9Zl" firstAttribute="top" secondItem="csL-pV-Vii" secondAttribute="bottom" constant="12" id="raB-pA-sHL"/>
+                            <constraint firstItem="csL-pV-Vii" firstAttribute="top" secondItem="qDC-aq-iaj" secondAttribute="top" constant="9" id="vjh-0n-4f5"/>
+                            <constraint firstAttribute="trailing" secondItem="xwQ-c9-9Zl" secondAttribute="trailing" constant="8" id="vnG-Vg-I3u"/>
+                        </constraints>
+                    </view>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Vp5-A4-oVw" userLabel="firmaTCContainerView">
+                        <rect key="frame" x="358" y="15" width="327" height="172"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cz1-3D-36O">
+                                <rect key="frame" x="8" y="42" width="311" height="120"/>
+                                <connections>
+                                    <action selector="tcSignatureTapped:" destination="bYL-aF-IMr" eventType="touchUpInside" id="f9I-p9-fto"/>
+                                </connections>
+                            </button>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="qvT-t0-hb0">
+                                <rect key="frame" x="8" y="42" width="311" height="120"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Firma TC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="og6-JG-8zl">
+                                <rect key="frame" x="10" y="9" width="220" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="R8G-cN-xaa"/>
+                                    <constraint firstAttribute="width" constant="220" id="mIl-pr-4ry"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="17"/>
+                                <color key="textColor" red="0.074509803920000006" green="0.1764705882" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.97254901960784312" green="0.97254901960784312" blue="0.97254901960784312" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="qvT-t0-hb0" secondAttribute="trailing" constant="8" id="5yt-zK-zFW"/>
+                            <constraint firstItem="og6-JG-8zl" firstAttribute="top" secondItem="Vp5-A4-oVw" secondAttribute="top" constant="9" id="6gp-GJ-CbM"/>
+                            <constraint firstItem="cz1-3D-36O" firstAttribute="leading" secondItem="Vp5-A4-oVw" secondAttribute="leading" constant="8" id="QWg-lW-Oc5"/>
+                            <constraint firstAttribute="trailing" secondItem="cz1-3D-36O" secondAttribute="trailing" constant="8" id="UeS-MY-ra2"/>
+                            <constraint firstItem="qvT-t0-hb0" firstAttribute="leading" secondItem="Vp5-A4-oVw" secondAttribute="leading" constant="8" id="XAs-00-uK4"/>
+                            <constraint firstAttribute="bottom" secondItem="cz1-3D-36O" secondAttribute="bottom" constant="10" id="dQs-hR-Bnz"/>
+                            <constraint firstAttribute="bottom" secondItem="qvT-t0-hb0" secondAttribute="bottom" constant="10" id="dok-cJ-V38"/>
+                            <constraint firstItem="og6-JG-8zl" firstAttribute="leading" secondItem="Vp5-A4-oVw" secondAttribute="leading" constant="10" id="nps-op-adE"/>
+                            <constraint firstItem="qvT-t0-hb0" firstAttribute="top" secondItem="og6-JG-8zl" secondAttribute="bottom" constant="12" id="olc-71-7yq"/>
+                            <constraint firstItem="cz1-3D-36O" firstAttribute="top" secondItem="og6-JG-8zl" secondAttribute="bottom" constant="12" id="qBX-H2-FAA"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="Vp5-A4-oVw" firstAttribute="top" secondItem="MRD-im-rWE" secondAttribute="topMargin" constant="7" id="5uA-56-jcE"/>
+                    <constraint firstItem="qDC-aq-iaj" firstAttribute="top" secondItem="MRD-im-rWE" secondAttribute="top" constant="15" id="7ft-iD-Ncl"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Vp5-A4-oVw" secondAttribute="trailing" constant="2" id="GnV-Jy-Lc7"/>
+                    <constraint firstAttribute="bottom" secondItem="qDC-aq-iaj" secondAttribute="bottom" constant="12" id="JWg-WV-fNF"/>
+                    <constraint firstItem="Vp5-A4-oVw" firstAttribute="leading" secondItem="qDC-aq-iaj" secondAttribute="trailing" constant="20" id="Lh0-GF-hBe"/>
+                    <constraint firstAttribute="trailing" secondItem="qDC-aq-iaj" secondAttribute="trailing" multiplier="2" constant="20" id="TNI-AN-9Ph"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="Vp5-A4-oVw" secondAttribute="bottom" constant="4" id="ccx-ij-ju5"/>
+                    <constraint firstItem="qDC-aq-iaj" firstAttribute="leading" secondItem="MRD-im-rWE" secondAttribute="leading" constant="10" id="jbK-DF-OBX"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="firmaObservadorContainerView" destination="qDC-aq-iaj" id="G1k-aA-azg"/>
+                <outlet property="firmaObservadorLabel" destination="csL-pV-Vii" id="v4e-d5-gxs"/>
+                <outlet property="firmaTCContainerView" destination="Vp5-A4-oVw" id="Bgb-bT-9gV"/>
+                <outlet property="firmaTCLabel" destination="og6-JG-8zl" id="HTm-5Z-5Wb"/>
+                <outlet property="firmaTcImageView" destination="qvT-t0-hb0" id="Us3-4y-dfy"/>
+                <outlet property="signatureImageView" destination="xwQ-c9-9Zl" id="5ON-sN-ak5"/>
+            </connections>
+        </tableViewCell>
+    </objects>
+</document>

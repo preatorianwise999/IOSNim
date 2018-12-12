@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PassengerDetailsViewController">
+            <connections>
+                <outlet property="detailsTableView" destination="Ayb-g7-zpG" id="98v-HZ-Tv1"/>
+                <outlet property="doneButton" destination="fhp-IT-wTS" id="pmq-Vj-mFv"/>
+                <outlet property="reportCusButton" destination="gbg-CC-PJ1" id="S8y-A9-3Ko"/>
+                <outlet property="tableViewHeightConstraint" destination="gmc-9M-GEa" id="Lmu-1M-DmH"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="600"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" allowsSelection="NO" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="Ayb-g7-zpG">
+                    <rect key="frame" x="0.0" y="0.0" width="230" height="450"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="230" id="6qy-fi-UBb"/>
+                        <constraint firstAttribute="height" constant="450" id="gmc-9M-GEa"/>
+                    </constraints>
+                    <color key="sectionIndexBackgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="6qy-fi-UBb"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="ICn-kG-2KO"/>
+                        <outlet property="delegate" destination="-1" id="l0S-Wg-SbK"/>
+                    </connections>
+                </tableView>
+                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fhp-IT-wTS">
+                    <rect key="frame" x="55" y="526" width="120" height="28"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="YKH-Am-qts"/>
+                        <constraint firstAttribute="width" constant="120" id="kKc-bg-c3z"/>
+                        <constraint firstAttribute="width" constant="105" id="mh6-dJ-12B"/>
+                        <constraint firstAttribute="height" constant="28" id="siW-HT-Z8t"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="13"/>
+                    <state key="normal" backgroundImage="done_seatMap.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="YKH-Am-qts"/>
+                            <exclude reference="mh6-dJ-12B"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="doneButtonTapped:" destination="-1" eventType="touchUpInside" id="b9c-Xm-7rM"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="center" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gbg-CC-PJ1" userLabel="Reporte CUS">
+                    <rect key="frame" x="55" y="490" width="120" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="28" id="8P1-Zv-sga"/>
+                        <constraint firstAttribute="width" constant="100" id="FR8-Z6-c5f"/>
+                        <constraint firstAttribute="height" constant="28" id="ex1-Zv-79N"/>
+                        <constraint firstAttribute="width" constant="120" id="h3H-I7-N3v"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="13"/>
+                    <inset key="contentEdgeInsets" minX="10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    <state key="normal" title=" Reporte CUS" backgroundImage="N__0004_button.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <variation key="default">
+                        <mask key="constraints">
+                            <exclude reference="8P1-Zv-sga"/>
+                            <exclude reference="FR8-Z6-c5f"/>
+                        </mask>
+                    </variation>
+                    <connections>
+                        <action selector="reportCusButtonTapped:" destination="-1" eventType="touchUpInside" id="1fV-gJ-sdP"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="gbg-CC-PJ1" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="45G-10-1zH"/>
+                <constraint firstItem="fhp-IT-wTS" firstAttribute="leading" secondItem="gbg-CC-PJ1" secondAttribute="trailing" constant="10" id="4vV-wZ-hQO"/>
+                <constraint firstItem="fhp-IT-wTS" firstAttribute="top" secondItem="gbg-CC-PJ1" secondAttribute="bottom" constant="8" id="6Zd-6v-dx8"/>
+                <constraint firstItem="gbg-CC-PJ1" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="8jc-2H-BU8"/>
+                <constraint firstItem="gbg-CC-PJ1" firstAttribute="top" secondItem="Ayb-g7-zpG" secondAttribute="bottom" constant="40" id="JnL-ml-Mgn"/>
+                <constraint firstItem="gbg-CC-PJ1" firstAttribute="top" secondItem="Ayb-g7-zpG" secondAttribute="bottom" constant="40" id="U7s-AI-bKU"/>
+                <constraint firstItem="Ayb-g7-zpG" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="UlU-6r-Tf0"/>
+                <constraint firstItem="fhp-IT-wTS" firstAttribute="centerY" secondItem="gbg-CC-PJ1" secondAttribute="centerY" id="Y8S-At-RgR"/>
+                <constraint firstItem="fhp-IT-wTS" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ee6-Ki-ZPM"/>
+                <constraint firstItem="Ayb-g7-zpG" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="gWQ-aL-Cx3"/>
+                <constraint firstAttribute="trailing" secondItem="Ayb-g7-zpG" secondAttribute="trailing" id="jbd-k1-VPo"/>
+                <constraint firstAttribute="trailing" secondItem="fhp-IT-wTS" secondAttribute="trailing" constant="5" id="lNu-5v-nMF"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <variation key="default">
+                <mask key="constraints">
+                    <exclude reference="45G-10-1zH"/>
+                    <exclude reference="JnL-ml-Mgn"/>
+                    <exclude reference="4vV-wZ-hQO"/>
+                    <exclude reference="Y8S-At-RgR"/>
+                    <exclude reference="lNu-5v-nMF"/>
+                </mask>
+            </variation>
+        </view>
+    </objects>
+    <resources>
+        <image name="N__0004_button.png" width="190" height="45"/>
+        <image name="done_seatMap.png" width="115" height="26"/>
+    </resources>
+</document>

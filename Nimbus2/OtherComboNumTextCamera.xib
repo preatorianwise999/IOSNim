@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="44" id="HF0-ak-BQa" customClass="OtherComboNumTextCamera">
+            <rect key="frame" x="0.0" y="0.0" width="540" height="44"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HF0-ak-BQa" id="MLg-Q0-WDd">
+                <rect key="frame" x="0.0" y="0.0" width="540" height="43"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <textField opaque="NO" clipsSubviews="YES" alpha="0.84999999999999987" tag="100" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="center" minimumFontSize="17" id="KgG-U7-mtT">
+                        <rect key="frame" x="351" y="6" width="75" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="textColor" red="0.96470588239999999" green="0.96470588239999999" blue="0.96470588239999999" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="14"/>
+                        <textInputTraits key="textInputTraits"/>
+                    </textField>
+                    <view alpha="0.34999999999999998" contentMode="scaleToFill" id="ada-tp-8aA" customClass="TestView">
+                        <rect key="frame" x="195" y="6" width="148" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.91238536010000004" green="0.91238536010000004" blue="0.91238536010000004" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <view alpha="0.34999999999999964" contentMode="scaleToFill" id="BcQ-io-Imz" customClass="TestView">
+                        <rect key="frame" x="42" y="6" width="148" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" red="0.88310971469999999" green="0.88310971469999999" blue="0.88310971469999999" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_comment_empty.png" id="S8Q-vc-OAg">
+                        <rect key="frame" x="433" y="6" width="46" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                    <view contentMode="scaleToFill" id="7jE-St-rE8" customClass="TestView">
+                        <rect key="frame" x="484" y="6" width="46" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <view contentMode="scaleToFill" id="Bmh-6I-maO" customClass="TestView">
+                        <rect key="frame" x="432" y="6" width="46" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </view>
+                    <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" id="L45-j3-4fr">
+                        <rect key="frame" x="484" y="6" width="46" height="32"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <animations/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </imageView>
+                </subviews>
+                <animations/>
+            </tableViewCellContentView>
+            <animations/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <connections>
+                <outlet property="alertComboView" destination="Bmh-6I-maO" id="Ofz-Zi-Mi7"/>
+                <outlet property="amountTxt" destination="KgG-U7-mtT" id="AyS-20-7yO"/>
+                <outlet property="cameraImageView" destination="L45-j3-4fr" id="39C-vG-XID"/>
+                <outlet property="cameraView" destination="7jE-St-rE8" id="9xt-NG-bb3"/>
+                <outlet property="commentBtn" destination="S8Q-vc-OAg" id="aVf-hI-ibm"/>
+                <outlet property="elementTxt" destination="BcQ-io-Imz" id="QWh-GO-R4Y"/>
+                <outlet property="reportTxt" destination="ada-tp-8aA" id="6V0-xH-55X"/>
+            </connections>
+            <point key="canvasLocation" x="-152" y="90"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="icon_comment_empty.png" width="39" height="28"/>
+    </resources>
+</document>

@@ -1,0 +1,30 @@
+{
+    "Type": "WB",
+    "Value": [
+              {
+              "Segurança": [
+                            "Conhece e executa todas as normas e procedimentos de segurança, corrigindo imediatamente o descumprimento, durante toda a programação.||TWSCEE",
+                            "Durante o embarque, observa os principais fatores (comportamentos, necessidades e bagagens) que podem impactar na segurança do voo, atuando conforme normas e procedimentos.||TWSDEO",
+                            "Realiza a ronda com atenção, prevenindo situações que possam gerar risco à segurança e atua rapidamente, se necessário.||TWSRRA",
+                            "Comunica-se de forma clara e contínua com os passageiros e todas as equipes envolvidas na operação, durante toda a programação.||TWSCCF",
+                            "Faz o uso de EPIs, utilizando-os corretamente, durante toda a jornada (da apresentação ao debriefing), zelando pela própria segurança e dos demais.||TWSEUC"
+                            ]
+              },
+              {
+              "Ser Atencioso": [
+                                  "Conecta-se com os clientes de forma próxima, empática e gentil (contato visual, personalização do atendimento e tom de voz), durante toda a experiência de viagem.||TWCCCC",
+                                  "Comunica-se e relaciona-se de forma próxima, empática e gentil, com as equipes envolvidas na operação.||TWCCRE",
+                                  "Atua e interage de forma próxima, empática e gentil com os passageiros PNAEs, top tiers e crianças durante todo o voo.||TWCHIE",
+                                  "Permanece atento às necessidades dos clientes, oferecendo soluções e informações de forma oportuna.||TWCOSM"
+                                  ]
+              },
+              {
+              "Eficiência": [
+                             "Executa de forma consistente as normas, procedimentos e protocolos de serviço, ajustando-os quando necessário.||TWEEFC",
+                             "Organiza e realiza suas atividades integrando-as com a de seus pares, para promover a excelência no atendimento a nossos clientes.||TWEOLC",
+                             "Atua de forma calma e positiva, diante de contingências e quebras de serviço, minimizando os impactos aos clientes.||TWEAMT",
+                             "Comunica-se de forma clara, ágil e objetiva, fornecendo a informação completa para todos os envolvidos.||TWECCM"
+                             ]
+              }
+              ]
+}

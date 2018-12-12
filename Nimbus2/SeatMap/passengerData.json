@@ -1,0 +1,399 @@
+{
+    "passengerListResponse": {
+        "airlineCode": "LA",
+        "flightDate": "17-10-2015 00:00",
+        "flightNumber": "3020",
+        "suffix": "_",
+        "legs": [
+                 {
+                 "origin": "BOG",
+                 "destination": "MDE",
+                 "passengerList": [
+                                   {
+                                   "arrivalAirport": "MAD",
+                                   "seatNumber": "29A",
+                                   "status": "Embarcado",
+                                   "documentNumber": "12412412",
+                                   "documentType": "P",
+                                   "documentIssuingCountry": "US",
+                                   "frequentNumber": "",
+                                   "frequentAirlineCode": "LA",
+                                   "frequentCategory": "SAPH",
+                                   "groupCode": "AF4",
+                                   "nationality" : "CL",
+                                   "dateBirth" : "10-10-1988",
+                                   "email" : "example@lan.com",
+                                   "language" : "ES",
+                                   "lanPass" : {
+                                   "kilometers" : 500000,
+                                   "category" : "PREMIUM",
+                                   "upgrade" : true
+                                   
+                                   },
+                                   "vipData": {
+                                   "category": "GOSS",
+                                   "remarks": "",
+                                   "specialAttentions": ""
+                                   },
+                                   "specialMeals": [
+                                                    {
+                                                    "option" : "Vegetarian Hindu meal",
+                                                    "serviceCode" : "AVML"
+                                                    }
+                                                    ],
+                                   "connection": [
+                                                  {
+                                                  "airlineCode": "LA",
+                                                  "flightNumber": "500",
+                                                  "departure": "SCL",
+                                                  "arrival": "ANF",
+                                                  "departureDate": "17-10-2015 00:00",
+                                                  "arrivalDate": "17-10-2015 00:00"
+                                                  }
+                                                  ],
+                                   "lastName": "Perez",
+                                   "firstName": "Juan",
+                                   "gender": "F",
+                                   "editCodes": "DOCS,TKT,CM,F,GSSC",
+                                   "birthDate": "",
+                                   "isChild": true
+                                   },
+                                   {
+                                   "arrivalAirport": "MAD",
+                                   "seatNumber": "1A",
+                                   "status": "Embarcado",
+                                   "documentNumber": "12412412",
+                                   "documentType": "P",
+                                   "documentIssuingCountry": "US",
+                                   "frequentNumber": "",
+                                   "frequentAirlineCode": "LA",
+                                   "frequentCategory": "SAPH",
+                                   "groupCode": "AF4",
+                                   "nationality" : "CL",
+                                   "dateBirth" : "10-10-1988",
+                                   "email" : "example@lan.com",
+                                   "language" : "ES",
+                                   "lanPass" : {
+                                   "kilometers" : 500000,
+                                   "category" : "PREMIUM",
+                                   "upgrade" : true
+                                   
+                                   },
+                                   "vipData": {
+                                   "category": "GOSS",
+                                   "remarks": "",
+                                   "specialAttentions": ""
+                                   },
+                                   "specialMeals": [
+                                                    {
+                                                    "option" : "Vegetarian Hindu meal",
+                                                    "serviceCode" : "AVML"
+                                                    }
+                                                    ],
+                                   "connection": [
+                                                  {
+                                                  "airlineCode": "LA",
+                                                  "flightNumber": "500",
+                                                  "departure": "SCL",
+                                                  "arrival": "ANF",
+                                                  "departureDate": "17-10-2015 00:00",
+                                                  "arrivalDate": "17-10-2015 00:00"
+                                                  }
+                                                  ],
+                                   "lastName": "Perez",
+                                   "firstName": "Juan",
+                                   "gender": "F",
+                                   "editCodes": "DOCS,TKT,CM,F,GSSC",
+                                   "birthDate": "",
+                                   "isWCH": true,
+                                   "isChild": true
+                                   },
+                                   {
+                                   "arrivalAirport": "MAD",
+                                   "seatNumber": "3B",
+                                   "status": "Embarcado",
+                                   "documentNumber": "12412412",
+                                   "documentType": "P",
+                                   "documentIssuingCountry": "US",
+                                   "frequentNumber": "",
+                                   "frequentAirlineCode": "LA",
+                                   "frequentCategory": "SAPH",
+                                   "groupCode": "AF4",
+                                   "nationality" : "CL",
+                                   "dateBirth" : "10-10-1988",
+                                   "email" : "example@lan.com",
+                                   "language" : "ES",
+                                   "lanPass" : {
+                                   "kilometers" : 500000,
+                                   "category" : "PREMIUM",
+                                   "upgrade" : true
+                                   
+                                   },
+                                   "vipData": {
+                                   "category": "GOSS",
+                                   "remarks": "",
+                                   "specialAttentions": ""
+                                   },
+                                   
+                                   "connection": [
+                                                  {
+                                                  "airlineCode": "LA",
+                                                  "flightNumber": "500",
+                                                  "departure": "SCL",
+                                                  "arrival": "ANF",
+                                                  "departureDate": "17-10-2015 00:00",
+                                                  "arrivalDate": "17-10-2015 00:00"
+                                                  }
+                                                  ],
+                                   "lastName": "Perez",
+                                   "firstName": "Juan",
+                                   "gender": "F",
+                                   "editCodes": "DOCS,TKT,CM,F,GSSC",
+                                   "birthDate": "",
+                                   "isWCH": true,
+                                   "isChild": true
+                                   },
+                                   {
+                                   "arrivalAirport": "MAD",
+                                   "seatNumber": "12F",
+                                   "status": "Embarcado",
+                                   "documentNumber": "12412412",
+                                   "documentType": "P",
+                                   "documentIssuingCountry": "US",
+                                   "frequentNumber": "",
+                                   "frequentAirlineCode": "LA",
+                                   "frequentCategory": "SAPH",
+                                   "groupCode": "AF4",
+                                   "nationality" : "CL",
+                                   "dateBirth" : "10-10-1988",
+                                   "email" : "example@lan.com",
+                                   "language" : "ES",
+                                                                     "vipData": {
+                                   "category": "GOSS",
+                                   "remarks": "",
+                                   "specialAttentions": ""
+                                   },
+                                   "specialMeals": [
+                                                    {
+                                                    "option" : "Vegetarian Hindu meal",
+                                                    "serviceCode" : "AVML"
+                                                    }
+                                                    ],
+                                   "connection": [
+                                                  {
+                                                  "airlineCode": "LA",
+                                                  "flightNumber": "500",
+                                                  "departure": "SCL",
+                                                  "arrival": "ANF",
+                                                  "departureDate": "17-10-2015 00:00",
+                                                  "arrivalDate": "17-10-2015 00:00"
+                                                  }
+                                                  ],
+                                   "lastName": "Perez",
+                                   "firstName": "Juan",
+                                   "gender": "F",
+                                   "editCodes": "DOCS,TKT,CM,F,GSSC",
+                                   "birthDate": "",
+                                   "isWCH": true,
+                                   "isChild": true
+                                   },
+                                   {
+                                   "arrivalAirport": "MAD",
+                                   "seatNumber": "9A",
+                                   "status": "Embarcado",
+                                   "documentNumber": "12412412",
+                                   "documentType": "P",
+                                   "documentIssuingCountry": "US",
+                                   "frequentNumber": "",
+                                   "frequentAirlineCode": "LA",
+                                   "frequentCategory": "SAPH",
+                                   "groupCode": "AF4",
+                                   "nationality" : "CL",
+                                   "dateBirth" : "10-10-1988",
+                                   "email" : "example@lan.com",
+                                   "language" : "ES",
+                                   "lanPass" : {
+                                   "kilometers" : 500000,
+                                   "category" : "PREMIUM",
+                                   "upgrade" : true
+                                   
+                                   },
+                                   "vipData": {
+                                   "category": "GOSS",
+                                   "remarks": "",
+                                   "specialAttentions": ""
+                                   },
+                                   "specialMeals": [
+                                                    {
+                                                    "option" : "Vegetarian Hindu meal",
+                                                    "serviceCode" : "AVML"
+                                                    }
+                                                    ],
+                                   "connection": [
+                                                  {
+                                                  "airlineCode": "LA",
+                                                  "flightNumber": "500",
+                                                  "departure": "SCL",
+                                                  "arrival": "ANF",
+                                                  "departureDate": "17-10-2015 00:00",
+                                                  "arrivalDate": "17-10-2015 00:00"
+                                                  }
+                                                  ],
+                                   "lastName": "Perez",
+                                   "firstName": "Juan",
+                                   "gender": "F",
+                                   "editCodes": "DOCS,TKT,CM,F,GSSC",
+                                   "birthDate": "",
+                                   "isWCH": true,
+                                   "isChild": true
+                                   },
+                                   {
+                                   "arrivalAirport": "MAD",
+                                   "seatNumber": "19A",
+                                   "status": "Embarcado",
+                                   "documentNumber": "12412412",
+                                   "documentType": "P",
+                                   "documentIssuingCountry": "US",
+                                   "frequentNumber": "",
+                                   "frequentAirlineCode": "LA",
+                                   "frequentCategory": "SAPH",
+                                   "groupCode": "AF4",
+                                   "nationality" : "CL",
+                                   "dateBirth" : "10-10-1988",
+                                   "email" : "example@lan.com",
+                                   "language" : "ES",
+                                   "lanPass" : {
+                                   "kilometers" : 500000,
+                                   "category" : "PREMIUM",
+                                   "upgrade" : true
+                                   
+                                   },
+                                   "vipData": {
+                                   "category": "GOSS",
+                                   "remarks": "",
+                                   "specialAttentions": ""
+                                   },
+                                  
+                                   "connection": [
+                                                  {
+                                                  "airlineCode": "LA",
+                                                  "flightNumber": "500",
+                                                  "departure": "SCL",
+                                                  "arrival": "ANF",
+                                                  "departureDate": "17-10-2015 00:00",
+                                                  "arrivalDate": "17-10-2015 00:00"
+                                                  }
+                                                  ],
+                                   "lastName": "Perez",
+                                   "firstName": "Juan",
+                                   "gender": "F",
+                                   "editCodes": "DOCS,TKT,CM,F,GSSC",
+                                   "birthDate": "",
+                                   "isWCH": true,
+                                   "isChild": true
+                                   },
+                                   {
+                                   "arrivalAirport": "MAD",
+                                   "seatNumber": "21A",
+                                   "status": "Embarcado",
+                                   "documentNumber": "12412412",
+                                   "documentType": "P",
+                                   "documentIssuingCountry": "US",
+                                   "frequentNumber": "",
+                                   "frequentAirlineCode": "LA",
+                                   "frequentCategory": "SAPH",
+                                   "groupCode": "AF4",
+                                   "nationality" : "CL",
+                                   "dateBirth" : "10-10-1988",
+                                   "email" : "example@lan.com",
+                                   "language" : "ES",
+                                   "lanPass" : {
+                                   "kilometers" : 500000,
+                                   "category" : "PREMIUM",
+                                   "upgrade" : true
+                                   
+                                   },
+                                   "vipData": {
+                                   "category": "GOSS",
+                                   "remarks": "",
+                                   "specialAttentions": ""
+                                   },
+                                   "specialMeals": [
+                                                    {
+                                                    "option" : "Vegetarian Hindu meal",
+                                                    "serviceCode" : "AVML"
+                                                    }
+                                                    ],
+                                   "connection": [
+                                                  {
+                                                  "airlineCode": "LA",
+                                                  "flightNumber": "500",
+                                                  "departure": "SCL",
+                                                  "arrival": "ANF",
+                                                  "departureDate": "17-10-2015 00:00",
+                                                  "arrivalDate": "17-10-2015 00:00"
+                                                  }
+                                                  ],
+                                   "lastName": "Perez",
+                                   "firstName": "Juan",
+                                   "gender": "F",
+                                   "editCodes": "DOCS,TKT,CM,F,GSSC",
+                                   "birthDate": "",
+                                   "isWCH": true,
+                                   "isChild": true
+                                   },
+                                   {
+                                   "arrivalAirport": "MAD",
+                                   "seatNumber": "10A",
+                                   "status": "Embarcado",
+                                   "documentNumber": "12412412",
+                                   "documentType": "P",
+                                   "documentIssuingCountry": "US",
+                                   "frequentNumber": "",
+                                   "frequentAirlineCode": "LA",
+                                   "frequentCategory": "SAPH",
+                                   "groupCode": "AF4",
+                                   "nationality" : "CL",
+                                   "dateBirth" : "10-10-1988",
+                                   "email" : "example@lan.com",
+                                   "language" : "ES",
+                                   "lanPass" : {
+                                   "kilometers" : 500000,
+                                   "category" : "PREMIUM",
+                                   "upgrade" : true
+                                   
+                                   },
+                                   "vipData": {
+                                   "category": "GOSS",
+                                   "remarks": "",
+                                   "specialAttentions": ""
+                                   },
+                                   "specialMeals": [
+                                                    {
+                                                    "option" : "Vegetarian Hindu meal",
+                                                    "serviceCode" : "AVML"
+                                                    }
+                                                    ],
+                                   "connection": [
+                                                  {
+                                                  "airlineCode": "LA",
+                                                  "flightNumber": "500",
+                                                  "departure": "SCL",
+                                                  "arrival": "ANF",
+                                                  "departureDate": "17-10-2015 00:00",
+                                                  "arrivalDate": "17-10-2015 00:00"
+                                                  }
+                                                  ],
+                                   "lastName": "Perez",
+                                   "firstName": "Juan",
+                                   "gender": "F",
+                                   "editCodes": "DOCS,TKT,CM,F,GSSC",
+                                   "birthDate": "",
+                                   "isWCH": true,
+                                   "isChild": true
+                                   }
+                                   ]
+                 }
+                 ]
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "getInfoFlightLegs": {
+        "airlineCode": "JJ",
+        "flightNumber": "3197",
+        "flightOperator": "JJ",
+        "flightDate": "23-04-2015",
+        "suffix": "_",
+        "material": "A314",
+        "materialType": "NB",
+        "businessUnit": "",
+        "type": null,
+        "company": null,
+        "tailNumber": "PT-XPA",
+        "legs": [
+                 {
+                 "origin": "SSA",
+                 "destination": "GIG",
+                 "legDepartureUTC": "23-04-2015 23:21",
+                 "legArrivalUTC": "24-04-2015 01:35",
+                 "legDepartureLocal": "23-04-2015 20:21",
+                 "legArrivalLocal": "23-04-2015 22:35",
+                 "businessUnit": null,
+                 "crewMembers": null,
+                 "reports": [],
+                 "cabinsOccupancies": null
+                 }
+                 ],
+        "serviceStatus": null,
+        "links": null
+    }
+}

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" restorationIdentifier="LanPassTableViewCell" selectionStyle="default" indentationWidth="10" rowHeight="65" id="KGk-i7-Jjw" customClass="LanPassTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="65"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="230" height="64"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rqo-q9-ikb">
+                        <rect key="frame" x="15" y="10" width="207" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="207" id="3s9-E8-0rN"/>
+                            <constraint firstAttribute="height" constant="21" id="OYZ-bN-gad"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="14"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yA0-R0-x1X">
+                        <rect key="frame" x="15" y="37" width="207" height="20"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="207" id="Goz-EI-4cY"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="highlightedColor"/>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="Goz-EI-4cY"/>
+                            </mask>
+                        </variation>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="yA0-R0-x1X" firstAttribute="top" secondItem="rqo-q9-ikb" secondAttribute="bottom" constant="6" id="2eJ-nE-DN4"/>
+                    <constraint firstAttribute="trailing" secondItem="yA0-R0-x1X" secondAttribute="trailing" constant="8" id="Drh-gg-DBU"/>
+                    <constraint firstItem="rqo-q9-ikb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="QwZ-4M-lE4"/>
+                    <constraint firstItem="rqo-q9-ikb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="dIh-jE-UXt"/>
+                    <constraint firstAttribute="trailing" secondItem="rqo-q9-ikb" secondAttribute="trailing" constant="8" id="o7R-HD-ULs"/>
+                    <constraint firstAttribute="bottom" secondItem="yA0-R0-x1X" secondAttribute="bottom" constant="7" id="x1A-bZ-pRt"/>
+                    <constraint firstItem="yA0-R0-x1X" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="15" id="ypH-54-LJJ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="headingLanPass" destination="rqo-q9-ikb" id="9kV-4a-l1U"/>
+                <outlet property="listOfPassengers" destination="yA0-R0-x1X" id="jXk-yO-Xbj"/>
+            </connections>
+            <point key="canvasLocation" x="182" y="253.5"/>
+        </tableViewCell>
+        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1UO-fW-JX3">
+            <rect key="frame" x="0.0" y="0.0" width="42" height="21"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+            <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+            <nil key="highlightedColor"/>
+            <point key="canvasLocation" x="297" y="305.5"/>
+        </label>
+    </objects>
+</document>

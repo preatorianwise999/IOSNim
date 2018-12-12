@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Bold.ttf">
+            <string>RobotoCondensed-Bold</string>
+        </mutableArray>
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="jsbcell" rowHeight="73" id="KGk-i7-Jjw" customClass="CrewJSBTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="880" height="73"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="880" height="72"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="PIZZARO, MARCEL" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="J7N-pl-zYp">
+                        <rect key="frame" x="50" y="21" width="250" height="21"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Licencia: 123456" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bmN-SV-aXj">
+                        <rect key="frame" x="640" y="21" width="130" height="21"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="C1M-Mk-jaC"/>
+                            <constraint firstAttribute="width" constant="130" id="lcN-n6-GsD"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Venc. 7 JUL, 16" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d0l-rG-F7p">
+                        <rect key="frame" x="640" y="39" width="160" height="22"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="160" id="owx-uX-k2G"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="BP:12345678" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="YoA-6m-ZLg">
+                        <rect key="frame" x="340" y="20" width="197" height="21"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="ID:12345678" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vh1-XV-c5i">
+                        <rect key="frame" x="340" y="40" width="191" height="21"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JSB Senior" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Y0p-qm-GEf">
+                        <rect key="frame" x="56" y="39" width="85" height="21"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="12"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="N__0003_crw_sm_icn.png" translatesAutoresizingMaskIntoConstraints="NO" id="G37-en-pg3">
+                        <rect key="frame" x="21" y="22" width="22" height="27"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="JSB" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7ou-L2-DJj">
+                        <rect key="frame" x="20" y="45" width="25" height="23"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="15"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uSi-fH-ZIZ">
+                        <rect key="frame" x="785" y="15" width="50" height="50"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="50" id="oQK-ag-Jza"/>
+                            <constraint firstAttribute="height" constant="50" id="tjp-8F-ztm"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="17"/>
+                        <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                        <size key="shadowOffset" width="0.0" height="0.0"/>
+                    </label>
+                    <view alpha="0.44999999999999962" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Cba-si-0Te">
+                        <rect key="frame" x="20" y="69" width="836" height="1"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                <constraints>
+                    <constraint firstItem="uSi-fH-ZIZ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="15" id="GOl-rF-rAL"/>
+                    <constraint firstItem="uSi-fH-ZIZ" firstAttribute="leading" secondItem="bmN-SV-aXj" secondAttribute="trailing" constant="15" id="Q4v-Bp-OXZ"/>
+                    <constraint firstAttribute="trailing" secondItem="uSi-fH-ZIZ" secondAttribute="trailing" constant="45" id="ZSb-Bv-qp4"/>
+                    <constraint firstItem="d0l-rG-F7p" firstAttribute="leading" secondItem="bmN-SV-aXj" secondAttribute="leading" id="hBV-eq-2Gg"/>
+                    <constraint firstItem="bmN-SV-aXj" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="21" id="lC1-oG-cRN"/>
+                    <constraint firstItem="d0l-rG-F7p" firstAttribute="top" secondItem="bmN-SV-aXj" secondAttribute="bottom" constant="-3" id="mfJ-Ot-x95"/>
+                </constraints>
+            </tableViewCellContentView>
+            <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+            <connections>
+                <outlet property="BPLabel" destination="YoA-6m-ZLg" id="40P-EP-WUy"/>
+                <outlet property="IDLabel" destination="vh1-XV-c5i" id="bPi-G6-b6i"/>
+                <outlet property="designationLabel" destination="7ou-L2-DJj" id="W9n-25-RGK"/>
+                <outlet property="gadLabel" destination="uSi-fH-ZIZ" id="RAU-6f-hFJ"/>
+                <outlet property="licenceLabel" destination="bmN-SV-aXj" id="Dlh-sa-JcZ"/>
+                <outlet property="nameLabel" destination="J7N-pl-zYp" id="4Fo-gG-oav"/>
+                <outlet property="postLabel" destination="Y0p-qm-GEf" id="iyV-f9-fjs"/>
+                <outlet property="validityLabel" destination="d0l-rG-F7p" id="YkU-dw-PIC"/>
+            </connections>
+            <point key="canvasLocation" x="165" y="383.5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="N__0003_crw_sm_icn.png" width="22" height="27"/>
+    </resources>
+</document>

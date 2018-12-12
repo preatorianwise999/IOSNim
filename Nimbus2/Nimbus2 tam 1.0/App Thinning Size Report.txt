@@ -1,0 +1,8 @@
+
+App Thinning Size Report for All Variants of Nimbus2
+
+Variant: Nimbus2-iPad (4th generation).ipa
+Supported devices: iPad (4th generation)
+App + On Demand Resources size: 12,9 MB compressed, 18,3 MB uncompressed
+App size: 12,9 MB compressed, 18,3 MB uncompressed
+On Demand Resources size: Zero KB compressed, Zero KB uncompressed

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>GENERAL</key>
+	<dict>
+		<key>General Information</key>
+		<string>GeneralInfoViewController</string>
+		<key>Boarding</key>
+		<string>BoardingViewController</string>
+		<key>Overview</key>
+		<string>OverviewViewController</string>
+		<key>Dutyfree</key>
+		<string>DutyfreeViewController</string>
+		<key>Suggestions</key>
+		<string>SuggestionsViewController</string>
+	</dict>
+	<key>BUSINESS</key>
+	<dict>
+		<key>Airport</key>
+		<string>NBEconomyAirportViewController</string>
+		<key>Conditioning Cab</key>
+		<string>DOMEconomyCabCondition</string>
+		<key>Elements &amp; CAT APV</key>
+		<string>NBEconomyElementAPVViewController</string>
+		<key>Quality Service CAT</key>
+		<string>TNBEconomyQualityServiceViewController</string>
+		<key>Cabin</key>
+		<string>TDOMEconomyCabinViewController</string>
+		<key>IFE</key>
+		<string>LANWBIFEViewController</string>
+	</dict>
+	<key>ECONOMY</key>
+	<dict>
+		<key>Airport</key>
+		<string>NBEconomyAirportViewController</string>
+		<key>Conditioning Cab</key>
+		<string>DOMEconomyCabCondition</string>
+		<key>Elements &amp; CAT APV</key>
+		<string>NBEconomyElementAPVViewController</string>
+		<key>Quality Service CAT</key>
+		<string>TNBEconomyQualityServiceViewController</string>
+		<key>Cabin</key>
+		<string>TDOMEconomyCabinViewController</string>
+		<key>IFE</key>
+		<string>LANWBIFEViewController</string>
+	</dict>
+</dict>
+</plist>

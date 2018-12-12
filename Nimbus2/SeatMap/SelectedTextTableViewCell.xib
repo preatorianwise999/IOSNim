@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9531" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9529"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Bold.ttf">
+            <string>RobotoCondensed-Bold</string>
+            <string>RobotoCondensed-Bold</string>
+            <string>RobotoCondensed-Bold</string>
+        </mutableArray>
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="selectedtext" id="KGk-i7-Jjw" customClass="SelectedTextTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="230" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="230" height="59"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="searSelectedImage.png" translatesAutoresizingMaskIntoConstraints="NO" id="w4c-Ed-Li9">
+                        <rect key="frame" x="0.0" y="1" width="230" height="57"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="BC" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G07-6y-KfV">
+                        <rect key="frame" x="29" y="9" width="27" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="N81-2d-Hwz"/>
+                            <constraint firstAttribute="width" constant="27" id="cUY-zi-Obb"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1A" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="U9T-Ms-t1d">
+                        <rect key="frame" x="29" y="31" width="35" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="35" id="hfB-uG-UEe"/>
+                            <constraint firstAttribute="height" constant="21" id="msg-bP-t3t"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="20"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Pre Silver" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5jk-av-iyY">
+                        <rect key="frame" x="65" y="31" width="160" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="ASK-Hc-lZg"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="17"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="PEREZ JUAN" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rtV-YI-HNR">
+                        <rect key="frame" x="65" y="9" width="160" height="21"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="21" id="iLe-OQ-kLr"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Bold" family="Roboto Condensed" pointSize="15"/>
+                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                <constraints>
+                    <constraint firstItem="U9T-Ms-t1d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="21" id="5ay-AN-sYC"/>
+                    <constraint firstAttribute="trailing" secondItem="rtV-YI-HNR" secondAttribute="trailing" constant="5" id="6C9-VV-xYr"/>
+                    <constraint firstItem="5jk-av-iyY" firstAttribute="top" secondItem="rtV-YI-HNR" secondAttribute="bottom" constant="1" id="6aP-Eq-eKQ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="5jk-av-iyY" secondAttribute="trailing" constant="-3" id="7du-10-DVm"/>
+                    <constraint firstItem="w4c-Ed-Li9" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="8xM-2H-VO8"/>
+                    <constraint firstItem="rtV-YI-HNR" firstAttribute="leading" secondItem="G07-6y-KfV" secondAttribute="trailing" constant="9" id="Bsb-2X-Dt3"/>
+                    <constraint firstItem="G07-6y-KfV" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="1" id="M50-PE-sih"/>
+                    <constraint firstItem="w4c-Ed-Li9" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="TY6-XC-I7U"/>
+                    <constraint firstAttribute="trailing" secondItem="w4c-Ed-Li9" secondAttribute="trailing" id="ZgP-XF-B3F"/>
+                    <constraint firstItem="rtV-YI-HNR" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="9" id="aLH-vm-q18"/>
+                    <constraint firstItem="U9T-Ms-t1d" firstAttribute="top" secondItem="G07-6y-KfV" secondAttribute="bottom" constant="1" id="fcu-UL-bcE"/>
+                    <constraint firstItem="G07-6y-KfV" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="21" id="ocU-Bf-647"/>
+                    <constraint firstItem="5jk-av-iyY" firstAttribute="leading" secondItem="U9T-Ms-t1d" secondAttribute="trailing" constant="1" id="uw1-il-zXp"/>
+                    <constraint firstAttribute="bottom" secondItem="w4c-Ed-Li9" secondAttribute="bottom" constant="1" id="y8o-Ny-r15"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" red="0.0" green="0.0" blue="0.50196081400000003" alpha="1" colorSpace="calibratedRGB"/>
+            <connections>
+                <outlet property="a_Label" destination="U9T-Ms-t1d" id="e8L-TR-Etx"/>
+                <outlet property="bc_Label" destination="G07-6y-KfV" id="hZG-ve-IfN"/>
+                <outlet property="lname_Label" destination="rtV-YI-HNR" id="uEC-4u-NRz"/>
+                <outlet property="presilver_Label" destination="5jk-av-iyY" id="tCK-xx-01j"/>
+                <outlet property="selectedPassengerImage" destination="w4c-Ed-Li9" id="keu-uR-svT"/>
+            </connections>
+            <point key="canvasLocation" x="272" y="146"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="searSelectedImage.png" width="220" height="58"/>
+    </resources>
+</document>

@@ -1,0 +1,1547 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENGLISH</key>
+	<dict>
+		<key>DocTypeValidation</key>
+		<array>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00099999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,4}\d{5}[\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>000099999X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z]{3}[0-9]{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z][0-9]{7}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>X9999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{11}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{0,10}[\s\S]{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}[-][\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00099999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}[-][\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{7}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>0009999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}[\s\S]{2}\d{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>000XX99999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{13}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>9999999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{9,10}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,15}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z]{2}[0-9]{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,8}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>xxxxxxxx</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{9}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{7}[-][\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>9999999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict/>
+		</array>
+		<key>Action taken on board</key>
+		<array>
+			<string>Seat relocation</string>
+			<string>Alternative meal service preparation</string>
+			<string>Explanation of the situation</string>
+		</array>
+		<key>Action taken on board Index</key>
+		<array>
+			<string>ARLAN1</string>
+			<string>ARLAN2</string>
+			<string>ARLAN3</string>
+		</array>
+		<key>Seat Maintenance</key>
+		<array>
+			<string>Leg rest doesn&apos;t electrically work, only manually</string>
+			<string>Leg rest locked downwards, doesn&apos;t keep position</string>
+			<string>Leg rest locked upwards</string>
+			<string>Head rest isn&apos;t supportive</string>
+			<string>Interior arm rest doesn&apos;t go up or down</string>
+			<string>Seat doesn&apos;t have a head rest. </string>
+			<string>Tray less seat</string>
+			<string>Feet rest doesn&apos;t keep position</string>
+			<string>Buttons on the remote don&apos;t work</string>
+			<string>Seat belt doesn&apos;t adjust</string>
+			<string>Lumbar support doesn&apos;t work</string>
+			<string>Seat reading light doesn&apos;t work</string>
+			<string>Top reading light doesn&apos;t work</string>
+			<string>Screen with color problems or interference</string>
+			<string>Individual Screen doesn&apos;t show image</string>
+			<string>Individual screen doesn&apos;t hold on it&apos;s own</string>
+			<string>Inoperative backrest manually and electronically</string>
+			<string>Backrest does not maintain position</string>
+			<string>Backrest does not recline electronically, just manually</string>
+			<string>Seat divider doesn&apos;t deploy</string>
+			<string>No sound for entertainment system</string>
+		</array>
+		<key>Seat Maintenance Index</key>
+		<array>
+			<string>MA1</string>
+			<string>MA2</string>
+			<string>MA3</string>
+			<string>MA4</string>
+			<string>MA5</string>
+			<string>MA6</string>
+			<string>MA7</string>
+			<string>MA8</string>
+			<string>MA9</string>
+			<string>MA10</string>
+			<string>MA11</string>
+			<string>MA12</string>
+			<string>MA13</string>
+			<string>MA14</string>
+			<string>MA15</string>
+			<string>MA16</string>
+			<string>MA17</string>
+			<string>MA18</string>
+		</array>
+		<key>Reason for Report</key>
+		<array>
+			<string>Delay</string>
+			<string>Seat Assignment</string>
+			<string>Environmental Conditions</string>
+			<string>Handicapped</string>
+			<string>On Board Entertainment</string>
+			<string>Luggage</string>
+			<string>Maintenance with Pax still on Board</string>
+			<string>Disruptive Passenger</string>
+			<string>Injured Passenger</string>
+			<string>Catering Service</string>
+			<string>Duty Free Service</string>
+			<string>Special Food Requests</string>
+			<string>UPG</string>
+		</array>
+		<key>Reason for Report Index</key>
+		<array>
+			<string>MR1</string>
+			<string>MR2</string>
+			<string>MR3</string>
+			<string>MR4</string>
+			<string>MR5</string>
+			<string>MR6</string>
+			<string>MR7</string>
+			<string>MR8</string>
+			<string>MR9</string>
+			<string>MR10</string>
+			<string>MR11</string>
+			<string>MR12</string>
+			<string>MR13</string>
+			<string>MR14</string>
+		</array>
+		<key>Country of Residence</key>
+		<array>
+			<string>Germany</string>
+			<string>Argentina</string>
+			<string>Australia</string>
+			<string>Brazil</string>
+			<string>Canada </string>
+			<string>Chile</string>
+			<string>Colombia</string>
+			<string>Ecuador</string>
+			<string>Spain</string>
+			<string>France</string>
+			<string>Mexico</string>
+			<string>New Zealand</string>
+			<string>Peru</string>
+			<string>United Kingdom</string>
+			<string>U.S.A. </string>
+			<string>Uruguay</string>
+			<string>Otro</string>
+			<string>Otro (Unión Europea)</string>
+		</array>
+		<key>Country of residence Index</key>
+		<array>
+			<string>de</string>
+			<string>ag</string>
+			<string>au</string>
+			<string>br</string>
+			<string>ca</string>
+			<string>cl</string>
+			<string>co</string>
+			<string>ec</string>
+			<string>es</string>
+			<string>fr</string>
+			<string>mx</string>
+			<string>nz</string>
+			<string>pe</string>
+			<string>gb</string>
+			<string>us</string>
+			<string>uy</string>
+			<string>other</string>
+			<string>other_ue</string>
+		</array>
+		<key>Document Type</key>
+		<array>
+			<string>AR - DNI</string>
+			<string>AR - Passport</string>
+			<string>AR - New Passport</string>
+			<string>AU - Passport</string>
+			<string>BR - CPF</string>
+			<string>BR - Passport</string>
+			<string>BR - General Register</string>
+			<string>CA - Passport</string>
+			<string>CL - Passport</string>
+			<string>CL - RUT </string>
+			<string>CO - Passport</string>
+			<string>DE - Passport</string>
+			<string>EC - C.I. </string>
+			<string>EC - Passport</string>
+			<string>EC- RUC ID </string>
+			<string>ES - NIE </string>
+			<string>ES - Passport</string>
+			<string>MX - Passport</string>
+			<string>NZ - Passport</string>
+			<string>PE - DNI </string>
+			<string>PE - Passport</string>
+			<string>US - Facilitation Document</string>
+			<string>US - ND </string>
+			<string>US - Passport</string>
+			<string>UY - C.I</string>
+			<string>other</string>
+		</array>
+		<key>Document Type Index</key>
+		<array>
+			<string>24</string>
+			<string>64</string>
+			<string>858</string>
+			<string>615</string>
+			<string>26</string>
+			<string>85</string>
+			<string>8</string>
+			<string>94</string>
+			<string>96</string>
+			<string>1</string>
+			<string>100</string>
+			<string>56</string>
+			<string>50</string>
+			<string>116</string>
+			<string>49</string>
+			<string>603</string>
+			<string>121</string>
+			<string>194</string>
+			<string>620</string>
+			<string>11</string>
+			<string>220</string>
+			<string>586</string>
+			<string>609</string>
+			<string>275</string>
+			<string>39</string>
+			<string>0</string>
+		</array>
+		<key>Language</key>
+		<array>
+			<string>German</string>
+			<string>Spanish</string>
+			<string>French</string>
+			<string>English</string>
+			<string>Portuguese</string>
+			<string>Other</string>
+		</array>
+		<key>Language Index</key>
+		<array>
+			<string>de</string>
+			<string>es</string>
+			<string>fr</string>
+			<string>en</string>
+			<string>pt</string>
+			<string>other</string>
+		</array>
+	</dict>
+	<key>SPANISH</key>
+	<dict>
+		<key>DocTypeValidation</key>
+		<array>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00099999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,4}\d{5}[\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>000099999X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z]{3}[0-9]{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z][0-9]{7}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>X9999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{11}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{0,10}[\s\S]{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}[-][\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00099999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}[-][\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{7}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>0009999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}[\s\S]{2}\d{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>000XX99999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{13}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>9999999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{9,10}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,15}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z]{2}[0-9]{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,8}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>xxxxxxxx</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{9}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{7}[-][\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>9999999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict/>
+		</array>
+		<key>Language</key>
+		<array>
+			<string>Alemán</string>
+			<string>Español</string>
+			<string>Francés</string>
+			<string>Inglés</string>
+			<string>Portugués</string>
+			<string>Otro</string>
+		</array>
+		<key>Language Index</key>
+		<array>
+			<string>de</string>
+			<string>es</string>
+			<string>fr</string>
+			<string>en</string>
+			<string>pt</string>
+			<string>other</string>
+		</array>
+		<key>Document Type</key>
+		<array>
+			<string>AR - DNI</string>
+			<string>AR - Pasaporte</string>
+			<string>AR - Pasaporte Nuevo</string>
+			<string>AU - Pasaporte</string>
+			<string>BR - CPF</string>
+			<string>BR - Pasaporte</string>
+			<string>BR - Registro General</string>
+			<string>CA - Pasaporte</string>
+			<string>CL - Pasaporte</string>
+			<string>CL - RUT</string>
+			<string>CO - Pasaporte</string>
+			<string>DE - Pasaporte</string>
+			<string>EC - C.I.</string>
+			<string>EC - Pasaporte</string>
+			<string>EC- RUC ID</string>
+			<string>ES - NIE</string>
+			<string>ES - Pasaporte</string>
+			<string>MX - Pasaporte</string>
+			<string>NZ - Pasaporte</string>
+			<string>PE - DNI</string>
+			<string>PE - Pasaporte</string>
+			<string>US - Facilitation Document</string>
+			<string>US - ND</string>
+			<string>US - Pasaporte</string>
+			<string>UY - C.I.</string>
+			<string>Otro</string>
+		</array>
+		<key>Document Type Index</key>
+		<array>
+			<string>24</string>
+			<string>64</string>
+			<string>858</string>
+			<string>615</string>
+			<string>26</string>
+			<string>85</string>
+			<string>8</string>
+			<string>94</string>
+			<string>96</string>
+			<string>1</string>
+			<string>100</string>
+			<string>56</string>
+			<string>50</string>
+			<string>116</string>
+			<string>49</string>
+			<string>603</string>
+			<string>121</string>
+			<string>194</string>
+			<string>620</string>
+			<string>11</string>
+			<string>220</string>
+			<string>586</string>
+			<string>609</string>
+			<string>275</string>
+			<string>39</string>
+			<string>0</string>
+		</array>
+		<key>Country of residence</key>
+		<array>
+			<string>Alemania</string>
+			<string>Argentina</string>
+			<string>Australia</string>
+			<string>Brasil</string>
+			<string>Canadá</string>
+			<string>Chile</string>
+			<string>Colombia</string>
+			<string>Ecuador</string>
+			<string>España</string>
+			<string>Francia</string>
+			<string>México</string>
+			<string>Nueva Zelanda</string>
+			<string>Perú</string>
+			<string>Reino Unido</string>
+			<string>U.S.A.</string>
+			<string>Uruguay</string>
+			<string>Otro</string>
+			<string>Otro (Unión Europea)</string>
+		</array>
+		<key>Country of residence Index</key>
+		<array>
+			<string>de</string>
+			<string>ag</string>
+			<string>au</string>
+			<string>br</string>
+			<string>ca</string>
+			<string>cl</string>
+			<string>co</string>
+			<string>ec</string>
+			<string>es</string>
+			<string>fr</string>
+			<string>mx</string>
+			<string>nz</string>
+			<string>pe</string>
+			<string>gb</string>
+			<string>us</string>
+			<string>uy</string>
+			<string>other</string>
+			<string>other_ue</string>
+		</array>
+		<key>Reason for Report</key>
+		<array>
+			<string>Atraso</string>
+			<string>Asignación de asientos</string>
+			<string>Condiciones Ambientales</string>
+			<string>Discapacitados</string>
+			<string>Entretenimiento a Bordo</string>
+			<string>Equipaje</string>
+			<string>Mantenimiento con Pax a bordo</string>
+			<string>Pasajero disruptivo</string>
+			<string>Pasajero lesionado</string>
+			<string>Servicio de Catering</string>
+			<string>Servicio de Duty Free</string>
+			<string>Solicitud de comida especial</string>
+			<string>UPG</string>
+			<string>Otro</string>
+		</array>
+		<key>Reason for Report Index</key>
+		<array>
+			<string>MR1</string>
+			<string>MR2</string>
+			<string>MR3</string>
+			<string>MR4</string>
+			<string>MR5</string>
+			<string>MR6</string>
+			<string>MR7</string>
+			<string>MR8</string>
+			<string>MR9</string>
+			<string>MR10</string>
+			<string>MR11</string>
+			<string>MR12</string>
+			<string>MR13</string>
+			<string>MR14</string>
+		</array>
+		<key>Seat Maintenance</key>
+		<array>
+			<string>Apoya piernas no funciona eléctricamente, sólo manual</string>
+			<string>Apoya piernas trancado</string>
+			<string>Apoyacabeza no sujeta</string>
+			<string>Asiento no tiene apoyacabeza (fierro a la vista)</string>
+			<string>Asiento sin bandeja</string>
+			<string>Barra apoya pies no mantiene posición</string>
+			<string>Botones de control remoto no funciona</string>
+			<string>Cinturón no se ajusta, sin sujeción</string>
+			<string>Lumbar support no funciona</string>
+			<string>Luz de lectura</string>
+			<string>Pantalla con problemas de color o interferencia</string>
+			<string>Pantalla individual no muestra imagen o intermitente</string>
+			<string>Respaldo inoperativo eléctrica y manualmente</string>
+			<string>Respaldo no mantiene posición fija</string>
+			<string>Respaldo no reclina eléctricamente, sólo manual</string>
+			<string>Seat divider no despliega</string>
+			<string>Sistema de entretenimiento no se escucha, ni muestra imagen</string>
+			<string>Sistema de oxígeno, luz y aire no funciona</string>
+		</array>
+		<key>Seat Maintenance Index</key>
+		<array>
+			<string>MA1</string>
+			<string>MA2</string>
+			<string>MA3</string>
+			<string>MA4</string>
+			<string>MA5</string>
+			<string>MA6</string>
+			<string>MA7</string>
+			<string>MA8</string>
+			<string>MA9</string>
+			<string>MA10</string>
+			<string>MA11</string>
+			<string>MA12</string>
+			<string>MA13</string>
+			<string>MA14</string>
+			<string>MA15</string>
+			<string>MA16</string>
+			<string>MA17</string>
+			<string>MA18</string>
+		</array>
+		<key>Action taken on board</key>
+		<array>
+			<string>Reubicación de asiento</string>
+			<string>Preparación de alternativa de servicio de alimentación</string>
+			<string>Explicación de la Situación</string>
+		</array>
+		<key>Action taken on board Index</key>
+		<array>
+			<string>ARLAN1</string>
+			<string>ARLAN2</string>
+			<string>ARLAN3</string>
+		</array>
+	</dict>
+	<key>PORTUGUESE</key>
+	<dict>
+		<key>DocTypeValidation</key>
+		<array>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00099999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,4}\d{5}[\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>000099999X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z]{3}[0-9]{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z][0-9]{7}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>X9999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{11}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{0,10}[\s\S]{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}[-][\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00099999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{5}[-][\d\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}\d{7}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>0009999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,3}[\s\S]{2}\d{5}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>000XX99999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{13}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>9999999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{9,10}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,15}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[a-zA-Z]{2}[0-9]{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{0,2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>00999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,8}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>xxxxxxxx</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{1,25}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>XXXXXXXXXXXXXXXXXXXXXXXXX</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{9}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{7}[-][\s\S]{1}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>9999999-X</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict/>
+		</array>
+		<key>Action taken on board</key>
+		<array>
+			<string>Troca de assento</string>
+			<string>Serviço alternativo de refeição</string>
+			<string>Esclarecimento do ocorrido</string>
+		</array>
+		<key>Action taken on board Index</key>
+		<array>
+			<string>ARLAN1</string>
+			<string>ARLAN2</string>
+			<string>ARLAN3</string>
+		</array>
+		<key>Seat Maintenance</key>
+		<array>
+			<string>Suporta pernas não funciona eletricamente, só manual</string>
+			<string>Suporta pernas trancado</string>
+			<string>Headrest não está sujeita</string>
+			<string>Assento não tem Headrest (visão de ferro)</string>
+			<string>Assento sem bandeja</string>
+			<string>Barra de apoio para os pés não tem posição</string>
+			<string>Botões do controle remoto não funciona</string>
+			<string>O cinto não sem aperto</string>
+			<string>Apoio lombar não está funcionando</string>
+			<string>Luz de leitura</string>
+			<string>Tela com problemas de cor ou interferência</string>
+			<string>Tela Individual não mostra imagem ou intermitente</string>
+			<string>Encosto inoperativo, electrica e manualmente</string>
+			<string>Encosto não maném uma posição fixa</string>
+			<string>Encosto não reclina eletricamente, só manual</string>
+			<string>Divisão de assento não abre</string>
+			<string>Sistema de Entretenimento não tem imagem ou som</string>
+			<string>Sistema de oxigênio, luz e ar não funciona</string>
+		</array>
+		<key>Seat Maintenance Index</key>
+		<array>
+			<string>MA1</string>
+			<string>MA2</string>
+			<string>MA3</string>
+			<string>MA4</string>
+			<string>MA5</string>
+			<string>MA6</string>
+			<string>MA7</string>
+			<string>MA8</string>
+			<string>MA9</string>
+			<string>MA10</string>
+			<string>MA11</string>
+			<string>MA12</string>
+			<string>MA13</string>
+			<string>MA14</string>
+			<string>MA15</string>
+			<string>MA16</string>
+			<string>MA17</string>
+			<string>MA18</string>
+		</array>
+		<key>Reason for Report</key>
+		<array>
+			<string>Atraso</string>
+			<string>Alocação de assento</string>
+			<string>Condições Ambientais</string>
+			<string>Deficientes</string>
+			<string>Sistema de Entretenimento</string>
+			<string>Bagagem</string>
+			<string>Manutenção com passageiro a bordo</string>
+			<string>Passageiro Indisciplinado</string>
+			<string>Passageiros feridos</string>
+			<string>Serviço de Catering</string>
+			<string>Serviço de Duty Free</string>
+			<string>Solicitação de refeição especial</string>
+			<string>UPG</string>
+			<string>Outro</string>
+		</array>
+		<key>Reason for Report Index</key>
+		<array>
+			<string>MR1</string>
+			<string>MR2</string>
+			<string>MR3</string>
+			<string>MR4</string>
+			<string>MR5</string>
+			<string>MR6</string>
+			<string>MR7</string>
+			<string>MR8</string>
+			<string>MR9</string>
+			<string>MR10</string>
+			<string>MR11</string>
+			<string>MR12</string>
+			<string>MR13</string>
+			<string>MR14</string>
+		</array>
+		<key>Country of residence</key>
+		<array>
+			<string>Alemanha</string>
+			<string>Argentina</string>
+			<string>Austrália</string>
+			<string>Brasil</string>
+			<string>Canadá</string>
+			<string>Chile</string>
+			<string>Colômbia</string>
+			<string>Equador</string>
+			<string>Espanha</string>
+			<string>França</string>
+			<string>México</string>
+			<string>Nova Zelândia</string>
+			<string>Peru</string>
+			<string>Reino Unido</string>
+			<string>E.U.A.</string>
+			<string>Uruguai</string>
+			<string>Outro</string>
+			<string>Outros (União Europeia)</string>
+		</array>
+		<key>Country of residence Index</key>
+		<array>
+			<string>de</string>
+			<string>ag</string>
+			<string>au</string>
+			<string>br</string>
+			<string>ca</string>
+			<string>cl</string>
+			<string>co</string>
+			<string>ec</string>
+			<string>es</string>
+			<string>fr</string>
+			<string>mx</string>
+			<string>nz</string>
+			<string>pe</string>
+			<string>gb</string>
+			<string>us</string>
+			<string>uy</string>
+			<string>other</string>
+			<string>other_ue</string>
+		</array>
+		<key>Document Type</key>
+		<array>
+			<string>AR - DNI</string>
+			<string>AR - Passaporte</string>
+			<string>AR - Passaporte Nuevo</string>
+			<string>AU - Passaporte</string>
+			<string>BR - CPF</string>
+			<string>BR - Passaporte</string>
+			<string>BR - Registro Geral</string>
+			<string>CA - Passaporte</string>
+			<string>CL - Passaporte</string>
+			<string>CL - RUT</string>
+			<string>CO - Passaporte</string>
+			<string>DE - Passaporte</string>
+			<string>EC - C.I.</string>
+			<string>EC - Passaporte</string>
+			<string>EC- RUC ID</string>
+			<string>ES - NIE</string>
+			<string>ES - Passaporte</string>
+			<string>MX - Passaporte</string>
+			<string>NZ - Passaporte</string>
+			<string>PE - DNI</string>
+			<string>PE - Passaporte</string>
+			<string>US - Facilitation Document</string>
+			<string>US - ND</string>
+			<string>US - Passaporte</string>
+			<string>UY - C.I.</string>
+			<string>Outro</string>
+		</array>
+		<key>Document Type Index</key>
+		<array>
+			<string>24</string>
+			<string>64</string>
+			<string>858</string>
+			<string>615</string>
+			<string>26</string>
+			<string>85</string>
+			<string>8</string>
+			<string>94</string>
+			<string>96</string>
+			<string>1</string>
+			<string>100</string>
+			<string>56</string>
+			<string>50</string>
+			<string>116</string>
+			<string>49</string>
+			<string>603</string>
+			<string>121</string>
+			<string>194</string>
+			<string>620</string>
+			<string>11</string>
+			<string>220</string>
+			<string>586</string>
+			<string>609</string>
+			<string>275</string>
+			<string>39</string>
+			<string>0</string>
+		</array>
+		<key>Language</key>
+		<array>
+			<string>Aleman</string>
+			<string>Espanol</string>
+			<string>Francês</string>
+			<string>Inglês</string>
+			<string>Português</string>
+			<string>Outro</string>
+		</array>
+		<key>Language Index</key>
+		<array>
+			<string>de</string>
+			<string>es</string>
+			<string>fr</string>
+			<string>en</string>
+			<string>pt</string>
+			<string>other</string>
+		</array>
+	</dict>
+</dict>
+</plist>

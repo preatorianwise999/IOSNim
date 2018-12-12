@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10117"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CrewViewController">
+            <connections>
+                <outlet property="contentScrollView" destination="P0z-N8-dAS" id="AYe-Bm-2KD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="938" height="680"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="P0z-N8-dAS" customClass="iCarousel">
+                    <rect key="frame" x="10" y="10" width="918" height="660"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="A7s-sI-N8a"/>
+                        <outlet property="delegate" destination="-1" id="uv1-5n-WI8"/>
+                    </connections>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="P0z-N8-dAS" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="10" id="FIv-wC-VdK"/>
+                <constraint firstAttribute="bottom" secondItem="P0z-N8-dAS" secondAttribute="bottom" constant="10" id="Gw4-3u-jRy"/>
+                <constraint firstAttribute="trailing" secondItem="P0z-N8-dAS" secondAttribute="trailing" constant="10" id="Hb8-T4-HMv"/>
+                <constraint firstItem="P0z-N8-dAS" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="10" id="qHt-OL-y5b"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="206" y="211"/>
+        </view>
+    </objects>
+</document>

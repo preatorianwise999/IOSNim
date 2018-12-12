@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ENGLISH</key>
+	<dict>
+		<key>DocTypeValidation</key>
+		<array>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{11}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key> XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+		</array>
+		<key>Action taken on board</key>
+		<array>
+			<string>Seat relocation</string>
+			<string>Alternative meal service preparation</string>
+			<string>Explanation of the situation</string>
+		</array>
+		<key>Seat Maintenance</key>
+		<array>
+			<string>Leg rest doesn&apos;t electrically work, only manually</string>
+			<string>Leg rest locked downwards, doesn&apos;t keep position</string>
+			<string>Leg rest locked upwards</string>
+			<string>Head rest isn&apos;t supportive</string>
+			<string>Interior arm rest doesn&apos;t go up or down</string>
+			<string>Seat doesn&apos;t have a head rest. </string>
+			<string>Tray less seat</string>
+			<string>Feet rest doesn&apos;t keep position</string>
+			<string>Buttons on the remote don&apos;t work</string>
+			<string>Seat belt doesn&apos;t adjust</string>
+			<string>Lumbar support doesn&apos;t work</string>
+			<string>Seat reading light doesn&apos;t work</string>
+			<string>Top reading light doesn&apos;t work</string>
+			<string>Screen with color problems or interference</string>
+			<string>Individual Screen doesn&apos;t show image</string>
+			<string>Individual screen doesn&apos;t hold on it&apos;s own</string>
+			<string>Inoperative backrest manually and electronically</string>
+			<string>Backrest does not maintain position</string>
+			<string>Backrest does not recline electronically, just manually</string>
+			<string>Seat divider doesn&apos;t deploy</string>
+			<string>No sound for entertainment system</string>
+		</array>
+		<key>Reason for Report</key>
+		<array>
+			<string>delay</string>
+			<string>Marking Seat</string>
+			<string>Catering services</string>
+			<string>Conditions of Cab</string>
+			<string>passenger Undisciplined</string>
+			<string>crewman injured</string>
+			<string>upgrade</string>
+			<string>Maintenance Seat / Sleeper</string>
+			<string>Service Duty Free</string>
+			<string>Items lost by passenger</string>
+			<string>passenger injured</string>
+			<string>Request special meal</string>
+			<string>luggage</string>
+			<string>Maintenance with passengers on board</string>
+			<string>Entertainment System</string>
+			<string>disabled</string>
+			<string>Request medical assistance on board</string>
+		</array>
+		<key>Country of residence</key>
+		<array>
+			<string>Brazil</string>
+			<string>Chile</string>
+			<string>Argentina</string>
+			<string>Uruguay</string>
+			<string>Paraguay</string>
+			<string>Peru</string>
+			<string>Venezuela</string>
+			<string>U.S.</string>
+			<string>Spain</string>
+			<string>Germany</string>
+			<string>England</string>
+			<string>France</string>
+			<string>Italy</string>
+		</array>
+		<key>Document Type</key>
+		<array>
+			<string>CPF</string>
+			<string>PASSAPORT</string>
+		</array>
+		<key>Language</key>
+		<array>
+			<string>German</string>
+			<string>Spanish</string>
+			<string>French</string>
+			<string>English</string>
+			<string>Portuguese</string>
+		</array>
+		<key>Action taken on board Index</key>
+		<array>
+			<string>ARTAM1</string>
+			<string>ARTAM2</string>
+			<string>ARTAM3</string>
+		</array>
+		<key>Reason for Report Index</key>
+		<array>
+			<string>MATAM1</string>
+			<string>MATAM2</string>
+			<string>MATAM3</string>
+			<string>MATAM4</string>
+			<string>MATAM5</string>
+			<string>MATAM6</string>
+			<string>MATAM7</string>
+			<string>MATAM8</string>
+			<string>MATAM9</string>
+			<string>MATAM10</string>
+			<string>MATAM11</string>
+			<string>MATAM12</string>
+			<string>MATAM13</string>
+			<string>MATAM14</string>
+			<string>MATAM15</string>
+			<string>MATAM16</string>
+			<string>MATAM17</string>
+		</array>
+		<key>Country of residence Index</key>
+		<array>
+			<string>br</string>
+			<string>cl</string>
+			<string>ar</string>
+			<string>uy</string>
+			<string>py</string>
+			<string>pe</string>
+			<string>ve</string>
+			<string>us</string>
+			<string>es</string>
+			<string>de</string>
+			<string>uk</string>
+			<string>fr</string>
+			<string>it</string>
+		</array>
+		<key>Document Type Index</key>
+		<array>
+			<string>1</string>
+			<string>2</string>
+		</array>
+	</dict>
+	<key>SPANISH</key>
+	<dict>
+		<key>Language</key>
+		<array>
+			<string>German</string>
+			<string>Spanish</string>
+			<string>French</string>
+			<string>English</string>
+			<string>Portuguese</string>
+		</array>
+		<key>DocTypeValidation</key>
+		<array>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{11}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key> XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+		</array>
+		<key>Document Type</key>
+		<array>
+			<string>CPF</string>
+			<string>PASAPORTE</string>
+		</array>
+		<key>Country of residence</key>
+		<array>
+			<string>Brasil</string>
+			<string>Chile</string>
+			<string>Argentina</string>
+			<string>Uruguay</string>
+			<string>Paraguay</string>
+			<string>Perú</string>
+			<string>Venezuela</string>
+			<string>EE.UU.</string>
+			<string>España</string>
+			<string>Alemania</string>
+			<string>Inglaterra</string>
+			<string>Francia</string>
+			<string>Italia</string>
+		</array>
+		<key>Reason for Report</key>
+		<array>
+			<string>Atraso</string>
+			<string>Indicación de asiento</string>
+			<string>Servicio de Catering</string>
+			<string>Condiciones de la cabina</string>
+			<string>Pasajero disruptivo</string>
+			<string>Tripulante accidentado</string>
+			<string>Upgrade</string>
+			<string>Mantención de asiento/cabina</string>
+			<string>Servicio de Duty Free</string>
+			<string>Items perdidos por el pasajero</string>
+			<string>Pasajero herido</string>
+			<string>Solicitud de comida especial</string>
+			<string>Equipaje</string>
+			<string>Mantenimiento con pasajero a bordo</string>
+			<string>Sistema de entretenimiento</string>
+			<string>Discapacitados</string>
+			<string>Solicitud de atención médica a bordo</string>
+		</array>
+		<key>Seat Maintenance</key>
+		<array>
+			<string>Apoya piernas no funciona eléctricamente, sólo manual</string>
+			<string>Apoya piernas trancado</string>
+			<string>Apoyacabeza no sujeta</string>
+			<string>Asiento no tiene apoyacabeza (fierro a la vista)</string>
+			<string>Asiento sin bandeja</string>
+			<string>Barra apoya pies no mantiene posición</string>
+			<string>Botones de control remoto no funciona</string>
+			<string>Cinturón no se ajusta, sin sujeción</string>
+			<string>Lumbar support no funciona</string>
+			<string>Luz de lectura</string>
+			<string>Pantalla con problemas de color o interferencia</string>
+			<string> Pantalla individual no muestra imagen o intermitente</string>
+			<string>Respaldo inoperativo eléctrica y manualmente</string>
+			<string>Respaldo no mantiene posición fija</string>
+			<string>Respaldo no reclina eléctricamente, sólo manual</string>
+			<string>Seat divaider no despliega</string>
+			<string>Sistema de entretenimiento no se escucha, ni muestra imagen</string>
+			<string>Sistema de oxígeno, luz y aire no funciona</string>
+		</array>
+		<key>Action taken on board</key>
+		<array>
+			<string>Reubicación de asiento</string>
+			<string>Preparación de alternativa de servicio de alimentación</string>
+			<string>Explicación de la Situación</string>
+		</array>
+		<key>Action taken on board Index</key>
+		<array>
+			<string>ARTAM1</string>
+			<string>ARTAM2</string>
+			<string>ARTAM3</string>
+		</array>
+		<key>Reason for Report Index</key>
+		<array>
+			<string>MATAM1</string>
+			<string>MATAM2</string>
+			<string>MATAM3</string>
+			<string>MATAM4</string>
+			<string>MATAM5</string>
+			<string>MATAM6</string>
+			<string>MATAM7</string>
+			<string>MATAM8</string>
+			<string>MATAM9</string>
+			<string>MATAM10</string>
+			<string>MATAM11</string>
+			<string>MATAM12</string>
+			<string>MATAM13</string>
+			<string>MATAM14</string>
+			<string>MATAM15</string>
+			<string>MATAM16</string>
+			<string>MATAM17</string>
+		</array>
+		<key>Country of residence Index</key>
+		<array>
+			<string>br</string>
+			<string>cl</string>
+			<string>ar</string>
+			<string>uy</string>
+			<string>py</string>
+			<string>pe</string>
+			<string>ve</string>
+			<string>us</string>
+			<string>es</string>
+			<string>de</string>
+			<string>uk</string>
+			<string>fr</string>
+			<string>it</string>
+		</array>
+		<key>Document Type Index</key>
+		<array>
+			<string>1</string>
+			<string>2</string>
+		</array>
+	</dict>
+	<key>PORTUGUESE</key>
+	<dict>
+		<key>DocTypeValidation</key>
+		<array>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^\d{11}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key>99999999999</key>
+					<string></string>
+				</dict>
+			</dict>
+			<dict>
+				<key>RegExpression</key>
+				<dict>
+					<key>^[\s\S]{2}\d{6}$</key>
+					<string></string>
+				</dict>
+				<key>Example</key>
+				<dict>
+					<key> XX999999</key>
+					<string></string>
+				</dict>
+			</dict>
+		</array>
+		<key>Action taken on board</key>
+		<array>
+			<string>Troca de assento</string>
+			<string>Serviço alternativo de refeição</string>
+			<string>Esclarecimento do ocorrido</string>
+		</array>
+		<key>Seat Maintenance</key>
+		<array>
+			<string>Suporta pernas não funciona eletricamente, manual só</string>
+			<string>Suporta pernas lockout</string>
+			<string>Encosto de cabeça não está sujeita</string>
+			<string>Assento não tem encosto de cabeça (visão de ferro)</string>
+			<string>Assento sem bandeja</string>
+			<string>Barra tem nenhum apoio para os pés posição</string>
+			<string>Botões do controle remoto não funciona</string>
+			<string>O cinto não se encaixam, sem estar sujeito</string>
+			<string>Apoio lombar não está funcionando</string>
+			<string>A Light Reading</string>
+			<string>Problemas de cor de exibição ou interferência</string>
+			<string>Tela Individual não mostra imagem ou intermitente</string>
+			<string>Energia de reserva inoperante e manualmente</string>
+			<string>Backup não manter posição fixa</string>
+			<string>Encosto reclina eletricamente não só manual</string>
+			<string>Assento divaider não exibir</string>
+			<string>Entertainment System não vai ouvir, ou assinar pol</string>
+			<string>Sistema de oxigênio, luz e ar não funciona</string>
+		</array>
+		<key>Reason for Report</key>
+		<array>
+			<string>Atraso</string>
+			<string>Alocação de Assento</string>
+			<string>Serviço de Catering</string>
+			<string>Condições da Cabine</string>
+			<string>Passageiro Indisciplinado</string>
+			<string>Tripulante acidentado</string>
+			<string>Upgrade</string>
+			<string>Manutenção Assento/Cabine</string>
+			<string>Serviço de Duty Free</string>
+			<string>Itens perdidos pelo passageiro</string>
+			<string>Passageiro ferido</string>
+			<string>Solicitação de refeição especial</string>
+			<string>Bagagem</string>
+			<string>Manutenção com passageiro a bordo</string>
+			<string>Sistema de Entretenimento</string>
+			<string>Deficientes</string>
+			<string>Solicitação de atendimento médico a bordo</string>
+		</array>
+		<key>Country of residence</key>
+		<array>
+			<string>Brasil</string>
+			<string>Chile</string>
+			<string>Argentina</string>
+			<string>Uruguai</string>
+			<string>Paraguai</string>
+			<string>Peru</string>
+			<string>Venezuela</string>
+			<string>Estados Unidos</string>
+			<string>Espanha</string>
+			<string>Alemanha</string>
+			<string>Inglaterra</string>
+			<string>França</string>
+			<string>Italia</string>
+			<string>Outro - especificar</string>
+		</array>
+		<key>Document Type</key>
+		<array>
+			<string>CPF</string>
+			<string>PASSAPORTE</string>
+		</array>
+		<key>Language</key>
+		<array>
+			<string>Alemão </string>
+			<string>Espanhol </string>
+			<string>Francês </string>
+			<string>Inglês </string>
+			<string>Português </string>
+		</array>
+		<key>Action taken on board Index</key>
+		<array>
+			<string>ARTAM1</string>
+			<string>ARTAM2</string>
+			<string>ARTAM3</string>
+		</array>
+		<key>Reason for Report Index</key>
+		<array>
+			<string>MATAM1</string>
+			<string>MATAM2</string>
+			<string>MATAM3</string>
+			<string>MATAM4</string>
+			<string>MATAM5</string>
+			<string>MATAM6</string>
+			<string>MATAM7</string>
+			<string>MATAM8</string>
+			<string>MATAM9</string>
+			<string>MATAM10</string>
+			<string>MATAM11</string>
+			<string>MATAM12</string>
+			<string>MATAM13</string>
+			<string>MATAM14</string>
+			<string>MATAM15</string>
+			<string>MATAM16</string>
+			<string>MATAM17</string>
+		</array>
+		<key>Country of residence Index</key>
+		<array>
+			<string>br</string>
+			<string>cl</string>
+			<string>ar</string>
+			<string>uy</string>
+			<string>py</string>
+			<string>pe</string>
+			<string>ve</string>
+			<string>us</string>
+			<string>es</string>
+			<string>de</string>
+			<string>uk</string>
+			<string>fr</string>
+			<string>it</string>
+			<string>other_ue</string>
+		</array>
+		<key>Document Type Index</key>
+		<array>
+			<string>1</string>
+			<string>2</string>
+		</array>
+	</dict>
+</dict>
+</plist>

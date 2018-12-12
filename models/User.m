@@ -1,0 +1,16 @@
+//
+//  User.m
+//  Nimbus2
+//
+//  Created by Diego Cathalifaud on 11/25/15.
+//  Copyright © 2015 TCS. All rights reserved.
+//
+
+#import "User.h"
+#import "FlightRoaster.h"
+
+@implementation User
+
+// Insert code here to add functionality to your managed object subclass
+
+@end

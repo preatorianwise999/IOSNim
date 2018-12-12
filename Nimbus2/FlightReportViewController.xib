@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="FlightReportViewController">
+            <connections>
+                <outlet property="detailsContainerView" destination="N1w-hb-I43" id="N8T-Fp-gYw"/>
+                <outlet property="infoValidationBtn" destination="Eb4-bg-eLZ" id="OIl-gc-bvz"/>
+                <outlet property="leftViewHorizontalConstraint" destination="dkM-qh-OLm" id="RPF-It-iUc"/>
+                <outlet property="leftViewWidthConstraint" destination="bqw-0b-Cev" id="sXz-sQ-GL8"/>
+                <outlet property="pageController" destination="5Sg-nQ-jbK" id="Ad6-CQ-HVl"/>
+                <outlet property="rightViewHorizonatalConstraint" destination="IFl-YV-8fG" id="Fq2-SF-m5q"/>
+                <outlet property="rightViewWidthConstraint" destination="qDD-I1-CXN" id="K83-hy-l5N"/>
+                <outlet property="sideMenuContainerView" destination="B2m-nD-1yY" id="yeu-FB-nuo"/>
+                <outlet property="view" destination="9w4-Hf-UPf" id="H43-bt-9mg"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" contentMode="scaleToFill" id="9w4-Hf-UPf">
+            <rect key="frame" x="0.0" y="0.0" width="938" height="680"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="B2m-nD-1yY">
+                    <rect key="frame" x="20" y="30" width="230" height="640"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="230" id="bqw-0b-Cev"/>
+                    </constraints>
+                </view>
+                <view clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5Sg-nQ-jbK" customClass="SMPageControl">
+                    <rect key="frame" x="169" y="5" width="600" height="20"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                </view>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1w-hb-I43">
+                    <rect key="frame" x="250" y="30" width="668" height="640"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="668" id="qDD-I1-CXN"/>
+                    </constraints>
+                </view>
+                <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="detailDisclosure" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eb4-bg-eLZ">
+                    <rect key="frame" x="816" y="30" width="22" height="22"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="22" id="IfI-sK-rFM"/>
+                        <constraint firstAttribute="height" constant="22" id="OMg-nd-xaI"/>
+                    </constraints>
+                    <state key="normal">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="showValidationList:" destination="-1" eventType="touchUpInside" id="6Nl-0Q-cND"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="N1w-hb-I43" secondAttribute="bottom" constant="10" id="342-2c-eHK"/>
+                <constraint firstItem="N1w-hb-I43" firstAttribute="leading" secondItem="B2m-nD-1yY" secondAttribute="trailing" id="IFl-YV-8fG"/>
+                <constraint firstItem="Eb4-bg-eLZ" firstAttribute="top" secondItem="9w4-Hf-UPf" secondAttribute="top" constant="30" id="LIZ-QX-TQp"/>
+                <constraint firstAttribute="trailing" secondItem="N1w-hb-I43" secondAttribute="trailing" constant="20" id="Mk9-Eu-WSL"/>
+                <constraint firstAttribute="bottom" secondItem="B2m-nD-1yY" secondAttribute="bottom" constant="10" id="dKf-Ie-x6R"/>
+                <constraint firstItem="B2m-nD-1yY" firstAttribute="leading" secondItem="9w4-Hf-UPf" secondAttribute="leading" constant="20" id="dkM-qh-OLm"/>
+                <constraint firstItem="B2m-nD-1yY" firstAttribute="top" secondItem="N1w-hb-I43" secondAttribute="top" id="fb2-Wp-kVe"/>
+                <constraint firstAttribute="trailing" secondItem="Eb4-bg-eLZ" secondAttribute="trailing" constant="100" id="vNp-LI-CI1"/>
+                <constraint firstItem="B2m-nD-1yY" firstAttribute="top" secondItem="9w4-Hf-UPf" secondAttribute="top" constant="30" id="wNn-Bf-2wH"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="39" y="296"/>
+        </view>
+    </objects>
+</document>

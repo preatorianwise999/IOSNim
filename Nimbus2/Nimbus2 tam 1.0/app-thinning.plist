@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>variants</key>
+	<dict>
+		<key>Nimbus2-iPad (4th generation).ipa</key>
+		<dict>
+			<key>limitUncompressedInitialPrefetchedODR</key>
+			<integer>2147483648</integer>
+			<key>onDemandResourcesAssetPacks</key>
+			<dict/>
+			<key>sizeCompressedApp</key>
+			<integer>12898284</integer>
+			<key>sizeCompressedAppAndODR</key>
+			<integer>12898284</integer>
+			<key>sizeCompressedODR</key>
+			<integer>0</integer>
+			<key>sizeUncompressedApp</key>
+			<integer>18284178</integer>
+			<key>sizeUncompressedAppAndODR</key>
+			<integer>18284178</integer>
+			<key>sizeUncompressedInitialPrefetchedODR</key>
+			<integer>0</integer>
+			<key>sizeUncompressedInitialPrefetchedODRExceedsLimit</key>
+			<false/>
+			<key>sizeUncompressedODR</key>
+			<integer>0</integer>
+			<key>tagsUncompressedInitialPrefetchedODR</key>
+			<array/>
+			<key>variantIds</key>
+			<array>
+				<string>iPad3,4</string>
+				<string>iPad3,5</string>
+				<string>iPad3,6</string>
+			</array>
+			<key>variantNames</key>
+			<array>
+				<string>iPad (4th generation)</string>
+				<string>iPad (4th generation)</string>
+				<string>iPad (4th generation)</string>
+			</array>
+		</dict>
+	</dict>
+</dict>
+</plist>

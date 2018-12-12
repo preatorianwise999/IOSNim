@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="9532" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="SeatMapViewController">
+            <connections>
+                <outlet property="FilterByCategoryButton" destination="qEO-Pa-HA1" id="JCg-DE-F2O"/>
+                <outlet property="addCustomerButton" destination="LFI-4I-nFe" id="amH-g6-W3q"/>
+                <outlet property="apFilterButton" destination="2F5-1Q-XOF" id="981-yR-m2p"/>
+                <outlet property="cnxFilterButton" destination="I5c-fG-85p" id="cEg-37-h8P"/>
+                <outlet property="collectionViewWidthConstraint" destination="e5y-6S-Oiq" id="mOG-em-lYV"/>
+                <outlet property="ffpFilterButton" destination="IAB-XY-pla" id="RBa-Lh-H9P"/>
+                <outlet property="gapBtwCollectionAndTableConstraint" destination="T5f-RN-DgH" id="Kah-Zc-8Gr"/>
+                <outlet property="noSeatmapLabel" destination="PIP-Fi-ekO" id="dvU-4g-rKD"/>
+                <outlet property="pageController" destination="wdr-2J-fnL" id="Agh-cu-CDn"/>
+                <outlet property="passengerFilterTabelView" destination="cP2-dw-jqL" id="1v7-fV-tlm"/>
+                <outlet property="passengerSearchTextField" destination="CJD-aS-fBQ" id="ruU-CF-2iC"/>
+                <outlet property="passengersTableViewHeightConstraint" destination="ba1-gT-TQQ" id="u1c-oj-OHU"/>
+                <outlet property="searchButton" destination="OMc-dX-0vb" id="Tn1-5r-ElX"/>
+                <outlet property="seatMapCollectionView" destination="tha-E3-8Yi" id="Sgl-fg-JRS"/>
+                <outlet property="spmlFilterButton" destination="q2q-r4-Abi" id="GDA-Ai-OSq"/>
+                <outlet property="spndFilterButton" destination="xLY-8Z-Eq6" id="52Q-Ha-X3j"/>
+                <outlet property="tableBottomSpaceConstraint" destination="Fa5-yZ-LZs" id="Vfy-Lc-GfO"/>
+                <outlet property="tableViewWidhtConstraint" destination="ySr-iR-Hmx" id="ipO-zz-LMJ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+                <outlet property="vipFilterButton" destination="oAK-lM-olB" id="M8x-jL-CJU"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" horizontalHuggingPriority="200" verticalHuggingPriority="200" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="1024" height="680"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IAB-XY-pla" customClass="FilterButton">
+                    <rect key="frame" x="859" y="198" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="Pgz-k8-Dfg"/>
+                        <constraint firstAttribute="height" constant="55" id="yEC-RB-GkP"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="N__0007_cir_nor.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="ffpFilterButtonTapped:" destination="-1" eventType="touchUpInside" id="Sny-Cd-fWB"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oAK-lM-olB" customClass="FilterButton">
+                    <rect key="frame" x="859" y="263" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="QKx-g6-H8t"/>
+                        <constraint firstAttribute="height" constant="55" id="SV3-rn-bmi"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="N__0007_cir_nor.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="vipFilterButtonTapped:" destination="-1" eventType="touchUpInside" id="PYx-Ry-2g9"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q2q-r4-Abi" customClass="FilterButton">
+                    <rect key="frame" x="859" y="328" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="2Cq-5c-KBP"/>
+                        <constraint firstAttribute="height" constant="55" id="Irj-P9-qLX"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="N__0007_cir_nor.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="smplFilterButtonTapped:" destination="-1" eventType="touchUpInside" id="f2w-Fm-RGq"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="5" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xLY-8Z-Eq6" customClass="FilterButton">
+                    <rect key="frame" x="859" y="393" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="04p-iG-cKV"/>
+                        <constraint firstAttribute="width" constant="55" id="U4U-em-fOq"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="N__0007_cir_nor.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="spndFilterButtonTapped:" destination="-1" eventType="touchUpInside" id="gg7-A9-Jav"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="6" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I5c-fG-85p" customClass="FilterButton">
+                    <rect key="frame" x="859" y="458" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="Elk-x6-duj"/>
+                        <constraint firstAttribute="height" constant="55" id="yAk-ZQ-CWM"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="N__0007_cir_nor.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="cnxFilterButtonTapped:" destination="-1" eventType="touchUpInside" id="VEX-ka-cnI"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="7" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2F5-1Q-XOF" customClass="FilterButton">
+                    <rect key="frame" x="859" y="522" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="55" id="QV0-tP-chO"/>
+                        <constraint firstAttribute="height" constant="55" id="fLi-dy-Mc4"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="N__0007_cir_nor.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <state key="highlighted" backgroundImage="N__0003_cir_sel.png">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="apFilterButtonTapped:" destination="-1" eventType="touchUpInside" id="NUW-eu-NIK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="8" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LFI-4I-nFe">
+                    <rect key="frame" x="859" y="588" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="4LR-N6-K3O"/>
+                        <constraint firstAttribute="width" constant="55" id="Af8-Cu-0Ja"/>
+                    </constraints>
+                    <state key="normal" backgroundImage="N__0006_add_psgr_nor.png">
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <connections>
+                        <action selector="onClickAdd:" destination="-1" eventType="touchUpInside" id="uYm-vK-ATB"/>
+                    </connections>
+                </button>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="75" sectionHeaderHeight="22" sectionFooterHeight="22" translatesAutoresizingMaskIntoConstraints="NO" id="cP2-dw-jqL">
+                    <rect key="frame" x="620" y="121" width="230" height="457"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="457" id="ba1-gT-TQQ"/>
+                        <constraint firstAttribute="width" constant="230" id="ySr-iR-Hmx"/>
+                    </constraints>
+                </tableView>
+                <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" minimumFontSize="17" background="N__0021_srch_inpt.png" clearButtonMode="always" translatesAutoresizingMaskIntoConstraints="NO" id="CJD-aS-fBQ">
+                    <rect key="frame" x="620" y="68" width="230" height="45"/>
+                    <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="19"/>
+                    <textInputTraits key="textInputTraits" returnKeyType="search"/>
+                    <connections>
+                        <outlet property="delegate" destination="-1" id="hJU-jr-ajp"/>
+                    </connections>
+                </textField>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OMc-dX-0vb">
+                    <rect key="frame" x="859" y="68" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="vhA-Kr-4p3"/>
+                        <constraint firstAttribute="width" constant="55" id="x4D-Fh-nfQ"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" backgroundImage="N__0005_srch_nor.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="N__0001_srch_sel.png"/>
+                    <connections>
+                        <action selector="searchButtonTapped:" destination="-1" eventType="touchUpInside" id="GE6-WU-I1X"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qEO-Pa-HA1">
+                    <rect key="frame" x="859" y="133" width="55" height="55"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="55" id="5WX-Fo-KaJ"/>
+                        <constraint firstAttribute="width" constant="55" id="AzG-71-hn3"/>
+                    </constraints>
+                    <color key="tintColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <state key="normal" backgroundImage="N__0004_pil_nor.png">
+                        <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                    </state>
+                    <state key="selected" backgroundImage="N__0000_pil_sel.png"/>
+                    <connections>
+                        <action selector="filterByCategoryButtonTapped:" destination="-1" eventType="touchUpInside" id="eHD-4l-0pK"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wdr-2J-fnL" customClass="SMPageControl">
+                    <rect key="frame" x="180" y="0.0" width="250" height="37"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="37" id="T6k-FW-SF6"/>
+                        <constraint firstAttribute="width" constant="250" id="zDx-Em-Zwi"/>
+                    </constraints>
+                </view>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="tha-E3-8Yi">
+                    <rect key="frame" x="20" y="38" width="590" height="634"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="590" id="e5y-6S-Oiq"/>
+                    </constraints>
+                    <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="9" minimumInteritemSpacing="15" id="Vc4-Oy-Lzf" customClass="CustomCollectionViewFlowLayout">
+                        <size key="itemSize" width="48" height="70"/>
+                        <size key="headerReferenceSize" width="100" height="30"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="20" maxX="0.0" maxY="20"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="pYS-4d-EAf"/>
+                        <outlet property="delegate" destination="-1" id="ocy-IR-Pu6"/>
+                    </connections>
+                </collectionView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PIP-Fi-ekO">
+                    <rect key="frame" x="105" y="290" width="400" height="100"/>
+                    <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="20"/>
+                    <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <accessibility key="accessibilityConfiguration">
+                <bool key="isElement" value="YES"/>
+            </accessibility>
+            <constraints>
+                <constraint firstItem="q2q-r4-Abi" firstAttribute="leading" secondItem="qEO-Pa-HA1" secondAttribute="leading" id="1bO-AZ-QJs"/>
+                <constraint firstItem="oAK-lM-olB" firstAttribute="leading" secondItem="qEO-Pa-HA1" secondAttribute="leading" id="2Vo-tE-3U8"/>
+                <constraint firstItem="2F5-1Q-XOF" firstAttribute="leading" secondItem="qEO-Pa-HA1" secondAttribute="leading" id="66q-F5-Hu7"/>
+                <constraint firstItem="cP2-dw-jqL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="121" id="7ge-od-gZc"/>
+                <constraint firstItem="cP2-dw-jqL" firstAttribute="top" secondItem="CJD-aS-fBQ" secondAttribute="bottom" constant="8" id="8wt-yb-NtO"/>
+                <constraint firstAttribute="bottom" secondItem="tha-E3-8Yi" secondAttribute="bottom" constant="8" id="Fa5-yZ-LZs"/>
+                <constraint firstItem="OMc-dX-0vb" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="68" id="GQ7-t2-nrA"/>
+                <constraint firstItem="2F5-1Q-XOF" firstAttribute="top" secondItem="I5c-fG-85p" secondAttribute="bottom" constant="9" id="LfZ-IC-Oem"/>
+                <constraint firstItem="I5c-fG-85p" firstAttribute="leading" secondItem="qEO-Pa-HA1" secondAttribute="leading" id="PCA-bI-LFg"/>
+                <constraint firstItem="qEO-Pa-HA1" firstAttribute="top" secondItem="OMc-dX-0vb" secondAttribute="bottom" constant="10" id="PVY-Ei-4VN"/>
+                <constraint firstItem="LFI-4I-nFe" firstAttribute="leading" secondItem="qEO-Pa-HA1" secondAttribute="leading" id="Pvd-zI-gmE"/>
+                <constraint firstItem="cP2-dw-jqL" firstAttribute="leading" secondItem="CJD-aS-fBQ" secondAttribute="leading" id="Qz6-pZ-w1p"/>
+                <constraint firstItem="wdr-2J-fnL" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="180" id="R6B-74-RfC"/>
+                <constraint firstItem="cP2-dw-jqL" firstAttribute="leading" secondItem="tha-E3-8Yi" secondAttribute="trailing" constant="10" id="T5f-RN-DgH"/>
+                <constraint firstItem="oAK-lM-olB" firstAttribute="top" secondItem="IAB-XY-pla" secondAttribute="bottom" constant="10" id="TbN-1G-YAb"/>
+                <constraint firstItem="IAB-XY-pla" firstAttribute="top" secondItem="qEO-Pa-HA1" secondAttribute="bottom" constant="10" id="TdD-kS-R5S"/>
+                <constraint firstItem="qEO-Pa-HA1" firstAttribute="leading" secondItem="cP2-dw-jqL" secondAttribute="trailing" constant="9" id="Ulm-1L-oPA"/>
+                <constraint firstItem="IAB-XY-pla" firstAttribute="leading" secondItem="qEO-Pa-HA1" secondAttribute="leading" id="Y2U-wP-bI6"/>
+                <constraint firstItem="tha-E3-8Yi" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="20" id="Ydk-wI-Z5S"/>
+                <constraint firstItem="xLY-8Z-Eq6" firstAttribute="leading" secondItem="qEO-Pa-HA1" secondAttribute="leading" id="b75-tH-QgS"/>
+                <constraint firstItem="cP2-dw-jqL" firstAttribute="trailing" secondItem="CJD-aS-fBQ" secondAttribute="trailing" id="bAk-u8-AZE"/>
+                <constraint firstItem="wdr-2J-fnL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="f7z-Bw-5kL"/>
+                <constraint firstItem="xLY-8Z-Eq6" firstAttribute="top" secondItem="q2q-r4-Abi" secondAttribute="bottom" constant="10" id="gaP-5F-Y4y"/>
+                <constraint firstItem="tha-E3-8Yi" firstAttribute="top" secondItem="wdr-2J-fnL" secondAttribute="bottom" constant="1" id="lST-4h-t36"/>
+                <constraint firstItem="LFI-4I-nFe" firstAttribute="top" secondItem="2F5-1Q-XOF" secondAttribute="bottom" constant="11" id="qK5-j2-GoY"/>
+                <constraint firstItem="CJD-aS-fBQ" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="68" id="yjV-VM-aEC"/>
+                <constraint firstItem="I5c-fG-85p" firstAttribute="top" secondItem="xLY-8Z-Eq6" secondAttribute="bottom" constant="10" id="zOf-kJ-K1w"/>
+                <constraint firstItem="q2q-r4-Abi" firstAttribute="top" secondItem="oAK-lM-olB" secondAttribute="bottom" constant="10" id="zOo-B5-W2z"/>
+                <constraint firstItem="qEO-Pa-HA1" firstAttribute="leading" secondItem="OMc-dX-0vb" secondAttribute="leading" id="zwp-Dx-2RK"/>
+            </constraints>
+            <simulatedOrientationMetrics key="simulatedOrientationMetrics" orientation="landscapeRight"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="159" y="131"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="N__0000_pil_sel.png" width="55" height="55"/>
+        <image name="N__0001_srch_sel.png" width="55" height="55"/>
+        <image name="N__0003_cir_sel.png" width="55" height="55"/>
+        <image name="N__0004_pil_nor.png" width="55" height="55"/>
+        <image name="N__0005_srch_nor.png" width="55" height="55"/>
+        <image name="N__0006_add_psgr_nor.png" width="55" height="55"/>
+        <image name="N__0007_cir_nor.png" width="55" height="55"/>
+        <image name="N__0021_srch_inpt.png" width="230" height="45"/>
+    </resources>
+</document>

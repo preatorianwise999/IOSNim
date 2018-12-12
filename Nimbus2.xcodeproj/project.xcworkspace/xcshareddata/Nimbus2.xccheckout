@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>76937634-9D11-424B-8BF4-C3873D7680A8</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Nimbus2</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0d63d409-839e-d046-b146-e6149116fda1++7223</key>
+		<string>https://10.10.238.60:8443/svn/Aeropuerto/Nimbus2/fuentes/Ipad/Nimbus%2520Final</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Nimbus2.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0d63d409-839e-d046-b146-e6149116fda1++7223</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>0d63d409-839e-d046-b146-e6149116fda1++7223</key>
+		<string>https://10.10.238.60:8443/svn/Aeropuerto</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://10.10.238.60:8443/svn/Aeropuerto/Nimbus2/fuentes/Ipad/Nimbus%2520Final/Nimbus2.xcodeproj</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0d63d409-839e-d046-b146-e6149116fda1++7223</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0d63d409-839e-d046-b146-e6149116fda1++7223</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SVN_27ZN</string>
+		</dict>
+	</array>
+</dict>
+</plist>

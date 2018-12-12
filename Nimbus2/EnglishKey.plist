@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UNAVDC</key>
+	<string>Add Documents Sent</string>
+	<key>CDGPRD</key>
+	<string>Product Code</string>
+	<key>STFLSR</key>
+	<string>Seat-Row</string>
+	<key>STFLSL</key>
+	<string>Letter</string>
+	<key>REMOTE</key>
+	<string>Remote</string>
+	<key>USDSLS</key>
+	<string>Sales(USD)</string>
+	<key>MEDOCC</key>
+	<string>Ocorrências Médicas</string>
+	<key>TCSUBP</key>
+	<string>BP TC</string>
+	<key>TCSUNM</key>
+	<string>TC Name</string>
+	<key>FST</key>
+	<string>FIRST</string>
+	<key>SSOCCR</key>
+	<string>Special Occurrences</string>
+	<key>HARSOL</key>
+	<string>Solicitud Arnes</string>
+	<key>SPCOCC</key>
+	<string>Especo Occurences</string>
+	<key>HASONB</key>
+	<string>Arnes Solicitados</string>
+	<key>MANGA</key>
+	<string>Manga</string>
+	<key>OPTION</key>
+	<string>Option</string>
+	<key>AMOUNT</key>
+	<string>Amount</string>
+	<key>REMARK</key>
+	<string>Comments</string>
+	<key>PRE</key>
+	<string>PREMIUM ECONOMY</string>
+	<key>GEN</key>
+	<string>GENERAL</string>
+	<key>SYRSZN</key>
+	<string>Area Reset</string>
+	<key>SYRSNB</key>
+	<string>Number of resets</string>
+	<key>FLDSFT</key>
+	<string>Type of failure</string>
+	<key>FLDSFM</key>
+	<string>Time of flight</string>
+	<key>FLDSFD</key>
+	<string>Duration of failure</string>
+	<key>FLDSST</key>
+	<string>Affected Seats</string>
+	<key>SEATRC</key>
+	<string>Failure Seat recovered in Flight</string>
+	<key>FAIL</key>
+	<string>Failure</string>
+	<key>SNDODO</key>
+	<string>Documents</string>
+	<key>WSTZRO</key>
+	<string>Waste</string>
+	<key>WTRZRO</key>
+	<string>AguaBordo</string>
+	<key>STATUS</key>
+	<string>Select State</string>
+	<key>DPSTPX</key>
+	<string>Full name of passengers</string>
+	<key>MINBRD</key>
+	<string>Minimum Time for TC Boarding</string>
+	<key>TAILNB</key>
+	<string>Enrollment</string>
+	<key>LDTYPE</key>
+	<string>Type of Landing</string>
+	<key>DFSALE</key>
+	<string>Were there any duty free sales?</string>
+	<key>MSGITM</key>
+	<string>Missing Items</string>
+	<key>GENSUG</key>
+	<string>Suggestions and general feedback flight</string>
+	<key>ECOSUG</key>
+	<string>Suggestions and comments cabin Economy</string>
+	<key>BUSSUG</key>
+	<string>Suggestions and comments cabin Business</string>
+	<key>FSTSUG</key>
+	<string>Suggestions and comments First Economy</string>
+	<key>MSFAIL</key>
+	<string>Massive Failures</string>
+	<key>GALELE</key>
+	<string>Galley elements</string>
+	<key>CATELE</key>
+	<string>Elementos de Catering</string>
+	<key>APVELE</key>
+	<string>Element APV</string>
+	<key>ECO</key>
+	<string>ECONOMY</string>
+	<key>SEATAS</key>
+	<string>Assigning Seats</string>
+	<key>NOSLDF</key>
+	<string>Reason for no duty free sales</string>
+	<key>REASON</key>
+	<string>Reason</string>
+	<key>BUS</key>
+	<string>BUSINESS</string>
+	<key>AIRPRT</key>
+	<string>Airport</string>
+	<key>LGGWH</key>
+	<string>Hand luggage sent to warehouse</string>
+	<key>HNDLGG</key>
+	<string>Baggage</string>
+	<key>BBASST</key>
+	<string>Misallocated Seats</string>
+	<key>SEATNF</key>
+	<string>Information seats</string>
+	<key>DPSEAT</key>
+	<string>Duplicates Seats (Check Boarding Pass)</string>
+	<key>CABCON</key>
+	<string>Conditioning Cab</string>
+	<key>CABST</key>
+	<string>State Cab conditioning</string>
+	<key>APVCAT</key>
+	<string>Elements &amp; CAT APV</string>
+	<key>APVMAT</key>
+	<string>Material APV-CAT</string>
+	<key>ELEMNT</key>
+	<string>Element</string>
+	<key>CABELE</key>
+	<string>Elements of the Cabin</string>
+	<key>SAFELE</key>
+	<string>Security Elements</string>
+	<key>BTHELE</key>
+	<string>Elements of Bath</string>
+	<key>DUTYFR</key>
+	<string>Dutyfree</string>
+	<key>TKNACT</key>
+	<string>Action</string>
+	<key>SSPINF</key>
+	<string>Special Passenger Occurrences</string>
+	<key>SSPIST</key>
+	<string>Number Indicated</string>
+	<key>IDFAIL</key>
+	<string>Individual Failures</string>
+	<key>IFEIFL</key>
+	<string>Individual failure IFE</string>
+	<key>SNTDOC</key>
+	<string>Documents sent</string>
+	<key>WSTDRQ</key>
+	<string>Waste desq</string>
+	<key>WSTBRQ</key>
+	<string>Waste embr</string>
+	<key>WTRDRQ</key>
+	<string>Agua desq</string>
+	<key>WTRBRQ</key>
+	<string>Agua embr</string>
+	<key>IFIFSR</key>
+	<string></string>
+	<key>SSPSCM</key>
+	<string>Accomp Occurences</string>
+	<key>SSCMQT</key>
+	<string>Accompanied Quant</string>
+	<key>QUACAT</key>
+	<string>Quality Catering Service</string>
+	<key>SQACAT</key>
+	<string>Quality Service CAT</string>
+	<key>SERVQA</key>
+	<string>Quality of Service</string>
+	<key>FLIGHT
+
+
+
+
+
+
+
+</key>
+	<string>Flight</string>
+	<key>REPORT</key>
+	<string>Report</string>
+	<key>TCSUPC
+</key>
+	<string>Add Superior Occurrences</string>
+	<key>WCHSOL</key>
+	<string>Request WCH</string>
+	<key>WCSONB</key>
+	<string>WCH Solicitadas</string>
+	<key>SERVCE</key>
+	<string>Service</string>
+	<key>REMARK </key>
+	<string>WCH Observations</string>
+	<key>REMARK  </key>
+	<string>Arnes Observations</string>
+	<key>FLOCCR</key>
+	<string>Flight Occurrences</string>
+	<key>SHOCCR</key>
+	<string>Shipment Occurrences</string>
+	<key>SHTYPE</key>
+	<string>Type of Boarding</string>
+	<key>RTKNAC</key>
+	<string>Actions Taken</string>
+	<key>DLRSON</key>
+	<string>Reasons</string>
+	<key>DLAYTM</key>
+	<string>Duration of delay</string>
+	<key>WASDLY</key>
+	<string>Did delay in flight departure?</string>
+	<key>CLDRHR</key>
+	<string>Hora Cierre Puertas</string>
+	<key>EXELEG</key>
+	<string>Leg Executed</string>
+	<key>CREWBS</key>
+	<string>Crew Base</string>
+	<key>MTRIAL</key>
+	<string>Material</string>
+	<key>HSBBP</key>
+	<string>BP</string>
+	<key>HSBLST</key>
+	<string>Surname</string>
+	<key>HSBFST</key>
+	<string>Name</string>
+	<key>SALES</key>
+	<string>Sales</string>
+	<key>DOCMNT</key>
+	<string>Documentation</string>
+	<key>LANDNG</key>
+	<string>Landing</string>
+	<key>HEAD</key>
+	<string>Head of Service on Board</string>
+	<key>FLIGHT</key>
+	<string>Flight</string>
+	<key>DELAY</key>
+	<string>Arrears / Contingency </string>
+	<key>COMMDR</key>
+	<string>Captain</string>
+	<key>FLDATA</key>
+	<string>Flight Details</string>
+	<key>FLTLSS</key>
+	<string>Impeccability of Cab</string>
+	<key>SHPINF</key>
+	<string>Boarding Information</string>
+	<key>SHIPMN</key>
+	<string>Boarding</string>
+	<key>TCSUPC</key>
+	<string>TC meets senior roles</string>
+	<key>GENINF</key>
+	<string>General Information</string>
+	<key>GENERA</key>
+	<string>Overview</string>
+	<key>FLDESC</key>
+	<string>Description of Failure</string>
+	<key>SUGGES</key>
+	<string>Suggestions</string>
+	<key>SYSRST</key>
+	<string>Corrective Action</string>
+	<key>IFEMFL</key>
+	<string>There were massive failures IFE?</string>
+	<key>BATHRM</key>
+	<string>Toilets</string>
+	<key>SYSFST</key>
+	<string>Final System Status</string>
+	<key>SEATFL</key>
+	<string>Faulty Seat recovered in Flight</string>
+	<key>SYSIST</key>
+	<string>Initial state of the system</string>
+	<key>GALLEY</key>
+	<string>Galley</string>
+	<key>TEMP</key>
+	<string>Temperature</string>
+	<key>LIQUID</key>
+	<string>Drinks</string>
+	<key>LDOCUR</key>
+	<string>Desembarque Occurences</string>
+	<key>FOOD</key>
+	<string>Meals</string>
+	<key>CAB</key>
+	<string>Cabin</string>
+	<key>IFE</key>
+	<string>IFE</string>
+	<key>IMG</key>
+	<string>CAMERA</string>
+</dict>
+</plist>

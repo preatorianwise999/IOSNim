@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.iPad.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch.iPad" propertyAccessControl="none" useAutolayout="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Alignment constraints to the first baseline" minToolsVersion="6.0"/>
+        <capability name="Alignment constraints with different attributes" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <mutableArray key="RobotoCondensed-Light.ttf">
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+            <string>RobotoCondensed-Light</string>
+        </mutableArray>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell tag="1012" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="GADDouble" id="KGk-i7-Jjw" customClass="GADTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="695" height="162"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="695" height="161"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Comunicacion" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Oja-ij-RGu">
+                        <rect key="frame" x="6" y="0.0" width="381" height="33"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="33" id="Opk-CO-ocs"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="18"/>
+                        <color key="textColor" red="0.074509803920000006" green="0.1764705882" blue="0.37647058820000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="6" translatesAutoresizingMaskIntoConstraints="NO" id="iWu-lR-acl">
+                        <rect key="frame" x="6" y="31" width="381" height="69"/>
+                        <string key="text">Entrega información amable, clara y oportuna en todo momento, mostrando consistencia en la comunicación verbal y no verbal||COINFR</string>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="14"/>
+                        <color key="textColor" red="0.2901960784" green="0.29411764709999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" lineBreakMode="wordWrap" numberOfLines="6" baselineAdjustment="alignBaselines" minimumFontSize="7" translatesAutoresizingMaskIntoConstraints="NO" id="WlL-7J-Ba6">
+                        <rect key="frame" x="6" y="95" width="381" height="71"/>
+                        <string key="text">Entrega información amable, clara y oportuna en todo momento, mostrando consistencia en la comunicación verbal y no verbal||COINFR</string>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="14"/>
+                        <color key="textColor" red="0.2901960784" green="0.29411764709999999" blue="0.29803921570000003" alpha="1" colorSpace="calibratedRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" tag="101" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cxP-2j-bZY">
+                        <rect key="frame" x="408" y="46" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.58431372550000005" green="0.0" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="40" id="EVc-B8-CWy"/>
+                            <constraint firstAttribute="width" constant="40" id="M3J-2s-w5h"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="BE">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="RrI-1T-zgO"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="102" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3cs-bO-sT0">
+                        <rect key="frame" x="456" y="46" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.41176470590000003" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="4Lb-b1-B4l"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="PE">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="FoB-1H-pGB"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="103" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GP8-1n-zqD">
+                        <rect key="frame" x="504" y="46" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.41568627450000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="ak4-SI-GU4"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="E">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="sL7-WS-gkU"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="104" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="H6e-x2-MIX">
+                        <rect key="frame" x="551" y="46" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.33725490200000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Fo4-cL-SXH"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="SE">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="UHd-bG-fhC"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="105" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gvQ-Ms-Uos">
+                        <rect key="frame" x="599" y="46" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.2156862745" green="0.47058823529999999" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="g6k-Nq-V54"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="EX">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="0ww-9R-0xy"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="106" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QUX-5Z-xGL">
+                        <rect key="frame" x="645" y="46" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.20784313730000001" green="0.20784313730000001" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="40" id="Bej-4U-Hcc"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="NO">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="tkp-dR-J1G"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="201" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YZi-ZP-hH2">
+                        <rect key="frame" x="408" y="110" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.58431372550000005" green="0.0" blue="0.10980392160000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="BE">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="eHu-DW-4nC"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="202" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="BXz-wo-HgR">
+                        <rect key="frame" x="456" y="110" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.92549019610000005" green="0.41176470590000003" blue="0.27058823529999998" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="PE">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="mWZ-rV-9xD"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="203" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Pvd-4F-WUD">
+                        <rect key="frame" x="504" y="110" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.098039215690000001" green="0.41568627450000001" blue="0.14901960780000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="E">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Kdl-sT-p7g"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="204" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1gt-B6-srS">
+                        <rect key="frame" x="551" y="110" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.1176470588" green="0.33725490200000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="SE">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="yIp-sK-XbO"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="205" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5uy-0T-Or5">
+                        <rect key="frame" x="599" y="110" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.2156862745" green="0.47058823529999999" blue="0.72941176470000002" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="EX">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="NbZ-1a-mA7"/>
+                        </connections>
+                    </button>
+                    <button opaque="NO" tag="206" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eWy-1V-laP">
+                        <rect key="frame" x="645" y="110" width="40" height="40"/>
+                        <color key="backgroundColor" red="0.20784313730000001" green="0.20784313730000001" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                        <fontDescription key="fontDescription" name="RobotoCondensed-Light" family="Roboto Condensed" pointSize="16"/>
+                        <state key="normal" title="NO">
+                            <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                        <connections>
+                            <action selector="selectButtonClicked2:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="7Vp-kO-nE9"/>
+                        </connections>
+                    </button>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="GP8-1n-zqD" firstAttribute="top" secondItem="H6e-x2-MIX" secondAttribute="top" id="08T-Uw-zf7"/>
+                    <constraint firstItem="gvQ-Ms-Uos" firstAttribute="top" secondItem="QUX-5Z-xGL" secondAttribute="top" id="0jg-wc-xpI"/>
+                    <constraint firstItem="YZi-ZP-hH2" firstAttribute="top" secondItem="cxP-2j-bZY" secondAttribute="bottom" constant="24" id="3oe-fL-sCb"/>
+                    <constraint firstItem="Pvd-4F-WUD" firstAttribute="leading" secondItem="BXz-wo-HgR" secondAttribute="trailing" constant="8" symbolic="YES" id="3zh-w7-hm5"/>
+                    <constraint firstItem="5uy-0T-Or5" firstAttribute="top" secondItem="eWy-1V-laP" secondAttribute="top" id="4vi-dn-gVi"/>
+                    <constraint firstItem="BXz-wo-HgR" firstAttribute="baseline" secondItem="YZi-ZP-hH2" secondAttribute="baseline" id="4x8-3r-9Tj"/>
+                    <constraint firstItem="WlL-7J-Ba6" firstAttribute="top" secondItem="Oja-ij-RGu" secondAttribute="bottom" constant="62" id="67g-G6-OdM"/>
+                    <constraint firstItem="eWy-1V-laP" firstAttribute="baseline" secondItem="5uy-0T-Or5" secondAttribute="baseline" id="6Tm-ve-5FH"/>
+                    <constraint firstItem="gvQ-Ms-Uos" firstAttribute="baseline" secondItem="QUX-5Z-xGL" secondAttribute="firstBaseline" id="9QG-QY-xzd"/>
+                    <constraint firstItem="H6e-x2-MIX" firstAttribute="baseline" secondItem="gvQ-Ms-Uos" secondAttribute="baseline" id="Aec-fT-zx0"/>
+                    <constraint firstItem="QUX-5Z-xGL" firstAttribute="baseline" secondItem="gvQ-Ms-Uos" secondAttribute="firstBaseline" id="Ahc-so-sUS"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="QUX-5Z-xGL" secondAttribute="trailing" constant="2" id="D2h-Re-hf2"/>
+                    <constraint firstItem="GP8-1n-zqD" firstAttribute="trailing" secondItem="Pvd-4F-WUD" secondAttribute="trailing" id="DPs-r4-7FH"/>
+                    <constraint firstItem="5uy-0T-Or5" firstAttribute="baseline" secondItem="eWy-1V-laP" secondAttribute="firstBaseline" id="DfX-4d-9fB"/>
+                    <constraint firstItem="QUX-5Z-xGL" firstAttribute="leading" secondItem="eWy-1V-laP" secondAttribute="leading" id="DhL-dj-haO"/>
+                    <constraint firstItem="GP8-1n-zqD" firstAttribute="baseline" secondItem="H6e-x2-MIX" secondAttribute="firstBaseline" id="Dk9-KP-419"/>
+                    <constraint firstItem="cxP-2j-bZY" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="38" id="FcP-IJ-h45"/>
+                    <constraint firstItem="H6e-x2-MIX" firstAttribute="baseline" secondItem="GP8-1n-zqD" secondAttribute="baseline" id="H6E-AO-Ysz"/>
+                    <constraint firstItem="3cs-bO-sT0" firstAttribute="baseline" secondItem="cxP-2j-bZY" secondAttribute="firstBaseline" id="HIm-gg-4bZ"/>
+                    <constraint firstItem="BXz-wo-HgR" firstAttribute="baseline" secondItem="YZi-ZP-hH2" secondAttribute="firstBaseline" id="ISy-7F-mLv"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="iWu-lR-acl" secondAttribute="bottom" constant="53" id="Ibl-c1-0ir"/>
+                    <constraint firstItem="QUX-5Z-xGL" firstAttribute="trailing" secondItem="eWy-1V-laP" secondAttribute="trailing" id="ImM-H6-oOX"/>
+                    <constraint firstItem="QUX-5Z-xGL" firstAttribute="leading" secondItem="gvQ-Ms-Uos" secondAttribute="trailing" constant="6" id="Ljy-Sa-Co1"/>
+                    <constraint firstItem="Oja-ij-RGu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" constant="-2" id="MYW-Ep-apF"/>
+                    <constraint firstItem="cxP-2j-bZY" firstAttribute="leading" secondItem="iWu-lR-acl" secondAttribute="trailing" constant="21" id="Mgu-Dn-0cd"/>
+                    <constraint firstItem="cxP-2j-bZY" firstAttribute="top" secondItem="3cs-bO-sT0" secondAttribute="top" id="OBL-pY-6Q9"/>
+                    <constraint firstItem="gvQ-Ms-Uos" firstAttribute="leading" secondItem="H6e-x2-MIX" secondAttribute="trailing" constant="8" symbolic="YES" id="OU5-Rm-XBB"/>
+                    <constraint firstItem="YZi-ZP-hH2" firstAttribute="baseline" secondItem="BXz-wo-HgR" secondAttribute="firstBaseline" id="RAS-yR-0vc"/>
+                    <constraint firstItem="iWu-lR-acl" firstAttribute="trailing" secondItem="Oja-ij-RGu" secondAttribute="trailing" id="St8-xR-p5C"/>
+                    <constraint firstItem="1gt-B6-srS" firstAttribute="baseline" secondItem="5uy-0T-Or5" secondAttribute="baseline" id="SwQ-Jr-FAs"/>
+                    <constraint firstItem="BXz-wo-HgR" firstAttribute="top" secondItem="Pvd-4F-WUD" secondAttribute="top" id="TEk-5A-mff"/>
+                    <constraint firstItem="iWu-lR-acl" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="23" id="TPR-Tf-kNq"/>
+                    <constraint firstItem="gvQ-Ms-Uos" firstAttribute="top" secondItem="H6e-x2-MIX" secondAttribute="top" id="Vsc-AU-GLl"/>
+                    <constraint firstItem="YZi-ZP-hH2" firstAttribute="leading" secondItem="cxP-2j-bZY" secondAttribute="leading" id="WJL-EB-lAD"/>
+                    <constraint firstItem="YZi-ZP-hH2" firstAttribute="top" secondItem="BXz-wo-HgR" secondAttribute="top" id="WXX-2H-aaF"/>
+                    <constraint firstItem="BXz-wo-HgR" firstAttribute="baseline" secondItem="Pvd-4F-WUD" secondAttribute="baseline" id="YIx-il-qi0"/>
+                    <constraint firstItem="Pvd-4F-WUD" firstAttribute="baseline" secondItem="1gt-B6-srS" secondAttribute="baseline" id="YT8-bV-QGr"/>
+                    <constraint firstItem="iWu-lR-acl" firstAttribute="leading" secondItem="Oja-ij-RGu" secondAttribute="leading" id="Z2v-wf-Ft2"/>
+                    <constraint firstItem="Oja-ij-RGu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="ZTW-yB-CDy"/>
+                    <constraint firstItem="3cs-bO-sT0" firstAttribute="baseline" secondItem="GP8-1n-zqD" secondAttribute="baseline" id="Zx5-i5-X5U"/>
+                    <constraint firstItem="1gt-B6-srS" firstAttribute="top" secondItem="5uy-0T-Or5" secondAttribute="top" id="aFx-cE-Pma"/>
+                    <constraint firstItem="3cs-bO-sT0" firstAttribute="leading" secondItem="BXz-wo-HgR" secondAttribute="leading" id="aa5-Su-yLr"/>
+                    <constraint firstItem="GP8-1n-zqD" firstAttribute="top" secondItem="3cs-bO-sT0" secondAttribute="top" id="baj-4h-iT9"/>
+                    <constraint firstItem="3cs-bO-sT0" firstAttribute="leading" secondItem="cxP-2j-bZY" secondAttribute="trailing" constant="8" symbolic="YES" id="beJ-23-3Xe"/>
+                    <constraint firstItem="eWy-1V-laP" firstAttribute="baseline" secondItem="5uy-0T-Or5" secondAttribute="firstBaseline" id="bp1-Ok-i7Z"/>
+                    <constraint firstItem="BXz-wo-HgR" firstAttribute="leading" secondItem="YZi-ZP-hH2" secondAttribute="trailing" constant="8" symbolic="YES" id="bt7-Z6-BFh"/>
+                    <constraint firstItem="1gt-B6-srS" firstAttribute="leading" secondItem="H6e-x2-MIX" secondAttribute="leading" id="buR-4H-5G5"/>
+                    <constraint firstItem="H6e-x2-MIX" firstAttribute="leading" secondItem="GP8-1n-zqD" secondAttribute="trailing" constant="7" id="cpr-cF-efI"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="YZi-ZP-hH2" secondAttribute="bottom" constant="3" id="fpu-k8-KfP"/>
+                    <constraint firstAttribute="bottomMargin" secondItem="WlL-7J-Ba6" secondAttribute="bottom" constant="-13" id="gkU-xu-stW"/>
+                    <constraint firstItem="cxP-2j-bZY" firstAttribute="baseline" secondItem="3cs-bO-sT0" secondAttribute="firstBaseline" id="jGf-Pj-81L"/>
+                    <constraint firstItem="Pvd-4F-WUD" firstAttribute="leading" secondItem="GP8-1n-zqD" secondAttribute="leading" id="knY-QB-vBc"/>
+                    <constraint firstItem="Pvd-4F-WUD" firstAttribute="baseline" secondItem="1gt-B6-srS" secondAttribute="firstBaseline" id="nWi-Qo-aaY"/>
+                    <constraint firstItem="gvQ-Ms-Uos" firstAttribute="trailing" secondItem="5uy-0T-Or5" secondAttribute="trailing" id="oP8-IL-uZJ"/>
+                    <constraint firstItem="1gt-B6-srS" firstAttribute="baseline" secondItem="Pvd-4F-WUD" secondAttribute="firstBaseline" id="pT5-XG-lte"/>
+                    <constraint firstItem="3cs-bO-sT0" firstAttribute="baseline" secondItem="cxP-2j-bZY" secondAttribute="baseline" id="rfr-Zf-p2R"/>
+                    <constraint firstItem="GP8-1n-zqD" firstAttribute="leading" secondItem="3cs-bO-sT0" secondAttribute="trailing" constant="8" symbolic="YES" id="tcP-xk-JfZ"/>
+                    <constraint firstItem="1gt-B6-srS" firstAttribute="top" secondItem="Pvd-4F-WUD" secondAttribute="top" id="vLd-Zi-Ipr"/>
+                    <constraint firstItem="5uy-0T-Or5" firstAttribute="leading" secondItem="gvQ-Ms-Uos" secondAttribute="leading" id="w4Z-tJ-eFS"/>
+                    <constraint firstItem="QUX-5Z-xGL" firstAttribute="baseline" secondItem="gvQ-Ms-Uos" secondAttribute="baseline" id="wq8-37-GcJ"/>
+                    <constraint firstItem="H6e-x2-MIX" firstAttribute="baseline" secondItem="GP8-1n-zqD" secondAttribute="firstBaseline" id="xfh-Rv-smH"/>
+                    <constraint firstItem="iWu-lR-acl" firstAttribute="trailing" secondItem="WlL-7J-Ba6" secondAttribute="trailing" id="xnv-M9-NCn"/>
+                    <constraint firstItem="5uy-0T-Or5" firstAttribute="leading" secondItem="1gt-B6-srS" secondAttribute="trailing" constant="8" symbolic="YES" id="yrl-4J-79G"/>
+                    <constraint firstItem="WlL-7J-Ba6" firstAttribute="leading" secondItem="iWu-lR-acl" secondAttribute="leading" id="zch-fM-r1p"/>
+                </constraints>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="BE" destination="cxP-2j-bZY" id="sTP-X2-Gh3"/>
+                <outlet property="BE2" destination="YZi-ZP-hH2" id="0Lb-uF-16a"/>
+                <outlet property="E" destination="GP8-1n-zqD" id="CWp-yh-pq2"/>
+                <outlet property="E2" destination="Pvd-4F-WUD" id="B8K-SO-f0S"/>
+                <outlet property="EX" destination="gvQ-Ms-Uos" id="8Q2-oF-MEc"/>
+                <outlet property="EX2" destination="5uy-0T-Or5" id="BzW-vz-ZA0"/>
+                <outlet property="NOT" destination="QUX-5Z-xGL" id="4gx-4J-9cT"/>
+                <outlet property="NOT2" destination="eWy-1V-laP" id="kHe-Yh-cK7"/>
+                <outlet property="PE" destination="3cs-bO-sT0" id="T8O-2u-ZdO"/>
+                <outlet property="PE2" destination="BXz-wo-HgR" id="d4V-PV-cdk"/>
+                <outlet property="SE" destination="H6e-x2-MIX" id="6dX-JQ-2us"/>
+                <outlet property="SE2" destination="1gt-B6-srS" id="DvN-dS-xDE"/>
+                <outlet property="detailsLabel1" destination="iWu-lR-acl" id="h6r-uj-Wia"/>
+                <outlet property="detailsLabel2" destination="WlL-7J-Ba6" id="oyN-8M-Fcb"/>
+                <outlet property="headingLabel" destination="Oja-ij-RGu" id="6Hg-8H-9zA"/>
+            </connections>
+            <point key="canvasLocation" x="364.5" y="319"/>
+        </tableViewCell>
+    </objects>
+</document>

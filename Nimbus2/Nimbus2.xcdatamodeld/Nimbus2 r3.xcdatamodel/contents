@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15A284" minimumToolsVersion="Automatic">
+    <entity name="Accompany" representedClassName="Accompany" syncable="YES">
+        <attribute name="classType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="columnNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rowNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Cabin" representedClassName="Cabin" syncable="YES">
+        <attribute name="cabinType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="cabinMeal" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Meal" syncable="YES"/>
+    </entity>
+    <entity name="ClassType" representedClassName="ClassType" syncable="YES">
+        <attribute name="availablepassenger" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="capacity" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Connection" representedClassName="Connection" syncable="YES">
+        <attribute name="arrivalAP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="arrivalDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="departureAP" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="departureDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="flightNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightType" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Contents" representedClassName="Contents" syncable="YES">
+        <attribute name="image" optional="YES" attributeType="Binary" syncable="YES"/>
+        <attribute name="isOther" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="selectedValue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="contentField" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="FeildValues" syncable="YES"/>
+        <relationship name="contentOther" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="OtherValues" syncable="YES"/>
+    </entity>
+    <entity name="CrewMembers" representedClassName="CrewMembers" syncable="YES">
+        <attribute name="activeRank" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attempts" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="base" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="bp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="category" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crewID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="eaAttemts" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="errorAttempts" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="expectedGAD" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="filledGAD" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="imageUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isManuallyAdded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="licencceDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="licenceNo" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="realizedGAD" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="specialRank" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="synchDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <relationship name="crewCategory" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="GADCategory" syncable="YES"/>
+        <relationship name="crewComments" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="GADComments" syncable="YES"/>
+    </entity>
+    <entity name="CUSImages" representedClassName="CUSImages" syncable="YES">
+        <attribute name="image1" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image2" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image3" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image4" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="image5" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Customer" representedClassName="Customer" syncable="YES">
+        <attribute name="accountStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="attempts" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="dateOfBirth" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="docNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="docType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="editCodes" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="freqFlyerCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="freqFlyerComp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="freqFlyerNum" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="gender" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="groupCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="haConnection" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="hasSpecialMeal" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="imageLoadUrl" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isChild" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isWCH" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="language" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lanPassCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lanPassKms" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lanPassUpgrade" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="seatNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="secondLastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="synchDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="vipCategory" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vipRemarks" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="vipSpecialAttentions" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="cusAccompany" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Accompany" syncable="YES"/>
+        <relationship name="cusConnection" optional="YES" toMany="YES" deletionRule="Cascade" ordered="YES" destinationEntity="Connection" syncable="YES"/>
+        <relationship name="cusGroup" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Groups" syncable="YES"/>
+        <relationship name="cusImages" optional="YES" maxCount="1" deletionRule="Cascade" destinationEntity="CUSImages" syncable="YES"/>
+        <relationship name="cusLeg" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Legs" syncable="YES"/>
+        <relationship name="cusSolicitudes" optional="YES" toMany="YES" deletionRule="Cascade" destinationEntity="Solicitudes" syncable="YES"/>
+        <relationship name="specialMeals" optional="YES" toMany="YES" deletionRule="Nullify" ordered="YES" destinationEntity="SpecialMeal" syncable="YES"/>
+    </entity>
+    <entity name="Events" representedClassName="Events" syncable="YES">
+        <attribute name="isMultiple" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="eventsRow" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Row" syncable="YES"/>
+    </entity>
+    <entity name="FeildValues" representedClassName="FeildValues" syncable="YES">
+        <attribute name="active" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="optionCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="valueES" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="valuePT" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="FlightReports" representedClassName="FlightReports" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="reportSection" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Sections" syncable="YES"/>
+    </entity>
+    <entity name="FlightRoaster" representedClassName="FlightRoaster" syncable="YES">
+        <attribute name="airlineCode" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="briefingEndTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="briefingStartTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="businessUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="company" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="counter" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="crewEntryTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="flightDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="flightNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightReport" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightReportSynched" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="gateNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="isDataSaved" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isFlownAsJSB" optional="YES" attributeType="Boolean" defaultValueString="YES" syncable="YES"/>
+        <attribute name="isManualyEntered" optional="YES" attributeType="Integer 16" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isPassengerDetailsAvailable" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="isPassengerListAvailable" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isPublicationSynched" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="lastSynchTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="manulaCrewAdded" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="material" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="materialType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="passengerEntryTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="sortTime" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="status" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="suffix" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tailNumber" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="flightInfoLegs" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Legs" syncable="YES"/>
+        <relationship name="flightPublication" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Publication" syncable="YES"/>
+        <relationship name="flightSeatMap" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="SeatMap" syncable="YES"/>
+        <relationship name="flightUri" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Uris" syncable="YES"/>
+        <relationship name="userFlifghtInfo" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="User" syncable="YES"/>
+    </entity>
+    <entity name="GADCategory" representedClassName="GADCategory" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="categoryValue" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="GADValue" syncable="YES"/>
+    </entity>
+    <entity name="GADComments" representedClassName="GADComments" syncable="YES">
+        <attribute name="observerComments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="observerSign" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tcComments" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="tcSign" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="GADValue" representedClassName="GADValue" syncable="YES">
+        <attribute name="selectedalue" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="value" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Groups" representedClassName="Groups" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="groupOccourences" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Events" syncable="YES"/>
+    </entity>
+    <entity name="Legs" representedClassName="Legs" syncable="YES">
+        <attribute name="businessUnit" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="destination" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="legArrivalLocal" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="legArrivalUTC" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="legDepartureLocal" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="legDepartureUTC" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="origin" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="legClass" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="ClassType" syncable="YES"/>
+        <relationship name="legCustomer" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Customer" syncable="YES"/>
+        <relationship name="legFlightReport" optional="YES" maxCount="1" deletionRule="No Action" destinationEntity="Report" syncable="YES"/>
+        <relationship name="legHeading" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="NoticeHead" syncable="YES"/>
+        <relationship name="legsCrewmember" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="CrewMembers" syncable="YES"/>
+        <relationship name="legSpecialCase" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="SpecialCases" syncable="YES"/>
+        <relationship name="legUtility" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="UtilityType" syncable="YES"/>
+    </entity>
+    <entity name="ManualLinks" representedClassName="ManualLinks" syncable="YES">
+        <attribute name="uriManual" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Manuals" representedClassName="Manuals" syncable="YES">
+        <attribute name="date" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="downloadStatus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="filePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="size" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="statusMessage" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="linkManual" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="ManualLinks" syncable="YES"/>
+    </entity>
+    <entity name="Meal" representedClassName="Meal" syncable="YES">
+        <attribute name="amount" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="mealType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="Notice" representedClassName="Notice" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="endDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="phaseName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="shortDesc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="startDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="NoticeHead" representedClassName="NoticeHead" syncable="YES">
+        <attribute name="noticeHeading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="orderId" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="headCabin" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Cabin" syncable="YES"/>
+        <relationship name="headNotice" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Notice" syncable="YES"/>
+    </entity>
+    <entity name="OtherValues" representedClassName="OtherValues" syncable="YES">
+        <attribute name="otherValue" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Publication" representedClassName="Publication" syncable="YES">
+        <attribute name="details" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="heading" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Report" representedClassName="Report" syncable="YES">
+        <attribute name="flightType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="reportName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sentDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <relationship name="flightReportReport" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="FlightReports" syncable="YES"/>
+    </entity>
+    <entity name="ReportType" representedClassName="ReportType" syncable="YES">
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="version" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="typeFlightReport" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="FlightReports" syncable="YES"/>
+    </entity>
+    <entity name="ReportUpdate" representedClassName="ReportUpdate" syncable="YES">
+        <attribute name="isFull" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="uriChanges" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="typeReort" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="ReportType" syncable="YES"/>
+    </entity>
+    <entity name="Row" representedClassName="Row" syncable="YES">
+        <attribute name="rowNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="rowContent" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Contents" syncable="YES"/>
+    </entity>
+    <entity name="SeatMap" representedClassName="SeatMap" syncable="YES">
+        <attribute name="classType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="columnNum" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="index" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="isAisle" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isEmergency" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="isWindow" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="rowNumber" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <relationship name="seatCustomer" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="Customer" syncable="YES"/>
+    </entity>
+    <entity name="Sections" representedClassName="Sections" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="sectionGroup" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="Groups" syncable="YES"/>
+    </entity>
+    <entity name="Solicitudes" representedClassName="Solicitudes" syncable="YES">
+        <attribute name="detail" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SpecialCases" representedClassName="SpecialCases" syncable="YES">
+        <attribute name="itemAvailable" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SpecialMeal" representedClassName="SpecialMeal" syncable="YES">
+        <attribute name="option" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="serviceCode" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SubUtility" representedClassName="SubUtility" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="subToDetail" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="UtilityDetails" syncable="YES"/>
+    </entity>
+    <entity name="Uris" representedClassName="Uris" syncable="YES">
+        <attribute name="createFlight" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cus" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="cusImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="flightImage" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gad" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="gadImage" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="User" representedClassName="User" syncable="YES">
+        <attribute name="bp" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="crewBase" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="firstName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="lastName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="username" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="flightRosters" optional="YES" toMany="YES" deletionRule="No Action" ordered="YES" destinationEntity="FlightRoaster" syncable="YES"/>
+    </entity>
+    <entity name="UtilityDetails" representedClassName="UtilityDetails" syncable="YES">
+        <attribute name="desc" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="heading" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="rating" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+        <attribute name="time" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="type" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="utilItem" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="UtilityItems" syncable="YES"/>
+    </entity>
+    <entity name="UtilityItems" representedClassName="UtilityItems" syncable="YES">
+        <attribute name="itemType" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="itemValue" optional="YES" attributeType="Integer 16" defaultValueString="0" syncable="YES"/>
+    </entity>
+    <entity name="UtilityType" representedClassName="UtilityType" syncable="YES">
+        <attribute name="name" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="utilSubUtil" optional="YES" toMany="YES" deletionRule="No Action" destinationEntity="SubUtility" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Accompany" positionX="0" positionY="45" width="128" height="90"/>
+        <element name="Cabin" positionX="9" positionY="54" width="128" height="105"/>
+        <element name="ClassType" positionX="0" positionY="45" width="128" height="90"/>
+        <element name="Connection" positionX="27" positionY="72" width="128" height="135"/>
+        <element name="Contents" positionX="18" positionY="63" width="128" height="165"/>
+        <element name="CrewMembers" positionX="45" positionY="90" width="128" height="375"/>
+        <element name="CUSImages" positionX="27" positionY="72" width="128" height="120"/>
+        <element name="Customer" positionX="18" positionY="63" width="128" height="600"/>
+        <element name="Events" positionX="-9" positionY="36" width="128" height="90"/>
+        <element name="FeildValues" positionX="27" positionY="72" width="128" height="105"/>
+        <element name="FlightReports" positionX="-9" positionY="36" width="128" height="75"/>
+        <element name="FlightRoaster" positionX="0" positionY="45" width="128" height="540"/>
+        <element name="GADCategory" positionX="-9" positionY="36" width="128" height="75"/>
+        <element name="GADComments" positionX="36" positionY="81" width="128" height="105"/>
+        <element name="GADValue" positionX="-9" positionY="36" width="128" height="75"/>
+        <element name="Groups" positionX="0" positionY="45" width="128" height="75"/>
+        <element name="Legs" positionX="36" positionY="81" width="128" height="255"/>
+        <element name="ManualLinks" positionX="0" positionY="45" width="128" height="60"/>
+        <element name="Manuals" positionX="9" positionY="54" width="128" height="135"/>
+        <element name="Meal" positionX="36" positionY="81" width="128" height="90"/>
+        <element name="Notice" positionX="-18" positionY="27" width="128" height="165"/>
+        <element name="NoticeHead" positionX="18" positionY="63" width="128" height="105"/>
+        <element name="OtherValues" positionX="9" positionY="54" width="128" height="60"/>
+        <element name="Publication" positionX="45" positionY="90" width="128" height="75"/>
+        <element name="Report" positionX="18" positionY="63" width="128" height="120"/>
+        <element name="ReportType" positionX="36" positionY="81" width="128" height="90"/>
+        <element name="ReportUpdate" positionX="45" positionY="90" width="128" height="90"/>
+        <element name="Row" positionX="0" positionY="45" width="128" height="75"/>
+        <element name="SeatMap" positionX="18" positionY="63" width="128" height="165"/>
+        <element name="Sections" positionX="-9" positionY="36" width="128" height="75"/>
+        <element name="Solicitudes" positionX="27" positionY="72" width="128" height="75"/>
+        <element name="SpecialCases" positionX="9" positionY="54" width="128" height="75"/>
+        <element name="SpecialMeal" positionX="0" positionY="135" width="128" height="75"/>
+        <element name="SubUtility" positionX="45" positionY="90" width="128" height="75"/>
+        <element name="Uris" positionX="36" positionY="81" width="128" height="135"/>
+        <element name="User" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="UtilityDetails" positionX="9" positionY="54" width="128" height="135"/>
+        <element name="UtilityItems" positionX="-36" positionY="9" width="128" height="75"/>
+        <element name="UtilityType" positionX="-54" positionY="-9" width="128" height="75"/>
+    </elements>
+</model>
